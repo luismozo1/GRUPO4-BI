@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma BI - Capa 2: Staging Area</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="capa2.css">
+</head>
+<body>
+
+    <header class="hero-header text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-5 fw-bold mb-2">Plataforma BI para la predicción de la congestión vehicular en Lima Norte</h1>
+            <p class="lead text-light-50">Arquitectura End-to-end: Desde la captura de datos hasta la analítica predictiva y visualización ejecutiva.</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row mb-5 text-center">
+            <div class="col-md-12">
+                <div class="steps-container d-flex justify-content-between position-relative">
+                    <div class="step-item completed"><span class="step-number">1</span><p class="step-title">Fuentes de Datos</p></div>
+                    <div class="step-item active"><span class="step-number">2</span><p class="step-title">Staging Area</p></div>
+                    <div class="step-item"><span class="step-number">3</span><p class="step-title">Proceso ETL</p></div>
+                    <div class="step-item"><span class="step-number">4</span><p class="step-title">Data Warehouse</p></div>
+                    <div class="step-item"><span class="step-number">5</span><p class="step-title">Capa IA / Predicciones</p></div>
+                    <div class="step-item"><span class="step-number">6</span><p class="step-title">Capa Semántica</p></div>
+                    <div class="step-item"><span class="step-number">7</span><p class="step-title">Visualización BI</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-lg border-0 rounded-4">
+            <div class="card-header bg-dark text-white p-4">
+                <h3 class="mb-0 fw-bold"><i class="fas fa-server text-info me-2"></i> Capa 2: Staging Area (Área de Tránsito)</h3>
+            </div>
+            
+            <div class="card-body p-5">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-10">
+                        <h4 class="text-white mb-4">Estado del Volcado de Datos Temporales</h4>
+                        <div class="progress mb-4 bg-secondary" style="height: 25px;">
+                            <div id="stagingProgressBar" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 0%;">0%</div>
+                        </div>
+                        <div class="p-4 rounded-3 border border-secondary text-start bg-dark mb-4">
+                            <p class="mb-2 text-info"><i class="fas fa-terminal me-2"></i> Monitor de Carga Masiva (SQL Server):</p>
+                            <div id="stagingConsole" class="small text-muted font-monospace" style="height: 140px; overflow-y: auto;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-footer bg-dark p-4 d-flex justify-content-between align-items-center border-top border-secondary">
+                <button type="button" class="btn btn-secondary px-4 py-2" id="btnRetroceder"><i class="fas fa-arrow-left me-2"></i> Retroceder</button>
+                <div>
+                    <button type="button" class="btn btn-outline-danger px-4 py-2 me-2" id="btnCancelar">Cancelar Carga</button>
+                    <button type="button" class="btn btn-success px-5 py-2 fw-bold" id="btnAceptar">Aceptar <i class="fas fa-arrow-right ms-2"></i></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white-50 text-center py-3 mt-auto border-top border-secondary">
+        <p class="mb-0 small">&copy; 2026 - Plataforma BI Congestión Vehicular Lima Norte</p>
+    </footer>
+
+    <script>
+        const stagingProgressBar = document.getElementById('stagingProgressBar');
+        const stagingConsole = document.getElementById('stagingConsole');
+        const btnRetroceder = document.getElementById('btnRetroceder');
+        const btnCancelar = document.getElementById('btnCancelar');
+        const btnAceptar = document.getElementById('btnAceptar');
+
+        const csvNombre = localStorage.getItem('csv_nombre') || "archivo.csv";
+        const csvContenido = localStorage.getItem('csv_contenido');
+        let volcadoCompletado = false;
+
+        btnRetroceder.addEventListener('click', () => { window.location.href = 'capa1.html'; });
+        btnCancelar.addEventListener('click', () => { if (confirm('¿Abortar proceso?')) window.location.href = 'capa1.html'; });
+
+        function iniciarProgreso() {
+            if(!csvContenido) {
+                stagingConsole.innerHTML = `<span class="text-danger">[ERROR] No hay ningún archivo cargado en memoria. Regrese a la Capa 1.</span>`;
+                return;
+            }
+            
+            const totalFilas = csvContenido.split('\n').filter(f => f.trim() !== '').length - 1;
+            let porc = 0;
+            
+            stagingConsole.innerHTML += `[SQL] Conectando a la base de datos DW_Congestion_Vehicular...<br>`;
+            
+            const timer = setInterval(() => {
+                porc += 20;
+                stagingProgressBar.style.width = porc + '%';
+                stagingProgressBar.textContent = porc + '%';
+                
+                if(porc === 20) stagingConsole.innerHTML += `[SQL] Verificando estructura de la tabla temporal 'stg_congestion_transito'...<br>`;
+                if(porc === 60) stagingConsole.innerHTML += `[SQL] Volcando lotes masivos en bruto desde el archivo '${csvNombre}'...<br>`;
+                if(porc === 100) {
+                    stagingConsole.innerHTML += `<span class="text-success fw-bold">[ÉXITO] Inserción completada. ${totalFilas} filas cargadas sin restricciones en Staging Area.</span><br>`;
+                    stagingProgressBar.classList.remove('progress-bar-animated');
+                    volcadoCompletado = true;
+                    clearInterval(timer);
+                }
+                stagingConsole.scrollTop = stagingConsole.scrollHeight;
+            }, 500);
+        }
+
+        iniciarProgreso();
+
+        btnAceptar.addEventListener('click', () => {
+            if (!volcadoCompletado) {
+                alert('Espere que termine el volcado en bruto.');
+                return;
+            }
+            alert('Avanzando a la Capa 3: Proceso ETL...');
+            window.location.href = 'capa3.html';
+        });
+    </script>
+</body>
+</html>

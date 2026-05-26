@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma BI - Capa 1: Fuentes de Datos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="capa1.css">
+</head>
+<body>
+
+    <header class="hero-header text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-5 fw-bold mb-2">Plataforma BI para la predicción de la congestión vehicular en Lima Norte</h1>
+            <p class="lead text-light-50">Arquitectura End-to-end: Desde la captura de datos hasta la analítica predictiva y visualización ejecutiva.</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row mb-5 text-center">
+            <div class="col-md-12">
+                <div class="steps-container d-flex justify-content-between position-relative">
+                    <div class="step-item active"><span class="step-number">1</span><p class="step-title">Fuentes de Datos</p></div>
+                    <div class="step-item"><span class="step-number">2</span><p class="step-title">Staging Area</p></div>
+                    <div class="step-item"><span class="step-number">3</span><p class="step-title">Proceso ETL</p></div>
+                    <div class="step-item"><span class="step-number">4</span><p class="step-title">Data Warehouse</p></div>
+                    <div class="step-item"><span class="step-number">5</span><p class="step-title">Capa IA / Predicciones</p></div>
+                    <div class="step-item"><span class="step-number">6</span><p class="step-title">Capa Semántica</p></div>
+                    <div class="step-item"><span class="step-number">7</span><p class="step-title">Visualización BI</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-lg border-0 rounded-4">
+            <div class="card-header bg-dark text-white p-4">
+                <h3 class="mb-0 fw-bold"><i class="fas fa-database text-primary me-2"></i> Capa 1: Carga de Fuentes de Datos</h3>
+            </div>
+            
+            <div class="card-body p-5 text-center">
+                <div class="upload-zone p-5 rounded-4 mb-4" id="uploadZone">
+                    <i class="fas fa-file-csv fa-4x text-muted mb-3"></i>
+                    <h5 class="text-white">Arrastra y suelta tu archivo plano (.CSV) aquí</h5>
+                    <p class="text-muted small">Debe contener los datos históricos de tráfico de Lima Norte</p>
+                    <input type="file" id="fileInput" accept=".csv" class="d-none">
+                    <button type="button" class="btn btn-primary px-4 mt-2" onclick="document.getElementById('fileInput').click()">Examinar Localmente</button>
+                </div>
+
+                <div id="fileInfo" class="alert alert-info d-none justify-content-between align-items-center rounded-3">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-file-alt text-info fa-2x me-3"></i>
+                        <span id="fileNameDisplay" class="fw-bold text-dark">Ningún archivo seleccionado</span>
+                    </div>
+                    <span class="badge bg-success p-2">Pre-cargado con éxito</span>
+                </div>
+
+                <div class="row mt-5 g-3 justify-content-center">
+                    <p class="text-muted fw-semibold mb-2">Entidades que se extraerán del origen:</p>
+                    <div class="col-6 col-md-4 col-lg-2"><div class="entity-badge p-2 rounded border border-secondary text-danger fw-bold"><small>fact_congestion</small></div></div>
+                    <div class="col-6 col-md-4 col-lg-2"><div class="entity-badge p-2 rounded border border-secondary text-white"><small>dim_tiempo</small></div></div>
+                    <div class="col-6 col-md-4 col-lg-2"><div class="entity-badge p-2 rounded border border-secondary text-white"><small>dim_ubicacion</small></div></div>
+                    <div class="col-6 col-md-4 col-lg-2"><div class="entity-badge p-2 rounded border border-secondary text-white"><small>dim_via</small></div></div>
+                    <div class="col-6 col-md-4 col-lg-2"><div class="entity-badge p-2 rounded border border-secondary text-white"><small>dim_clima</small></div></div>
+                    <div class="col-6 col-md-4 col-lg-2"><div class="entity-badge p-2 rounded border border-secondary text-white"><small>dim_evento</small></div></div>
+                    <div class="col-6 col-md-4 col-lg-2"><div class="entity-badge p-2 rounded border border-secondary text-white"><small>dim_vehiculo</small></div></div>
+                </div>
+            </div>
+            
+            <div class="card-footer bg-dark p-4 d-flex justify-content-between align-items-center border-top border-secondary">
+                <button type="button" class="btn btn-secondary px-4 py-2" disabled><i class="fas fa-arrow-left me-2"></i> Retroceder</button>
+                <div>
+                    <button type="button" class="btn btn-outline-danger px-4 py-2 me-2" id="btnCancelar"><i class="fas fa-times me-2"></i> Cancelar</button>
+                    <button type="button" class="btn btn-success px-5 py-2 fw-bold" id="btnAceptar">Aceptar <i class="fas fa-arrow-right ms-2"></i></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white-50 text-center py-3 mt-auto border-top border-secondary">
+        <p class="mb-0 small">&copy; 2026 - Plataforma BI Congestión Vehicular Lima Norte</p>
+    </footer>
+
+    <script>
+        const fileInput = document.getElementById('fileInput');
+        const fileInfo = document.getElementById('fileInfo');
+        const fileNameDisplay = document.getElementById('fileNameDisplay');
+        const btnAceptar = document.getElementById('btnAceptar');
+        const btnCancelar = document.getElementById('btnCancelar');
+
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                const archivo = e.target.files[0];
+                fileNameDisplay.textContent = archivo.name;
+                fileInfo.classList.remove('d-none');
+                fileInfo.classList.add('d-flex');
+
+                const lector = new FileReader();
+                lector.onload = function(evt) {
+                    localStorage.setItem('csv_contenido', evt.target.result);
+                    localStorage.setItem('csv_nombre', archivo.name);
+                };
+                lector.readAsText(archivo);
+            }
+        });
+
+        btnCancelar.addEventListener('click', () => {
+            localStorage.clear();
+            fileInput.value = '';
+            fileInfo.className = 'alert alert-info d-none';
+            alert('Carga cancelada. Memoria limpia.');
+        });
+
+        btnAceptar.addEventListener('click', () => {
+            if (!localStorage.getItem('csv_contenido')) {
+                alert('Error: Debe seleccionar un archivo fuente .CSV para continuar.');
+                return;
+            }
+            alert("Archivo validado correctamente. Redireccionando a la zona de Staging Area.");
+            window.location.href = 'capa2.html'; 
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma BI - Capa 4: Data Warehouse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="capa4.css">
+</head>
+<body>
+
+    <header class="hero-header text-white text-center py-4">
+        <div class="container">
+            <h1 class="display-6 fw-bold mb-1">Plataforma BI para la predicción de la congestión vehicular en Lima Norte</h1>
+            <p class="lead small text-light-50">Arquitectura End-to-end: Procesamiento y almacenamiento dimensional de datos.</p>
+        </div>
+    </header>
+
+    <main class="container-fluid px-4 my-4">
+        <div class="row mb-4 text-center justify-content-center">
+            <div class="col-md-11">
+                <div class="steps-container d-flex justify-content-between position-relative">
+                    <div class="step-item completed"><span class="step-number">1</span><p class="step-title">Fuentes de Datos</p></div>
+                    <div class="step-item completed"><span class="step-number">2</span><p class="step-title">Staging Area</p></div>
+                    <div class="step-item completed"><span class="step-number">3</span><p class="step-title">Proceso ETL</p></div>
+                    <div class="step-item active"><span class="step-number">4</span><p class="step-title">Data Warehouse</p></div>
+                    <div class="step-item"><span class="step-number">5</span><p class="step-title">Capa IA / Predicciones</p></div>
+                    <div class="step-item"><span class="step-number">6</span><p class="step-title">Capa Semántica</p></div>
+                    <div class="step-item"><span class="step-number">7</span><p class="step-title">Visualización BI</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-lg border-0 rounded-4 mx-auto" style="max-width: 1500px;">
+            <div class="card-header bg-dark text-white p-3 d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-database text-purple-icon fa-xl me-2"></i>
+                    <div>
+                        <h5 class="mb-0 fw-bold">4. DATA WAREHOUSE</h5>
+                        <small class="text-muted">Modelo de datos centralizado (esquema copo de nieve con relaciones físicas)</small>
+                    </div>
+                </div>
+                <span class="badge bg-purple-badge" id="lblOrigenDW">DW_Congestion_Vehicular</span>
+            </div>
+            
+            <div class="card-body p-4 bg-dw-canvas position-relative">
+                <h6 class="text-white-50 mb-3"><i class="fas fa-sitemap me-2 text-warning"></i> Esquema de Relaciones e Integridad Referencial</h6>
+                
+                <div class="dw-scroll-wrapper">
+                    <div class="dw-diagram-container" id="diagramContainer">
+                        
+                        <svg class="dw-svg-canvas" id="relationCanvas">
+                            <defs>
+                                <marker id="dot-purple" markerWidth="6" markerHeight="6" refX="3" refY="3"><circle cx="3" cy="3" r="3" fill="#a78bfa"/></marker>
+                                <marker id="dot-green" markerWidth="6" markerHeight="6" refX="3" refY="3"><circle cx="3" cy="3" r="3" fill="#34d399"/></marker>
+                                <marker id="dot-blue" markerWidth="6" markerHeight="6" refX="3" refY="3"><circle cx="3" cy="3" r="3" fill="#60a5fa"/></marker>
+                                <marker id="dot-orange" markerWidth="6" markerHeight="6" refX="3" refY="3"><circle cx="3" cy="3" r="3" fill="#fb923c"/></marker>
+                                <marker id="dot-amber" markerWidth="6" markerHeight="6" refX="3" refY="3"><circle cx="3" cy="3" r="3" fill="#fbbf24"/></marker>
+                            </defs>
+                        </svg>
+
+                        <div class="schema-column">
+                            <div class="db-table border-time" id="dim_fecha">
+                                <div class="table-hdr bg-time"><i class="fas fa-calendar-alt me-1"></i> dim_fecha</div>
+                                <div class="table-body">
+                                    <div class="f-row pk" id="row_fecha_pk">id_fecha <span class="badge-pk">PK</span></div>
+                                    <div class="f-row">fecha</div>
+                                    <div class="f-row">dia</div>
+                                    <div class="f-row">mes</div>
+                                    <div class="f-row">trimestre</div>
+                                    <div class="f-row">anio</div>
+                                </div>
+                            </div>
+
+                            <div class="db-table border-time" id="dim_tiempo">
+                                <div class="table-hdr bg-time"><i class="fas fa-clock me-1"></i> dim_tiempo</div>
+                                <div class="table-body">
+                                    <div class="f-row pk" id="row_tiempo_pk">id_tiempo <span class="badge-pk">PK</span></div>
+                                    <div class="f-row fk" id="row_tiempo_fecha_fk">id_fecha <span class="badge-fk">FK</span></div>
+                                    <div class="f-row fk" id="row_tiempo_hora_fk">id_hora <span class="badge-fk">FK</span></div>
+                                    <div class="f-row">dia_semana</div>
+                                    <div class="f-row">numero_dia</div>
+                                    <div class="f-row">tipo_dia</div>
+                                </div>
+                            </div>
+
+                            <div class="db-table border-time" id="dim_hora">
+                                <div class="table-hdr bg-time"><i class="fas fa-hourglass-start me-1"></i> dim_hora</div>
+                                <div class="table-body">
+                                    <div class="f-row pk" id="row_hora_pk">id_hora <span class="badge-pk">PK</span></div>
+                                    <div class="f-row">hora</div>
+                                    <div class="f-row">rango_hora</div>
+                                    <div class="f-row">dia (M/T/N)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="schema-column">
+                            <div class="db-table border-geo" id="dim_ubicacion">
+                                <div class="table-hdr bg-geo"><i class="fas fa-map-marker-alt me-1"></i> dim_ubicacion</div>
+                                <div class="table-body">
+                                    <div class="f-row pk" id="row_ubicacion_pk">id_ubicacion <span class="badge-pk">PK</span></div>
+                                    <div class="f-row fk" id="row_ubicacion_distrito_fk">id_distrito <span class="badge-fk">FK</span></div>
+                                    <div class="f-row fk">id_zona <span class="badge-fk">FK</span></div>
+                                    <div class="f-row">latitud</div>
+                                    <div class="f-row">longitud</div>
+                                    <div class="f-row">nombre_ubicacion</div>
+                                </div>
+                            </div>
+
+                            <div class="db-table border-geo" id="dim_distrito">
+                                <div class="table-hdr bg-geo-sub"><i class="fas fa-city me-1"></i> dim_distrito</div>
+                                <div class="table-body">
+                                    <div class="f-row pk" id="row_distrito_pk">id_distrito <span class="badge-pk">PK</span></div>
+                                    <div class="f-row">distrito</div>
+                                    <div class="f-row fk" id="row_distrito_provincia_fk">id_provincia <span class="badge-fk">FK</span></div>
+                                </div>
+                            </div>
+
+                            <div class="db-table border-geo" id="dim_provincia">
+                                <div class="table-hdr bg-geo-sub"><i class="fas fa-atlas me-1"></i> dim_provincia</div>
+                                <div class="table-body">
+                                    <div class="f-row pk" id="row_provincia_pk">id_provincia <span class="badge-pk">PK</span></div>
+                                    <div class="f-row">provincia</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="schema-column justify-content-center">
+                            <div class="db-table border-fact fact-card shadow-lg" id="fact_congestion">
+                                <div class="table-hdr bg-fact text-center fw-bold"><i class="fas fa-cube me-1"></i> fact_congestion</div>
+                                <div class="table-body">
+                                    <div class="f-row fk" id="row_fact_tiempo">id_tiempo <span class="badge-fk">FK</span></div>
+                                    <div class="f-row fk" id="row_fact_ubicacion">id_ubicacion <span class="badge-fk">FK</span></div>
+                                    <div class="f-row fk" id="row_fact_via">id_via <span class="badge-fk">FK</span></div>
+                                    <div class="f-row fk" id="row_fact_clima">id_clima <span class="badge-fk">FK</span></div>
+                                    <div class="f-row fk" id="row_fact_evento">id_evento <span class="badge-fk">FK</span></div>
+                                    <hr class="border-secondary my-1">
+                                    <div class="f-row metric text-warning fw-semibold"><i class="fas fa-tachometer-alt me-1"></i> velocidad_promedio</div>
+                                    <div class="f-row metric text-warning fw-semibold"><i class="fas fa-car me-1"></i> flujo_vehicular</div>
+                                    <div class="f-row metric text-warning fw-semibold"><i class="fas fa-percentage me-1"></i> ocupacion</div>
+                                    <div class="f-row metric text-warning fw-semibold"><i class="fas fa-hourglass-half me-1"></i> tiempo_viaje</div>
+                                    <div class="f-row metric text-warning fw-semibold"><i class="fas fa-exclamation-triangle me-1"></i> incidentes</div>
+                                    <div class="f-row metric text-warning fw-semibold"><i class="fas fa-star me-1"></i> congestion_score</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="schema-column">
+                            <div class="db-table border-weather" id="dim_clima">
+                                <div class="table-hdr bg-weather"><i class="fas fa-cloud-sun me-1"></i> dim_clima</div>
+                                <div class="table-body">
+                                    <div class="f-row pk" id="row_clima_pk">id_clima <span class="badge-pk">PK</span></div>
+                                    <div class="f-row fk" id="row_clima_condicion_fk">id_condicion_clima <span class="badge-fk">FK</span></div>
+                                    <div class="f-row">temperatura</div>
+                                    <div class="f-row">humedad</div>
+                                    <div class="f-row">visibilidad</div>
+                                </div>
+                            </div>
+
+                            <div class="db-table border-road" id="dim_via">
+                                <div class="table-hdr bg-road"><i class="fas fa-road"></i> dim_via</div>
+                                <div class="table-body">
+                                    <div class="f-row pk" id="row_via_pk">id_via <span class="badge-pk">PK</span></div>
+                                    <div class="f-row">nombre_via</div>
+                                    <div class="f-row text-muted">tipo_via</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="schema-column">
+                            <div class="db-table border-weather" id="dim_condition_clima">
+                                <div class="table-hdr bg-weather-sub">dim_condition_clima</div>
+                                <div class="table-body">
+                                    <div class="f-row pk" id="row_condicion_pk">id_condicion_clima <span class="badge-pk">PK</span></div>
+                                    <div class="f-row">condicion</div>
+                                    <div class="f-row">descripcion</div>
+                                </div>
+                            </div>
+
+                            <div class="db-table border-event" id="dim_evento">
+                                <div class="table-hdr bg-event"><i class="fas fa-calendar-check me-1"></i> dim_evento</div>
+                                <div class="table-body">
+                                    <div class="f-row pk" id="row_evento_pk">id_evento <span class="badge-pk">PK</span></div>
+                                    <div class="f-row">tipo_evento</div>
+                                    <div class="f-row">gravedad</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="d-flex flex-wrap justify-content-between align-items-center mt-3 p-2 rounded bg-dark border border-secondary text-white small">
+                    <div class="d-flex gap-3 align-items-center flex-wrap">
+                        <span class="text-muted fw-bold">Estructura SQL Server:</span>
+                        <span><i class="fas fa-circle text-time small me-1"></i> Tiempo</span>
+                        <span><i class="fas fa-circle text-geo small me-1"></i> Ubicación</span>
+                        <span><i class="fas fa-circle text-road small me-1"></i> Vías</span>
+                        <span><i class="fas fa-circle text-weather small me-1"></i> Clima</span>
+                        <span><i class="fas fa-circle text-event small me-1"></i> Eventos</span>
+                    </div>
+                    <div class="d-flex gap-4 fw-semibold text-light-50">
+                        <div>Tablas: <span class="text-info">13</span></div>
+                        <div>Tabla de Hecho: <span class="text-danger">1</span></div>
+                        <div>Tablas de Dimensión: <span class="text-success">12</span></div>
+                        <div>Relaciones Activas: <span class="text-warning">28</span></div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="card-footer bg-dark p-3 d-flex justify-content-between align-items-center border-top border-secondary">
+                <button type="button" class="btn btn-secondary px-4" id="btnRetroceder"><i class="fas fa-arrow-left me-2"></i> Retroceder</button>
+                <button type="button" class="btn btn-success px-5 fw-bold" id="btnAceptar">Aceptar <i class="fas fa-arrow-right ms-2"></i></button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white-50 text-center py-3 mt-auto border-top border-secondary">
+        <p class="mb-0 small">&copy; 2026 - Plataforma BI Congestión Vehicular Lima Norte</p>
+    </footer>
+
+    <script src="../Backend/capa4.js"></script>
+</body>
+</html>

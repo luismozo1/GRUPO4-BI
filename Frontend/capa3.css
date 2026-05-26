@@ -1,0 +1,73 @@
+/* Estilos visuales de la Capa 3 */
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-header {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border-bottom: 1px solid #334155;
+}
+
+/* Línea de pasos del proceso BI */
+.steps-container::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #334155;
+    z-index: 1;
+}
+
+.step-item {
+    position: relative;
+    z-index: 2;
+    background-color: #0f172a;
+    padding: 0 10px;
+}
+
+.step-number {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    border-radius: 50%;
+    background-color: #1e293b;
+    color: #94a3b8;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border: 3px solid #334155;
+}
+
+/* Capas anteriores completadas (Color Verde) */
+.step-item.completed .step-number {
+    background-color: #10b981;
+    color: #fff;
+    border-color: #10b981;
+}
+
+/* Capa actual activa (Color Amarillo/Ámbar de ETL) */
+.step-item.active .step-number {
+    background-color: #eab308;
+    color: #0f172a;
+    border-color: #eab308;
+    box-shadow: 0 0 15px rgba(234, 179, 8, 0.5);
+}
+
+.step-title {
+    font-size: 11px;
+    font-weight: 600;
+    color: #94a3b8;
+}
+
+.step-item.active .step-title {
+    color: #eab308;
+}
+
+.card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+}

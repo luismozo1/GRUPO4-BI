@@ -1,0 +1,71 @@
+/* Estilos Base Modo Oscuro */
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+.bg-dark-card { background-color: #1e293b; border: 1px solid #334155; }
+.bg-cyan-header { background-color: #0e7490; border-bottom: 2px solid #06b6d4; }
+
+/* BARRA DE PROGRESO (TRACKER) */
+.steps-container::before { content: ''; position: absolute; top: 20px; left: 0; right: 0; height: 4px; background-color: #334155; z-index: 1; }
+.step-item { position: relative; z-index: 2; background-color: #0f172a; padding: 0 10px; }
+.step-number { display: inline-block; width: 40px; height: 40px; line-height: 36px; border-radius: 50%; background-color: #1e293b; color: #94a3b8; font-weight: bold; border: 3px solid #334155; }
+.step-item.completed .step-number { background-color: #10b981; color: #fff; border-color: #10b981; }
+.step-item.active .step-number { background-color: #06b6d4; color: #fff; border-color: #06b6d4; box-shadow: 0 0 15px rgba(6, 182, 212, 0.6); }
+.step-title { font-size: 11px; font-weight: 600; color: #94a3b8; }
+
+/* NUEVO ENFOQUE: ALTO CONTRASTE PARA TEXTOS PEQUEÑOS Y Expresiones MDX/DAX */
+.text-light-visible {
+    color: #f1f5f9 !important; /* Blanco tiza de alta luminosidad */
+    font-size: 13.5px;
+    font-weight: 500;
+    line-height: 1.9;
+}
+.text-warning-contrast {
+    color: #fde047 !important; /* Amarillo vivo de alta visibilidad en pantallas oscuras */
+    font-size: 13.5px;
+}
+.table-header-style th {
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px;
+}
+
+/* Consola Shell Semántica */
+.console-box {
+    background-color: #090d16;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    height: 120px;
+    overflow-y: auto;
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: #4ade80;
+}
+
+/* Secciones de Contenido */
+.semantic-section {
+    background-color: #111827;
+    border: 1px solid #374151;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+.bg-chart-box {
+    background-color: #1e293b;
+    border: 1px solid #475569;
+}
+
+.cube-element {
+    background-color: #1e293b;
+    padding: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #06b6d4;
+}
+
+/* Tabla Estilizada */
+.table-dark {
+    --bs-table-bg: #111827 !important;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    --bs-table-accent-bg: #1f2937 !important;
+}

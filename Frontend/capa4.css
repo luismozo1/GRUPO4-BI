@@ -1,0 +1,112 @@
+/* Configuración Base Oscura */
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+.hero-header {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border-bottom: 1px solid #334155;
+}
+
+/* Progress Tracker */
+.steps-container::before {
+    content: ''; position: absolute; top: 20px; left: 0; right: 0; height: 4px;
+    background-color: #334155; z-index: 1;
+}
+.step-item { position: relative; z-index: 2; background-color: #0f172a; padding: 0 10px; }
+.step-number {
+    display: inline-block; width: 40px; height: 40px; line-height: 36px;
+    border-radius: 50%; background-color: #1e293b; color: #94a3b8;
+    font-weight: bold; margin-bottom: 5px; border: 3px solid #334155;
+}
+.step-item.completed .step-number { background-color: #10b981; color: #fff; border-color: #10b981; }
+.step-item.active .step-number { background-color: #8b5cf6; color: #fff; border-color: #8b5cf6; box-shadow: 0 0 15px rgba(139, 92, 246, 0.6); }
+.step-title { font-size: 11px; font-weight: 600; color: #94a3b8; }
+.step-item.active .step-title { color: #8b5cf6; }
+
+/* Entorno del Data Warehouse */
+.text-purple-icon { color: #a78bfa; }
+.bg-purple-badge { background-color: #6d28d9; }
+.bg-dw-canvas { background-color: #111827; overflow: hidden; }
+
+/* ENTORNO SCROLLABLE PARA EL MODELO */
+.dw-scroll-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 15px;
+}
+
+/* DIAGRAMA EN GRID (Fiel al Layout de 5 columnas enviado) */
+.dw-diagram-container {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(220px, 1fr));
+    gap: 40px;
+    padding: 20px;
+    background-color: #151f32;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+    position: relative; /* Clave para el posicionamiento absoluto del SVG */
+    min-width: 1200px;
+}
+
+/* Lienzo SVG Absoluto invisible al flujo pero visible en trazo */
+.dw-svg-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* No interrumpe los clics */
+    z-index: 1;
+}
+
+.schema-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+/* Estilo unificado de Tablas SQL */
+.db-table {
+    background-color: #111827;
+    border-radius: 6px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    font-size: 12px;
+    transition: transform 0.2s ease;
+}
+.db-table:hover {
+    transform: translateY(-2px);
+}
+
+.table-hdr {
+    padding: 6px 12px;
+    font-weight: 600;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.table-body { padding: 6px 12px; }
+.f-row { padding: 4px 0; color: #9ca3af; display: flex; justify-content: space-between; align-items: center; }
+
+/* Identificadores PK/FK */
+.badge-pk, .badge-fk { font-size: 8px; padding: 1px 3px; border-radius: 3px; font-weight: bold; }
+.badge-pk { background-color: #374151; color: #f3f4f6; border: 1px solid #4b5563; }
+.badge-fk { background-color: #1e293b; color: #a78bfa; border: 1px dashed #6d28d9; }
+
+/* Colores Temáticos Exactos */
+.border-time { border: 1px solid #6b21a8; } .bg-time { background-color: #6b21a8; } .text-time { color: #8b5cf6; }
+.border-geo { border: 1px solid #065f46; } .bg-geo { background-color: #065f46; } .bg-geo-sub { background-color: #0f766e; } .text-geo { color: #10b981; }
+.border-road { border: 1px solid #9a3412; } .bg-road { background-color: #d97706; } .text-road { color: #f59e0b; }
+.border-weather { border: 1px solid #1e3a8a; } .bg-weather { background-color: #2563eb; } .bg-weather-sub { background-color: #1e3a8a; } .text-weather { color: #3b82f6; }
+.border-event { border: 1px solid #7c2d12; } .bg-event { background-color: #bc3a19; } .text-event { color: #ea580c; }
+
+/* Hechos Central */
+.border-fact { border: 2px solid #8b5cf6; }
+.bg-fact { background-color: #5b21b6; padding: 10px; font-size: 13px; }
+.fact-card { transform: scale(1.02); }

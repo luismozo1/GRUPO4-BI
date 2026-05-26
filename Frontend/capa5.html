@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma BI - Capa 5: Inteligencia Artificial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="capa5.css">
+</head>
+<body>
+
+    <header class="hero-header text-white text-center py-4">
+        <div class="container">
+            <h1 class="display-6 fw-bold mb-1">Plataforma BI para la predicción de la congestión vehicular en Lima Norte</h1>
+            <p class="lead small text-light-50">Capa 5: Algoritmia Predictiva y Entrenamiento de Modelos de Aprendizaje Automático.</p>
+        </div>
+    </header>
+
+    <main class="container py-4">
+        <div class="row mb-4 text-center justify-content-center">
+            <div class="col-md-12">
+                <div class="steps-container d-flex justify-content-between position-relative">
+                    <div class="step-item completed"><span class="step-number">1</span><p class="step-title">Fuentes de Datos</p></div>
+                    <div class="step-item completed"><span class="step-number">2</span><p class="step-title">Staging Area</p></div>
+                    <div class="step-item completed"><span class="step-number">3</span><p class="step-title">Proceso ETL</p></div>
+                    <div class="step-item completed"><span class="step-number">4</span><p class="step-title">Data Warehouse</p></div>
+                    <div class="step-item active"><span class="step-number">5</span><p class="step-title">Capa IA / Predicciones</p></div>
+                    <div class="step-item"><span class="step-number">6</span><p class="step-title">Capa Semántica</p></div>
+                    <div class="step-item"><span class="step-number">7</span><p class="step-title">Visualización BI</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-lg border-0 rounded-4 bg-dark-card text-white">
+            <div class="card-header bg-purple-header p-3 d-flex justify-content-between align-items-center">
+                <h5 class="mb-0 fw-bold"><i class="fas fa-brain me-2"></i> Módulo de Machine Learning (Random Forest Regressor)</h5>
+                <button class="btn btn-warning btn-sm fw-bold" id="btnEntrenar"><i class="fas fa-play me-1"></i> Entrenar Modelo IA</button>
+            </div>
+            
+            <div class="card-body p-4">
+                
+                <div class="row mb-4 text-center">
+                    <div class="col-md-4">
+                        <div class="metric-box border-info">
+                            <small class="text-light-subtitle d-block mb-1">Exactitud del Modelo (R² Score)</small>
+                            <h3 class="fw-bold text-info mb-0" id="lblMetricaR2">0.00%</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="metric-box border-purple">
+                            <small class="text-light-subtitle d-block mb-1">Precisión Clasificación (Accuracy)</small>
+                            <h3 class="fw-bold text-purple mb-0" id="lblMetricaAcc">0.00%</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="metric-box border-danger">
+                            <small class="text-light-subtitle d-block mb-1">Error Cuadrático Medio (MSE)</small>
+                            <h3 class="fw-bold text-danger mb-0" id="lblMetricaMSE">0.00</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="console-box p-3 font-monospace mb-4" id="consoleIA">
+                    <span class="text-warning">&gt;_ Sistema listo. Presione "Entrenar Modelo IA" para iniciar el mapeo sobre el Data Warehouse...</span>
+                </div>
+
+                <h5 class="text-warning border-bottom border-secondary pb-2 mb-3"><i class="fas fa-chart-line me-2"></i> Respuestas a Preguntas de Negocio / Predicciones</h5>
+                
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="prediction-card p-3 rounded">
+                            <h6 class="text-info fw-bold"><i class="fas fa-map-marker-alt me-2"></i> ¿Qué zonas presentarán mayor congestión vehicular?</h6>
+                            <p class="mb-0 text-slate-custom" id="ansZonas">Esperando entrenamiento...</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="prediction-card p-3 rounded">
+                            <h6 class="text-info fw-bold"><i class="fas fa-clock me-2"></i> ¿En qué horarios se generarán los picos de tráfico?</h6>
+                            <p class="mb-0 text-slate-custom" id="ansHorarios">Esperando entrenamiento...</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="prediction-card p-3 rounded">
+                            <h6 class="text-info fw-bold"><i class="fas fa-tachometer-alt me-2"></i> ¿Qué tramos tendrán menor velocidad promedio?</h6>
+                            <p class="mb-0 text-slate-custom" id="ansTramos">Esperando entrenamiento...</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="prediction-card p-3 rounded">
+                            <h6 class="text-info fw-bold"><i class="fas fa-car-burst me-2"></i> ¿Cómo impactarán los accidentes en el tráfico?</h6>
+                            <p class="mb-0 text-slate-custom" id="ansAccidentes">Esperando entrenamiento...</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="prediction-card p-3 rounded">
+                            <h6 class="text-info fw-bold"><i class="fas fa-calendar-day me-2"></i> ¿Qué días de la semana habrá más aglomeración?</h6>
+                            <p class="mb-0 text-slate-custom" id="ansDias">Esperando entrenamiento...</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="prediction-card p-3 rounded">
+                            <h6 class="text-info fw-bold"><i class="fas fa-truck-monster me-2"></i> ¿Qué tipo de vehículo contribuirá más al tráfico?</h6>
+                            <p class="mb-0 text-slate-custom" id="ansVehiculo">Esperando entrenamiento...</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="prediction-card p-3 rounded border-orange-custom">
+                            <h6 class="text-info fw-bold"><i class="fas fa-skull-crossbones me-2"></i> ¿Dónde se generarán los cuellos de botella críticos?</h6>
+                            <p class="mb-0 text-slate-custom" id="ansCuellos">Esperando entrenamiento...</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-footer bg-dark p-3 d-flex justify-content-between">
+                <button type="button" class="btn btn-secondary px-4" id="btnRetroceder"><i class="fas fa-arrow-left me-1"></i> Retroceder</button>
+                <button type="button" class="btn btn-success px-5 fw-bold" id="btnAceptar" disabled>Aceptar e Ir a Capa Semántica <i class="fas fa-arrow-right ms-1"></i></button>
+            </div>
+        </div>
+    </main>
+
+    <script src="../Clase_Machine_Learning/ModeloPredictivo.js?v=2"></script>
+    <script src="../Backend/capa5.js"></script>
+</body>
+</html>
