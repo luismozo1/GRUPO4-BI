@@ -1,63 +1,62 @@
-/* Configuración Base */
+/* ── BASE ─────────────────────────────────────────────────── */
 body {
     background-color: #0f172a;
     color: #f8fafc;
     font-family: system-ui, -apple-system, sans-serif;
 }
-.bg-dark-card { background-color: #1e293b; border: 1px solid #334155; }
+.bg-dark-card  { background-color: #1e293b; border: 1px solid #334155; }
 .bg-purple-header { background-color: #4c1d95; border-bottom: 2px solid #6d28d9; }
-.text-purple { color: #a78bfa; }
+.text-purple   { color: #a78bfa; }
 
-/* PROGRESS TRACKER BAR */
-.steps-container::before { content: ''; position: absolute; top: 20px; left: 0; right: 0; height: 4px; background-color: #334155; z-index: 1; }
-.step-item { position: relative; z-index: 2; background-color: #0f172a; padding: 0 10px; }
-.step-number { display: inline-block; width: 40px; height: 40px; line-height: 36px; border-radius: 50%; background-color: #1e293b; color: #94a3b8; font-weight: bold; border: 3px solid #334155; }
-.step-item.completed .step-number { background-color: #10b981; color: #fff; border-color: #10b981; }
-.step-item.active .step-number { background-color: #8b5cf6; color: #fff; border-color: #8b5cf6; box-shadow: 0 0 15px rgba(139, 92, 246, 0.6); }
-.step-title { font-size: 11px; font-weight: 600; color: #94a3b8; }
+/* ── PROGRESS BAR ─────────────────────────────────────────── */
+.steps-container::before { content:''; position:absolute; top:20px; left:0; right:0; height:4px; background-color:#334155; z-index:1; }
+.step-item { position:relative; z-index:2; background-color:#0f172a; padding:0 10px; }
+.step-number { display:inline-block; width:40px; height:40px; line-height:36px; border-radius:50%; background-color:#1e293b; color:#94a3b8; font-weight:bold; border:3px solid #334155; }
+.step-item.completed .step-number { background-color:#10b981; color:#fff; border-color:#10b981; }
+.step-item.active .step-number { background-color:#8b5cf6; color:#fff; border-color:#8b5cf6; box-shadow:0 0 15px rgba(139,92,246,0.6); }
+.step-title { font-size:11px; font-weight:600; color:#94a3b8; }
 
-/* SOLUCIÓN AL COLOR DE LETRAS PEQUEÑAS (Clase Nueva con contraste Slate-300) */
-.text-light-subtitle {
-    color: #cbd5e1 !important; 
-    font-weight: 500;
-    font-size: 12px;
-    letter-spacing: 0.3px;
-}
+/* ── MÉTRICAS ─────────────────────────────────────────────── */
+.text-light-subtitle { color:#cbd5e1 !important; font-weight:500; font-size:12px; letter-spacing:0.3px; }
+.text-slate-custom   { color:#94a3b8; }
+.metric-box { background-color:#111827; padding:18px 12px; border-radius:10px; border-bottom:4px solid #fff; box-shadow:0 4px 6px -1px rgba(0,0,0,0.3); }
+.border-info   { border-bottom-color:#38bdf8; }
+.border-purple { border-bottom-color:#c084fc; }
+.border-danger { border-bottom-color:#f87171; }
 
-.text-slate-custom {
-    color: #94a3b8;
-}
+/* ── CONSOLA ──────────────────────────────────────────────── */
+.console-box { background-color:#090d16; border-radius:8px; border:1px solid #334155; height:130px; overflow-y:auto; font-size:13px; line-height:1.6; color:#34d399; }
 
-/* Cajas de KPI de entrenamiento */
-.metric-box {
-    background-color: #111827;
-    padding: 18px 12px;
-    border-radius: 10px;
-    border-bottom: 4px solid #fff;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
-}
-.border-info { border-bottom-color: #38bdf8; }
-.border-purple { border-bottom-color: #c084fc; }
-.border-danger { border-bottom-color: #f87171; }
+/* ── TABLA DE PREDICCIONES ────────────────────────────────── */
+.section-header-blue  { background: linear-gradient(90deg, #1e3a5f, #1d4ed8); font-size:14px; letter-spacing:0.5px; }
+.section-header-green { background: linear-gradient(90deg, #14532d, #15803d); font-size:14px; letter-spacing:0.5px; }
 
-/* Consola Shell */
-.console-box {
-    background-color: #090d16;
-    border-radius: 8px;
-    border: 1px solid #334155;
-    height: 130px;
-    overflow-y: auto;
-    font-size: 13px;
-    line-height: 1.6;
-    color: #34d399;
-}
+.prediction-table { font-size:13px; }
+.prediction-table th { background-color:#1e293b; color:#94a3b8; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; border-color:#334155; }
+.prediction-table td { border-color:#334155; vertical-align:middle; }
 
-/* Tarjetas de Predicciones */
-.prediction-card {
-    background-color: #111827;
-    border-left: 4px solid #38bdf8;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-}
-.border-orange-custom {
-    border-left-color: #f97316;
-}
+.table-header-row th { text-align:center; }
+
+.badge-caso { display:inline-block; padding:6px 10px; border-radius:8px; font-size:12px; font-weight:600; line-height:1.4; }
+.bg-blue-caso  { background-color:#1e3a5f; color:#93c5fd; border:1px solid #1d4ed8; }
+.bg-green-caso { background-color:#14532d; color:#86efac; border:1px solid #15803d; }
+
+.badge-algo { font-size:12px; font-weight:600; line-height:1.6; }
+
+.badge-tipo { font-size:11px; line-height:1.5; }
+
+.result-valor { font-size:1.4rem !important; }
+
+/* Colores de resultado según clasificación */
+#ejNivelCongestion { color: #f97316; }
+#ejZonaCritica     { color: #ef4444; font-size: 1rem !important; }
+#ejTiempoViaje     { color: #38bdf8; }
+#ejFlujoVehicular  { color: #38bdf8; }
+
+/* ── NOTA ─────────────────────────────────────────────────── */
+.nota-box { background-color:#1a2035; border:1px solid #f59e0b44; border-left:4px solid #f59e0b; }
+.badge-tipo-leyenda { font-size:12px; font-weight:600; }
+
+/* ── PREDICCIONES ANALÍTICAS ──────────────────────────────── */
+.prediction-card { background-color:#111827; border-left:4px solid #38bdf8; box-shadow:0 4px 6px rgba(0,0,0,0.2); }
+.border-orange-custom { border-left-color:#f97316; }

@@ -1,0 +1,502 @@
+id_congestion,fecha,hora,distrito,avenida_via,condicion_clima,tipo_evento,vehiculo_predominante,velocidad_promedio,flujo_vehicular,congestion_score,tiempo_viaje
+1,2026-03-22,17,Comas,Av. Universitaria,Niebla,Manifestacion,Moto,49.17,302,78.39,25
+2,2026-04-03,14,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Moto,45.2,453,64.59,111
+3,2026-10-21,9,Independencia,Av. Universitaria,Niebla,Accidente,Moto,31.12,476,80.13,17
+4,2026-05-19,14,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Moto,35.46,85,55.78,58
+5,2026-09-30,18,Independencia,Av. Universitaria,Niebla,Ninguno,Camion,47.63,312,83.02,116
+6,2026-01-31,8,Independencia,Av. Universitaria,Llovizna,Accidente,Bus,70.07,543,92.52,11
+7,2026-07-31,22,Carabayllo,Av. Universitaria,Llovizna,Ninguno,Bus,30.53,304,30.93,10
+8,2026-04-25,2,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Particular,37.1,432,30.47,123
+9,2026-05-17,9,Independencia,Av. Universitaria,Niebla,Obras Civiles,Bus,21.03,339,77.34,19
+10,2026-07-26,6,San Martin de Porres,Av. Universitaria,Despejado,Obras Civiles,Particular,75.91,140,29.33,6
+11,2027-01-31,14,Independencia,Av. Universitaria,Despejado,Accidente,Particular,68.63,467,68.68,53
+12,2027-04-07,13,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,14.42,316,67.81,5
+13,2026-07-17,9,Independencia,Av. Universitaria,Despejado,Accidente,Moto,56.95,265,75.31,42
+14,2026-01-09,15,Independencia,Av. Universitaria,Despejado,Obras Civiles,Particular,49.68,107,74.97,66
+15,2026-02-06,14,San Martin de Porres,Av. Universitaria,Llovizna,Manifestacion,Particular,66.04,409,63.2,84
+16,2026-05-06,11,Los Olivos,Av. Universitaria,Despejado,Obras Civiles,Bus,27.75,432,69.19,15
+17,2026-11-21,3,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Particular,69.27,170,43.1,16
+18,2026-11-17,1,Carabayllo,Av. Universitaria,Niebla,Ninguno,Moto,11.8,106,22.88,118
+19,2026-12-29,21,Los Olivos,Av. Universitaria,Niebla,Obras Civiles,Particular,54.49,237,29.25,119
+20,2026-10-30,0,Comas,Av. Universitaria,Despejado,Manifestacion,Moto,73.2,81,40.41,81
+21,2027-05-06,7,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,44.35,90,94.5,104
+22,2026-05-24,5,Independencia,Av. Universitaria,Niebla,Ninguno,Moto,27.37,221,37.55,92
+23,2026-08-06,15,Los Olivos,Av. Universitaria,Niebla,Manifestacion,Bus,25.57,400,74.02,30
+24,2026-08-12,14,San Martin de Porres,Av. Universitaria,Despejado,Manifestacion,Moto,70.02,226,57.59,105
+25,2027-04-14,17,Carabayllo,Av. Universitaria,Despejado,Accidente,Particular,78.12,199,80.69,90
+26,2026-05-14,4,Comas,Av. Universitaria,Llovizna,Ninguno,Bus,24.91,53,37.96,117
+27,2027-02-14,7,Carabayllo,Av. Universitaria,Niebla,Ninguno,Particular,65.99,222,75.64,113
+28,2027-03-28,12,Los Olivos,Av. Universitaria,Niebla,Manifestacion,Particular,19.3,216,70.9,103
+29,2027-04-01,6,San Martin de Porres,Av. Universitaria,Despejado,Obras Civiles,Camion,65.26,59,49.1,48
+30,2026-04-28,16,Comas,Av. Universitaria,Despejado,Accidente,Bus,42.31,261,51.14,85
+31,2026-09-25,8,San Martin de Porres,Av. Universitaria,Despejado,Manifestacion,Particular,34.98,459,78.71,6
+32,2026-11-10,22,Puente Piedra,Av. Universitaria,Llovizna,Ninguno,Bus,64.49,451,39.19,20
+33,2026-09-24,2,Independencia,Av. Universitaria,Llovizna,Ninguno,Moto,67.18,209,28.75,70
+34,2026-09-15,23,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,52.43,503,30.45,94
+35,2026-11-02,10,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Moto,70.87,203,54.37,52
+36,2026-10-08,9,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Bus,79.34,457,85.94,30
+37,2026-05-20,0,Comas,Av. Universitaria,Despejado,Ninguno,Moto,60.48,235,49.15,36
+38,2027-02-17,9,Independencia,Av. Universitaria,Niebla,Manifestacion,Moto,40.38,484,91.9,78
+39,2026-12-27,18,Comas,Av. Universitaria,Despejado,Manifestacion,Moto,68.32,428,98.94,59
+40,2026-09-09,7,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Particular,26.97,462,91.82,9
+41,2026-06-02,2,Independencia,Av. Universitaria,Despejado,Accidente,Particular,21.76,505,39.28,118
+42,2026-07-05,11,Comas,Av. Universitaria,Niebla,Ninguno,Particular,72.24,108,68.21,121
+43,2027-04-03,23,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Particular,77.12,365,28.65,42
+44,2026-10-02,10,Comas,Av. Universitaria,Niebla,Accidente,Bus,29.95,100,71.81,104
+45,2027-04-27,21,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Particular,64.69,72,30.29,122
+46,2026-11-16,11,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Camion,27.53,448,65.35,56
+47,2026-05-23,10,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Particular,20.01,349,52.95,113
+48,2026-01-08,5,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Camion,74.94,227,36.59,19
+49,2026-04-20,18,Los Olivos,Av. Universitaria,Llovizna,Obras Civiles,Moto,29.31,50,87.84,90
+50,2026-07-31,8,Los Olivos,Av. Universitaria,Niebla,Manifestacion,Moto,51.03,449,80.41,65
+51,2026-04-13,17,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Camion,19.18,502,86.76,80
+52,2026-01-07,2,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Particular,44.49,334,39.94,83
+53,2027-04-16,17,Los Olivos,Av. Universitaria,Despejado,Ninguno,Moto,77.31,544,76.68,28
+54,2026-09-01,18,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Moto,69.62,323,87.26,58
+55,2026-12-31,16,San Martin de Porres,Av. Universitaria,Llovizna,Obras Civiles,Particular,42.52,261,67.09,14
+56,2026-01-08,22,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Particular,58.1,164,49.85,107
+57,2027-01-15,20,San Martin de Porres,Av. Universitaria,Llovizna,Accidente,Moto,22.18,532,23.88,84
+58,2026-04-22,23,Independencia,Av. Universitaria,Despejado,Ninguno,Moto,21.52,143,35.01,35
+59,2026-06-22,11,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Particular,45.23,509,63.86,19
+60,2026-07-06,13,Los Olivos,Av. Universitaria,Despejado,Ninguno,Bus,37.4,365,57.06,109
+61,2026-04-09,8,San Martin de Porres,Av. Universitaria,Llovizna,Accidente,Bus,68.4,279,75.36,73
+62,2026-03-04,15,San Martin de Porres,Av. Universitaria,Despejado,Obras Civiles,Moto,30.89,483,53.8,119
+63,2026-10-16,15,Comas,Av. Universitaria,Niebla,Accidente,Particular,42.38,243,74.16,91
+64,2026-06-01,15,San Martin de Porres,Av. Universitaria,Despejado,Obras Civiles,Camion,33.91,142,60.95,47
+65,2026-04-11,5,San Martin de Porres,Av. Universitaria,Llovizna,Obras Civiles,Moto,58.2,526,47.55,50
+66,2026-03-04,13,Comas,Av. Universitaria,Niebla,Manifestacion,Moto,55.15,496,60.89,7
+67,2026-02-25,15,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Moto,63.29,510,71.03,86
+68,2026-06-20,21,Los Olivos,Av. Universitaria,Despejado,Ninguno,Moto,55.24,384,38.53,73
+69,2027-03-10,8,Puente Piedra,Av. Universitaria,Niebla,Obras Civiles,Bus,40.23,462,90.33,122
+70,2026-08-29,21,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Bus,34.38,173,24.51,117
+71,2026-12-04,8,Independencia,Av. Universitaria,Niebla,Accidente,Moto,57.14,502,89.18,13
+72,2026-11-02,23,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Particular,34.55,82,24.07,94
+73,2026-06-18,3,Puente Piedra,Av. Universitaria,Llovizna,Ninguno,Particular,15.02,220,24.37,46
+74,2026-11-28,2,Comas,Av. Universitaria,Llovizna,Obras Civiles,Moto,52.43,325,44.06,37
+75,2026-06-13,13,Independencia,Av. Universitaria,Niebla,Accidente,Moto,57.88,297,56.07,6
+76,2026-10-21,7,Carabayllo,Av. Universitaria,Niebla,Accidente,Moto,32.91,542,88.15,92
+77,2027-02-13,15,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Particular,65.34,235,58.98,108
+78,2026-02-13,18,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Moto,78.25,520,84.06,92
+79,2026-02-11,18,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Camion,58.84,184,98.87,114
+80,2026-03-29,8,Los Olivos,Av. Universitaria,Niebla,Obras Civiles,Particular,44.31,76,81.44,43
+81,2026-02-03,16,Los Olivos,Av. Universitaria,Niebla,Manifestacion,Camion,11.41,515,72.66,100
+82,2027-01-05,14,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Particular,54.25,237,60.07,38
+83,2026-03-10,3,Independencia,Av. Universitaria,Despejado,Accidente,Camion,64.97,287,30.09,65
+84,2026-12-25,5,Carabayllo,Av. Universitaria,Despejado,Accidente,Moto,64.93,98,42.01,31
+85,2026-04-17,7,Los Olivos,Av. Universitaria,Llovizna,Ninguno,Particular,38.06,192,79.24,26
+86,2026-04-28,13,Los Olivos,Av. Universitaria,Llovizna,Obras Civiles,Particular,22.24,200,53.16,112
+87,2027-05-07,4,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Bus,22.85,314,25.64,18
+88,2027-01-14,20,San Martin de Porres,Av. Universitaria,Despejado,Manifestacion,Moto,71.04,529,28.08,91
+89,2026-10-31,4,Carabayllo,Av. Universitaria,Niebla,Manifestacion,Moto,43.29,119,23.77,8
+90,2026-07-05,7,Puente Piedra,Av. Universitaria,Despejado,Accidente,Moto,16.61,315,81.22,6
+91,2026-08-21,10,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Particular,23.19,373,65.24,50
+92,2027-04-29,17,Carabayllo,Av. Universitaria,Despejado,Obras Civiles,Moto,30.56,511,98.3,67
+93,2026-03-22,16,Los Olivos,Av. Universitaria,Despejado,Ninguno,Moto,39.76,326,71.61,44
+94,2027-04-27,9,Carabayllo,Av. Universitaria,Despejado,Obras Civiles,Moto,36.63,159,96.41,108
+95,2027-01-25,22,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,67.2,285,33.14,22
+96,2027-03-02,20,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,25.13,257,22.17,69
+97,2027-05-06,9,Independencia,Av. Universitaria,Niebla,Accidente,Moto,30.37,166,79.96,50
+98,2026-04-20,22,Los Olivos,Av. Universitaria,Niebla,Manifestacion,Particular,73.05,462,48.35,64
+99,2026-05-21,10,Comas,Av. Universitaria,Despejado,Obras Civiles,Particular,77.96,398,57.2,104
+100,2026-01-24,6,Comas,Av. Universitaria,Niebla,Obras Civiles,Particular,59.81,251,33.2,15
+101,2026-10-08,18,San Martin de Porres,Av. Universitaria,Despejado,Manifestacion,Bus,68.99,527,76.82,101
+102,2026-05-05,5,Los Olivos,Av. Universitaria,Niebla,Ninguno,Particular,71.66,109,21.25,117
+103,2026-07-20,16,Los Olivos,Av. Universitaria,Despejado,Ninguno,Particular,39.66,146,52.89,103
+104,2026-10-22,5,Comas,Av. Universitaria,Niebla,Ninguno,Moto,67.96,111,31.45,22
+105,2027-04-28,10,Comas,Av. Universitaria,Niebla,Manifestacion,Moto,77.59,221,73.72,41
+106,2027-03-16,13,Los Olivos,Av. Universitaria,Despejado,Ninguno,Particular,10.08,380,60.6,105
+107,2026-02-04,2,Los Olivos,Av. Universitaria,Niebla,Ninguno,Particular,13.87,406,44.07,63
+108,2027-03-12,10,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Particular,56.62,277,71.13,78
+109,2027-04-24,3,Puente Piedra,Av. Universitaria,Llovizna,Manifestacion,Bus,76.54,386,45.41,111
+110,2026-08-13,17,Comas,Av. Universitaria,Niebla,Accidente,Camion,69.51,110,99.28,5
+111,2027-04-24,21,Carabayllo,Av. Universitaria,Niebla,Obras Civiles,Particular,16.82,429,30.71,41
+112,2026-05-14,20,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Camion,49.77,514,26.94,41
+113,2027-03-13,2,Independencia,Av. Universitaria,Despejado,Ninguno,Moto,11.67,539,22.31,22
+114,2026-09-30,2,Comas,Av. Universitaria,Llovizna,Obras Civiles,Moto,79.31,443,46.21,10
+115,2027-02-11,19,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Moto,59.81,242,79.28,104
+116,2026-08-10,14,Los Olivos,Av. Universitaria,Llovizna,Obras Civiles,Particular,33.4,251,58.8,19
+117,2027-03-28,22,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Moto,50.4,340,45.5,103
+118,2026-12-30,13,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Moto,48.81,176,51.61,69
+119,2026-08-21,3,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Particular,64.85,377,22.58,45
+120,2026-06-05,1,Puente Piedra,Av. Universitaria,Niebla,Ninguno,Bus,26.45,264,23.58,72
+121,2026-04-18,9,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Moto,72.46,139,96.0,8
+122,2027-03-11,9,Puente Piedra,Av. Universitaria,Niebla,Accidente,Moto,55.19,479,78.48,87
+123,2026-09-04,7,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Moto,19.12,75,90.8,11
+124,2026-01-05,9,San Martin de Porres,Av. Universitaria,Despejado,Obras Civiles,Moto,22.52,217,93.16,72
+125,2026-02-17,18,San Martin de Porres,Av. Universitaria,Despejado,Obras Civiles,Camion,26.32,385,82.0,78
+126,2027-02-26,22,Comas,Av. Universitaria,Llovizna,Obras Civiles,Bus,69.77,352,48.59,67
+127,2027-04-13,20,Los Olivos,Av. Universitaria,Llovizna,Ninguno,Particular,44.33,126,44.56,103
+128,2026-10-14,0,Los Olivos,Av. Universitaria,Despejado,Ninguno,Moto,48.03,156,47.78,28
+129,2026-05-09,5,Independencia,Av. Universitaria,Niebla,Ninguno,Moto,59.65,139,46.62,23
+130,2026-09-30,2,Los Olivos,Av. Universitaria,Despejado,Obras Civiles,Moto,48.2,376,39.25,77
+131,2027-02-12,2,Independencia,Av. Universitaria,Llovizna,Ninguno,Moto,79.53,257,24.14,100
+132,2027-05-16,9,Los Olivos,Av. Universitaria,Niebla,Accidente,Moto,34.34,81,94.89,6
+133,2026-01-07,7,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Bus,30.87,203,91.16,60
+134,2026-02-23,8,Los Olivos,Av. Universitaria,Niebla,Accidente,Particular,51.2,268,97.91,120
+135,2026-07-19,5,Independencia,Av. Universitaria,Niebla,Accidente,Moto,52.28,69,35.37,56
+136,2027-04-19,17,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Bus,35.39,123,81.6,89
+137,2027-04-14,22,Independencia,Av. Universitaria,Despejado,Ninguno,Moto,68.28,542,23.81,45
+138,2027-01-31,16,Los Olivos,Av. Universitaria,Despejado,Obras Civiles,Moto,45.86,463,53.35,29
+139,2027-03-06,16,Comas,Av. Universitaria,Niebla,Ninguno,Moto,21.05,300,71.82,61
+140,2027-03-21,20,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Moto,50.06,273,33.05,64
+141,2026-12-13,23,Carabayllo,Av. Universitaria,Niebla,Manifestacion,Moto,66.09,438,42.23,56
+142,2027-03-15,18,Comas,Av. Universitaria,Despejado,Ninguno,Particular,71.86,338,93.21,68
+143,2026-07-10,23,Independencia,Av. Universitaria,Llovizna,Accidente,Moto,65.97,500,43.2,104
+144,2026-04-08,0,San Martin de Porres,Av. Universitaria,Llovizna,Accidente,Bus,17.56,64,31.91,79
+145,2027-01-21,2,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Moto,39.28,391,32.25,107
+146,2026-10-16,18,Carabayllo,Av. Universitaria,Niebla,Accidente,Particular,47.93,537,91.74,72
+147,2026-09-21,9,Los Olivos,Av. Universitaria,Despejado,Manifestacion,Moto,19.61,83,92.96,23
+148,2026-05-17,18,Los Olivos,Av. Universitaria,Llovizna,Ninguno,Bus,64.11,331,76.56,42
+149,2027-01-02,13,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Moto,34.69,485,64.51,45
+150,2026-12-05,18,San Martin de Porres,Av. Universitaria,Niebla,Manifestacion,Camion,63.19,161,79.32,102
+151,2027-01-03,9,Carabayllo,Av. Universitaria,Niebla,Ninguno,Particular,34.89,112,83.03,121
+152,2026-05-09,12,Puente Piedra,Av. Universitaria,Despejado,Ninguno,Bus,65.03,140,51.78,8
+153,2027-01-03,1,San Martin de Porres,Av. Universitaria,Despejado,Obras Civiles,Moto,29.32,236,25.41,32
+154,2027-05-02,17,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,34.09,116,97.43,23
+155,2026-11-01,8,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Bus,40.91,215,84.15,119
+156,2026-06-26,8,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,67.41,470,75.2,97
+157,2026-05-21,14,Los Olivos,Av. Universitaria,Despejado,Obras Civiles,Moto,61.66,223,57.0,57
+158,2027-05-16,19,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Moto,52.29,391,96.63,114
+159,2026-04-30,4,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,46.86,107,49.33,80
+160,2026-06-04,0,Comas,Av. Universitaria,Llovizna,Accidente,Camion,48.26,461,25.34,92
+161,2026-04-02,15,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Particular,44.0,298,60.12,81
+162,2027-05-06,23,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Particular,66.0,470,23.13,46
+163,2027-04-25,19,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Bus,49.18,504,78.58,48
+164,2027-03-10,6,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Particular,39.96,89,32.07,118
+165,2027-01-08,8,Independencia,Av. Universitaria,Despejado,Ninguno,Camion,75.34,93,78.94,54
+166,2026-12-10,17,Independencia,Av. Universitaria,Niebla,Ninguno,Moto,54.93,143,96.91,116
+167,2026-01-18,7,Los Olivos,Av. Universitaria,Despejado,Accidente,Bus,44.06,62,94.65,72
+168,2026-08-15,2,Carabayllo,Av. Universitaria,Niebla,Accidente,Moto,72.68,72,31.47,90
+169,2026-03-23,19,Los Olivos,Av. Universitaria,Niebla,Accidente,Moto,16.83,59,76.0,110
+170,2026-11-09,7,Comas,Av. Universitaria,Niebla,Accidente,Bus,41.39,363,93.27,15
+171,2026-11-25,7,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Bus,40.77,224,83.43,62
+172,2026-03-27,7,Los Olivos,Av. Universitaria,Llovizna,Accidente,Particular,46.06,50,81.98,116
+173,2026-02-10,9,Comas,Av. Universitaria,Niebla,Obras Civiles,Camion,44.65,174,80.05,64
+174,2027-05-16,4,Independencia,Av. Universitaria,Despejado,Accidente,Particular,64.09,125,21.27,87
+175,2027-01-07,17,Puente Piedra,Av. Universitaria,Despejado,Manifestacion,Bus,48.47,364,87.97,106
+176,2026-10-24,4,Puente Piedra,Av. Universitaria,Niebla,Accidente,Bus,70.84,102,32.87,47
+177,2026-12-22,9,San Martin de Porres,Av. Universitaria,Despejado,Manifestacion,Moto,66.59,107,79.26,106
+178,2026-08-17,16,Carabayllo,Av. Universitaria,Niebla,Accidente,Moto,70.5,302,55.32,122
+179,2026-03-16,19,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Particular,57.03,408,85.23,60
+180,2026-07-26,9,Puente Piedra,Av. Universitaria,Llovizna,Accidente,Bus,69.42,549,85.01,121
+181,2026-01-19,7,Independencia,Av. Universitaria,Llovizna,Accidente,Moto,10.79,238,92.19,5
+182,2026-08-28,19,Los Olivos,Av. Universitaria,Niebla,Obras Civiles,Bus,24.68,362,83.75,93
+183,2027-02-01,18,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Particular,46.9,196,95.15,78
+184,2027-04-03,20,Comas,Av. Universitaria,Despejado,Ninguno,Moto,77.69,231,28.87,95
+185,2026-09-08,9,Puente Piedra,Av. Universitaria,Niebla,Ninguno,Particular,56.94,358,98.03,43
+186,2027-01-09,11,Los Olivos,Av. Universitaria,Despejado,Ninguno,Moto,22.64,220,61.44,19
+187,2026-05-11,17,Comas,Av. Universitaria,Llovizna,Ninguno,Camion,76.17,106,90.83,8
+188,2026-08-14,16,Comas,Av. Universitaria,Llovizna,Ninguno,Particular,54.81,394,58.1,28
+189,2026-05-12,12,Puente Piedra,Av. Universitaria,Llovizna,Ninguno,Particular,64.56,126,69.56,82
+190,2026-07-12,1,Puente Piedra,Av. Universitaria,Despejado,Ninguno,Particular,55.65,474,49.03,37
+191,2026-05-31,3,Carabayllo,Av. Universitaria,Despejado,Obras Civiles,Particular,76.75,217,35.96,40
+192,2026-10-22,4,Los Olivos,Av. Universitaria,Niebla,Ninguno,Moto,58.92,522,22.67,50
+193,2026-03-30,17,Carabayllo,Av. Universitaria,Niebla,Accidente,Bus,34.57,299,75.04,121
+194,2026-09-14,20,Carabayllo,Av. Universitaria,Llovizna,Obras Civiles,Particular,46.09,430,28.68,86
+195,2026-10-16,15,Puente Piedra,Av. Universitaria,Llovizna,Obras Civiles,Particular,10.47,300,54.9,83
+196,2026-11-11,20,Carabayllo,Av. Universitaria,Despejado,Ninguno,Particular,44.94,534,29.11,17
+197,2026-08-18,11,San Martin de Porres,Av. Universitaria,Despejado,Manifestacion,Bus,18.76,189,61.7,62
+198,2026-03-16,13,San Martin de Porres,Av. Universitaria,Llovizna,Accidente,Camion,79.96,99,58.71,12
+199,2026-05-15,13,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Moto,59.79,461,74.47,53
+200,2027-01-07,15,Comas,Av. Universitaria,Despejado,Ninguno,Bus,79.17,337,63.94,122
+201,2026-08-27,16,Los Olivos,Av. Universitaria,Niebla,Obras Civiles,Moto,64.45,240,62.81,99
+202,2026-03-03,21,Carabayllo,Av. Universitaria,Llovizna,Manifestacion,Moto,63.01,537,43.76,99
+203,2026-09-23,9,San Martin de Porres,Av. Universitaria,Llovizna,Obras Civiles,Particular,56.05,423,86.35,26
+204,2026-05-05,20,Los Olivos,Av. Universitaria,Despejado,Ninguno,Moto,75.87,411,41.42,26
+205,2026-11-24,18,Comas,Av. Universitaria,Niebla,Accidente,Particular,78.71,77,99.39,114
+206,2027-04-09,20,Los Olivos,Av. Universitaria,Niebla,Ninguno,Particular,10.69,331,39.2,21
+207,2027-04-27,7,Carabayllo,Av. Universitaria,Niebla,Ninguno,Moto,11.15,234,84.55,15
+208,2026-10-10,12,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,31.55,346,56.46,62
+209,2026-11-24,20,Comas,Av. Universitaria,Despejado,Ninguno,Moto,29.04,543,35.47,101
+210,2027-02-09,8,Los Olivos,Av. Universitaria,Despejado,Ninguno,Moto,53.09,475,90.94,91
+211,2027-01-08,8,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Bus,36.7,512,83.7,42
+212,2026-04-06,13,Comas,Av. Universitaria,Despejado,Obras Civiles,Moto,41.54,105,73.97,94
+213,2027-02-13,15,Los Olivos,Av. Universitaria,Despejado,Accidente,Moto,53.79,318,51.52,110
+214,2026-07-23,16,Puente Piedra,Av. Universitaria,Llovizna,Accidente,Particular,21.69,73,55.23,112
+215,2026-05-10,14,San Martin de Porres,Av. Universitaria,Llovizna,Obras Civiles,Bus,36.98,507,71.18,115
+216,2027-03-20,7,Carabayllo,Av. Universitaria,Llovizna,Accidente,Bus,11.82,246,75.61,96
+217,2026-12-19,20,Comas,Av. Universitaria,Niebla,Accidente,Moto,56.37,67,28.8,6
+218,2026-11-18,12,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Particular,40.32,452,67.21,91
+219,2027-01-29,15,Los Olivos,Av. Universitaria,Niebla,Accidente,Moto,13.75,279,56.09,46
+220,2026-05-25,8,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Moto,23.83,415,93.68,106
+221,2026-07-18,18,Los Olivos,Av. Universitaria,Niebla,Ninguno,Moto,66.29,372,96.93,45
+222,2026-02-21,13,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Camion,43.29,142,67.77,68
+223,2026-10-04,11,Puente Piedra,Av. Universitaria,Despejado,Ninguno,Moto,32.13,369,54.97,9
+224,2026-08-11,1,Puente Piedra,Av. Universitaria,Llovizna,Accidente,Moto,66.42,287,33.54,86
+225,2027-02-01,17,Comas,Av. Universitaria,Niebla,Manifestacion,Bus,63.96,52,77.47,46
+226,2026-02-03,9,Comas,Av. Universitaria,Despejado,Ninguno,Moto,73.87,239,85.83,100
+227,2026-02-21,3,San Martin de Porres,Av. Universitaria,Niebla,Manifestacion,Moto,69.96,234,44.02,91
+228,2027-02-14,9,Carabayllo,Av. Universitaria,Niebla,Ninguno,Camion,63.57,315,99.66,28
+229,2026-08-31,10,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Camion,69.03,149,62.92,32
+230,2026-12-03,1,San Martin de Porres,Av. Universitaria,Niebla,Manifestacion,Moto,64.87,401,27.75,11
+231,2026-09-10,18,Puente Piedra,Av. Universitaria,Niebla,Obras Civiles,Bus,10.8,416,81.8,86
+232,2026-09-10,17,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Moto,74.14,512,85.14,34
+233,2026-11-27,21,Comas,Av. Universitaria,Niebla,Manifestacion,Moto,15.93,384,33.55,26
+234,2027-05-13,15,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Moto,15.12,331,54.62,108
+235,2026-08-19,19,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Moto,43.02,187,75.03,42
+236,2026-03-10,12,Los Olivos,Av. Universitaria,Niebla,Ninguno,Bus,15.96,386,67.92,29
+237,2026-09-10,7,Independencia,Av. Universitaria,Niebla,Ninguno,Moto,38.22,274,97.04,97
+238,2026-01-07,4,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Particular,79.93,201,35.38,48
+239,2026-11-18,13,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Particular,50.9,467,74.38,35
+240,2026-01-15,9,Independencia,Av. Universitaria,Despejado,Accidente,Camion,75.71,212,91.23,68
+241,2026-02-26,15,Los Olivos,Av. Universitaria,Niebla,Ninguno,Particular,67.07,358,69.16,18
+242,2026-01-25,22,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Camion,27.83,309,41.95,107
+243,2026-02-23,13,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Moto,14.45,393,56.68,34
+244,2026-11-28,17,Puente Piedra,Av. Universitaria,Niebla,Accidente,Moto,21.96,197,94.21,25
+245,2027-03-26,6,Los Olivos,Av. Universitaria,Llovizna,Ninguno,Camion,71.96,365,24.13,103
+246,2026-02-08,23,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Camion,10.02,220,39.31,105
+247,2026-06-12,9,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Particular,50.45,545,86.37,6
+248,2026-04-13,11,San Martin de Porres,Av. Universitaria,Llovizna,Accidente,Moto,34.57,399,69.43,47
+249,2027-01-08,9,Carabayllo,Av. Universitaria,Despejado,Accidente,Particular,74.29,202,97.23,101
+250,2026-05-07,16,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Moto,48.65,377,66.19,111
+251,2026-08-13,22,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Moto,26.9,180,49.6,13
+252,2026-02-28,13,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Camion,62.43,116,53.58,95
+253,2026-06-02,2,Los Olivos,Av. Universitaria,Llovizna,Ninguno,Moto,59.16,390,48.12,119
+254,2026-01-05,23,Independencia,Av. Universitaria,Niebla,Manifestacion,Bus,75.22,301,33.11,31
+255,2026-05-18,10,Comas,Av. Universitaria,Despejado,Obras Civiles,Moto,77.08,135,74.65,62
+256,2026-09-28,10,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Bus,32.11,402,65.14,103
+257,2026-05-08,3,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Camion,65.58,476,42.74,57
+258,2026-02-27,16,San Martin de Porres,Av. Universitaria,Niebla,Manifestacion,Moto,31.55,312,74.22,45
+259,2026-07-04,21,Carabayllo,Av. Universitaria,Despejado,Ninguno,Moto,78.04,230,37.68,48
+260,2026-11-09,3,Los Olivos,Av. Universitaria,Despejado,Obras Civiles,Moto,52.23,367,26.64,43
+261,2026-03-26,20,Independencia,Av. Universitaria,Niebla,Ninguno,Moto,65.85,216,35.77,8
+262,2026-06-01,6,Comas,Av. Universitaria,Despejado,Obras Civiles,Moto,11.71,489,28.11,90
+263,2027-02-24,4,San Martin de Porres,Av. Universitaria,Despejado,Obras Civiles,Moto,22.82,444,35.53,114
+264,2027-03-10,7,Comas,Av. Universitaria,Niebla,Ninguno,Moto,67.35,200,86.0,24
+265,2026-11-03,8,Comas,Av. Universitaria,Despejado,Ninguno,Bus,21.96,470,97.26,40
+266,2027-04-17,2,Los Olivos,Av. Universitaria,Niebla,Obras Civiles,Moto,46.33,470,26.25,114
+267,2027-02-23,5,Carabayllo,Av. Universitaria,Niebla,Accidente,Moto,24.82,253,39.87,8
+268,2026-02-27,9,Independencia,Av. Universitaria,Despejado,Accidente,Camion,65.75,214,83.86,103
+269,2027-04-11,2,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Particular,46.53,273,29.48,73
+270,2026-11-29,5,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Camion,18.27,194,39.66,43
+271,2026-08-19,10,Puente Piedra,Av. Universitaria,Despejado,Ninguno,Moto,54.53,246,70.88,76
+272,2026-03-04,13,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Moto,54.75,292,63.5,89
+273,2027-01-07,17,San Martin de Porres,Av. Universitaria,Llovizna,Accidente,Moto,68.35,423,82.16,93
+274,2026-09-03,20,Carabayllo,Av. Universitaria,Despejado,Accidente,Camion,31.33,137,42.46,60
+275,2026-02-08,8,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Particular,61.96,207,91.41,83
+276,2026-03-18,10,San Martin de Porres,Av. Universitaria,Despejado,Obras Civiles,Particular,66.0,437,56.97,21
+277,2026-04-15,0,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Bus,18.06,447,33.43,111
+278,2026-06-23,14,Carabayllo,Av. Universitaria,Niebla,Ninguno,Bus,64.16,187,74.08,106
+279,2026-01-25,12,Carabayllo,Av. Universitaria,Niebla,Obras Civiles,Moto,10.94,233,72.06,14
+280,2027-03-03,7,Independencia,Av. Universitaria,Niebla,Ninguno,Bus,39.78,261,95.69,73
+281,2026-10-06,4,Los Olivos,Av. Universitaria,Despejado,Ninguno,Bus,51.07,149,43.56,59
+282,2027-03-09,9,Los Olivos,Av. Universitaria,Despejado,Accidente,Camion,52.6,467,80.76,72
+283,2026-06-11,9,San Martin de Porres,Av. Universitaria,Llovizna,Obras Civiles,Moto,60.23,106,90.78,48
+284,2026-07-26,12,Comas,Av. Universitaria,Niebla,Ninguno,Camion,68.18,524,54.06,91
+285,2026-03-24,23,Los Olivos,Av. Universitaria,Llovizna,Ninguno,Moto,32.2,115,33.22,105
+286,2027-04-12,15,San Martin de Porres,Av. Universitaria,Niebla,Manifestacion,Particular,37.54,413,54.88,54
+287,2026-08-21,3,Los Olivos,Av. Universitaria,Despejado,Ninguno,Particular,23.48,224,20.93,69
+288,2026-08-12,20,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Bus,33.32,226,34.09,69
+289,2027-02-14,13,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Moto,27.54,138,72.04,34
+290,2026-04-12,12,Comas,Av. Universitaria,Niebla,Obras Civiles,Bus,64.5,395,58.38,23
+291,2027-04-11,10,Los Olivos,Av. Universitaria,Niebla,Manifestacion,Camion,64.36,386,72.73,108
+292,2026-05-15,13,Independencia,Av. Universitaria,Despejado,Obras Civiles,Camion,38.1,53,59.41,80
+293,2026-01-05,19,Comas,Av. Universitaria,Despejado,Obras Civiles,Moto,62.5,365,81.47,87
+294,2026-07-30,13,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Moto,78.31,450,61.53,13
+295,2026-10-05,19,San Martin de Porres,Av. Universitaria,Llovizna,Accidente,Particular,57.1,191,79.94,89
+296,2026-10-05,22,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Particular,64.65,448,48.96,105
+297,2026-10-04,19,Carabayllo,Av. Universitaria,Despejado,Accidente,Moto,75.46,491,90.57,36
+298,2026-05-05,10,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Moto,52.33,170,62.47,11
+299,2026-05-05,9,Puente Piedra,Av. Universitaria,Niebla,Ninguno,Particular,53.96,122,93.3,57
+300,2026-08-26,4,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Bus,17.94,331,44.42,64
+301,2026-07-18,21,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Particular,31.48,230,42.71,114
+302,2026-05-21,21,Puente Piedra,Av. Universitaria,Despejado,Obras Civiles,Bus,48.86,239,32.27,83
+303,2027-03-23,8,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Particular,13.67,83,99.98,43
+304,2026-01-18,15,Los Olivos,Av. Universitaria,Despejado,Ninguno,Particular,31.87,368,58.06,82
+305,2026-02-05,22,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Bus,33.37,501,46.67,14
+306,2026-02-10,14,Los Olivos,Av. Universitaria,Llovizna,Ninguno,Moto,24.34,163,68.66,86
+307,2026-12-04,10,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Particular,35.94,439,57.96,74
+308,2026-10-11,13,Los Olivos,Av. Universitaria,Despejado,Accidente,Moto,72.88,52,55.66,73
+309,2027-02-17,20,Puente Piedra,Av. Universitaria,Niebla,Ninguno,Bus,36.39,169,47.35,115
+310,2026-11-04,23,Comas,Av. Universitaria,Niebla,Ninguno,Moto,42.2,144,29.25,82
+311,2026-05-23,20,Los Olivos,Av. Universitaria,Niebla,Accidente,Particular,50.66,94,48.32,63
+312,2027-03-26,15,Carabayllo,Av. Universitaria,Niebla,Manifestacion,Particular,10.78,91,62.48,82
+313,2026-10-09,18,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Particular,50.9,496,95.15,11
+314,2027-02-12,13,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Moto,64.66,158,71.17,10
+315,2026-02-03,3,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Moto,21.6,388,26.09,102
+316,2027-01-15,3,Puente Piedra,Av. Universitaria,Llovizna,Ninguno,Camion,40.53,517,28.85,16
+317,2026-12-26,2,Puente Piedra,Av. Universitaria,Niebla,Manifestacion,Moto,62.0,440,33.72,90
+318,2026-02-15,12,Comas,Av. Universitaria,Niebla,Ninguno,Bus,32.38,368,56.85,12
+319,2026-06-24,20,Independencia,Av. Universitaria,Niebla,Obras Civiles,Particular,17.25,266,43.02,85
+320,2027-03-20,10,Los Olivos,Av. Universitaria,Despejado,Obras Civiles,Camion,25.95,107,55.53,54
+321,2027-02-28,17,Independencia,Av. Universitaria,Despejado,Ninguno,Moto,35.03,255,80.12,46
+322,2027-01-20,9,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Particular,54.75,61,77.97,62
+323,2027-01-14,9,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Particular,59.75,87,93.38,74
+324,2026-11-03,1,Los Olivos,Av. Universitaria,Despejado,Obras Civiles,Bus,13.9,401,40.77,25
+325,2027-02-24,16,Puente Piedra,Av. Universitaria,Niebla,Ninguno,Bus,41.94,464,58.8,117
+326,2026-06-12,1,Independencia,Av. Universitaria,Niebla,Ninguno,Bus,74.83,384,23.72,113
+327,2026-06-30,15,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Camion,20.15,200,72.63,95
+328,2026-03-31,1,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Moto,51.39,524,21.53,104
+329,2026-03-21,1,Puente Piedra,Av. Universitaria,Llovizna,Ninguno,Moto,13.23,437,35.75,109
+330,2026-12-02,22,San Martin de Porres,Av. Universitaria,Llovizna,Accidente,Bus,44.88,109,40.78,67
+331,2026-04-29,15,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Particular,39.82,83,59.25,74
+332,2026-10-07,12,Comas,Av. Universitaria,Niebla,Accidente,Bus,54.41,459,55.38,86
+333,2026-11-05,6,Puente Piedra,Av. Universitaria,Despejado,Accidente,Bus,36.11,233,41.01,26
+334,2026-01-10,21,Los Olivos,Av. Universitaria,Niebla,Ninguno,Moto,54.51,202,23.8,31
+335,2027-04-01,14,Los Olivos,Av. Universitaria,Niebla,Manifestacion,Moto,13.15,221,53.29,35
+336,2026-01-22,19,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Particular,72.06,192,76.88,95
+337,2026-07-30,10,Independencia,Av. Universitaria,Niebla,Ninguno,Bus,31.18,253,70.39,120
+338,2026-01-07,20,Independencia,Av. Universitaria,Despejado,Ninguno,Moto,72.67,166,34.29,39
+339,2027-03-31,18,Los Olivos,Av. Universitaria,Despejado,Accidente,Moto,22.08,276,83.57,101
+340,2026-06-05,17,Comas,Av. Universitaria,Niebla,Ninguno,Moto,28.6,111,84.69,16
+341,2026-05-18,18,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Moto,62.71,283,92.69,93
+342,2026-11-15,12,Comas,Av. Universitaria,Despejado,Accidente,Moto,78.57,249,55.59,76
+343,2026-09-24,23,Independencia,Av. Universitaria,Niebla,Accidente,Particular,73.72,470,36.19,18
+344,2027-03-13,22,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Particular,39.01,307,23.47,110
+345,2027-04-22,20,Comas,Av. Universitaria,Niebla,Ninguno,Moto,36.53,479,43.38,68
+346,2026-05-09,20,Independencia,Av. Universitaria,Despejado,Accidente,Particular,60.71,252,42.8,110
+347,2026-10-07,0,Carabayllo,Av. Universitaria,Niebla,Manifestacion,Camion,59.34,537,37.06,46
+348,2026-04-15,1,Los Olivos,Av. Universitaria,Niebla,Obras Civiles,Particular,72.83,530,30.77,115
+349,2027-04-01,22,Carabayllo,Av. Universitaria,Despejado,Ninguno,Moto,71.99,171,26.65,121
+350,2027-01-21,17,Independencia,Av. Universitaria,Niebla,Ninguno,Moto,55.56,441,88.41,44
+351,2026-01-27,7,Independencia,Av. Universitaria,Niebla,Ninguno,Moto,36.21,179,82.53,86
+352,2026-05-30,0,Independencia,Av. Universitaria,Despejado,Ninguno,Particular,58.85,331,30.02,37
+353,2026-12-12,3,Los Olivos,Av. Universitaria,Llovizna,Manifestacion,Camion,43.02,341,42.53,75
+354,2026-07-25,14,Los Olivos,Av. Universitaria,Despejado,Manifestacion,Bus,15.9,348,50.98,115
+355,2026-02-09,7,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,63.71,344,83.56,5
+356,2026-06-18,19,Puente Piedra,Av. Universitaria,Niebla,Ninguno,Moto,17.15,289,86.03,108
+357,2026-07-03,0,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,26.51,370,40.95,74
+358,2026-07-04,16,Puente Piedra,Av. Universitaria,Niebla,Ninguno,Moto,14.04,59,57.35,110
+359,2027-01-30,12,Los Olivos,Av. Universitaria,Niebla,Ninguno,Camion,43.08,122,70.96,50
+360,2026-05-01,13,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Moto,71.92,271,67.02,56
+361,2027-01-04,7,Carabayllo,Av. Universitaria,Despejado,Ninguno,Bus,39.34,216,81.63,111
+362,2026-12-11,17,San Martin de Porres,Av. Universitaria,Llovizna,Accidente,Particular,59.19,189,92.65,70
+363,2027-01-02,18,Independencia,Av. Universitaria,Despejado,Ninguno,Camion,74.34,503,80.77,99
+364,2026-08-04,0,Carabayllo,Av. Universitaria,Llovizna,Manifestacion,Moto,78.22,427,47.51,103
+365,2027-03-28,7,Puente Piedra,Av. Universitaria,Niebla,Obras Civiles,Camion,42.03,444,78.72,38
+366,2026-12-02,9,San Martin de Porres,Av. Universitaria,Despejado,Manifestacion,Moto,48.01,544,88.8,5
+367,2026-07-11,21,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Particular,11.76,210,34.29,80
+368,2027-05-06,4,San Martin de Porres,Av. Universitaria,Llovizna,Manifestacion,Bus,41.98,232,44.82,18
+369,2026-05-21,5,Independencia,Av. Universitaria,Niebla,Obras Civiles,Particular,44.55,384,43.64,66
+370,2026-02-04,19,Independencia,Av. Universitaria,Llovizna,Ninguno,Bus,65.55,460,87.25,10
+371,2026-05-13,5,Carabayllo,Av. Universitaria,Despejado,Accidente,Moto,12.94,66,27.02,96
+372,2027-03-01,12,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Moto,67.18,516,53.72,33
+373,2027-02-28,3,Los Olivos,Av. Universitaria,Llovizna,Ninguno,Particular,73.17,389,28.15,38
+374,2026-07-20,3,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Camion,52.74,443,46.29,45
+375,2026-11-02,11,Carabayllo,Av. Universitaria,Niebla,Manifestacion,Camion,52.55,484,58.77,20
+376,2026-05-22,1,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Particular,55.44,196,28.78,111
+377,2026-02-03,8,Comas,Av. Universitaria,Niebla,Accidente,Bus,20.55,407,75.01,114
+378,2027-02-22,9,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Moto,76.32,160,99.16,111
+379,2027-01-02,5,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,60.55,299,39.79,117
+380,2026-08-06,21,Puente Piedra,Av. Universitaria,Niebla,Ninguno,Particular,30.7,265,30.41,9
+381,2026-04-17,5,Independencia,Av. Universitaria,Niebla,Ninguno,Moto,72.89,57,37.51,12
+382,2026-11-30,20,Los Olivos,Av. Universitaria,Despejado,Accidente,Particular,48.63,299,44.51,124
+383,2026-02-18,7,Comas,Av. Universitaria,Llovizna,Ninguno,Camion,46.29,337,90.78,55
+384,2027-02-19,7,Comas,Av. Universitaria,Despejado,Manifestacion,Moto,27.05,116,75.57,52
+385,2026-01-07,12,Carabayllo,Av. Universitaria,Llovizna,Ninguno,Bus,75.74,309,68.83,51
+386,2026-09-09,19,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Moto,43.06,546,82.03,76
+387,2027-02-06,16,Independencia,Av. Universitaria,Despejado,Accidente,Bus,76.78,145,70.49,55
+388,2026-08-18,5,Los Olivos,Av. Universitaria,Despejado,Accidente,Bus,71.86,331,24.67,106
+389,2026-10-31,16,Los Olivos,Av. Universitaria,Niebla,Ninguno,Camion,29.12,377,66.77,122
+390,2026-10-31,11,San Martin de Porres,Av. Universitaria,Despejado,Obras Civiles,Particular,59.7,159,71.28,54
+391,2026-12-24,12,Independencia,Av. Universitaria,Llovizna,Ninguno,Moto,42.58,58,61.68,88
+392,2026-04-04,21,San Martin de Porres,Av. Universitaria,Despejado,Manifestacion,Particular,62.09,500,24.3,61
+393,2026-07-25,4,Los Olivos,Av. Universitaria,Niebla,Obras Civiles,Bus,43.75,495,32.56,10
+394,2026-04-21,14,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Moto,52.31,487,61.28,73
+395,2026-07-30,17,Comas,Av. Universitaria,Despejado,Obras Civiles,Camion,16.44,522,95.1,46
+396,2027-05-01,8,Puente Piedra,Av. Universitaria,Niebla,Accidente,Camion,24.93,270,77.79,63
+397,2026-05-09,2,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Camion,15.47,274,46.76,41
+398,2026-09-05,4,Los Olivos,Av. Universitaria,Llovizna,Obras Civiles,Bus,67.54,370,39.92,107
+399,2026-03-01,13,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Bus,40.56,355,70.66,90
+400,2026-05-05,14,San Martin de Porres,Av. Universitaria,Llovizna,Accidente,Moto,22.64,55,61.78,91
+401,2026-04-14,17,San Martin de Porres,Av. Universitaria,Llovizna,Accidente,Particular,26.68,541,81.67,36
+402,2026-09-21,7,Comas,Av. Universitaria,Llovizna,Manifestacion,Particular,21.0,138,92.87,48
+403,2027-04-09,3,Independencia,Av. Universitaria,Niebla,Ninguno,Particular,31.01,458,43.96,84
+404,2026-05-01,19,Los Olivos,Av. Universitaria,Niebla,Ninguno,Moto,52.44,107,94.67,77
+405,2026-08-21,22,San Martin de Porres,Av. Universitaria,Niebla,Manifestacion,Moto,22.97,112,32.25,97
+406,2026-06-23,16,Los Olivos,Av. Universitaria,Despejado,Ninguno,Moto,37.34,255,71.32,107
+407,2026-01-09,17,Puente Piedra,Av. Universitaria,Niebla,Ninguno,Particular,12.48,478,88.19,120
+408,2026-12-25,8,San Martin de Porres,Av. Universitaria,Niebla,Manifestacion,Moto,51.86,324,80.92,70
+409,2026-07-11,21,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,24.38,250,31.23,75
+410,2026-09-19,19,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Particular,12.0,241,76.95,122
+411,2027-02-11,9,Los Olivos,Av. Universitaria,Niebla,Accidente,Particular,24.72,456,87.09,117
+412,2027-01-31,10,Puente Piedra,Av. Universitaria,Despejado,Obras Civiles,Particular,52.9,520,72.87,93
+413,2026-08-12,5,Los Olivos,Av. Universitaria,Llovizna,Manifestacion,Moto,60.25,511,40.67,76
+414,2027-03-01,16,Comas,Av. Universitaria,Niebla,Ninguno,Moto,14.29,434,51.7,81
+415,2026-01-09,1,Carabayllo,Av. Universitaria,Despejado,Ninguno,Camion,41.66,497,41.83,38
+416,2026-10-22,5,San Martin de Porres,Av. Universitaria,Llovizna,Obras Civiles,Camion,17.31,74,42.87,91
+417,2026-07-04,11,Comas,Av. Universitaria,Niebla,Accidente,Camion,17.04,162,60.21,92
+418,2026-03-31,19,Carabayllo,Av. Universitaria,Llovizna,Manifestacion,Bus,19.91,389,92.42,122
+419,2027-03-27,20,Comas,Av. Universitaria,Niebla,Ninguno,Moto,20.62,532,21.7,121
+420,2026-12-24,23,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,19.82,51,39.48,54
+421,2026-10-10,8,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Moto,22.56,529,83.76,58
+422,2026-12-25,15,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Moto,54.3,131,72.1,79
+423,2027-03-07,1,Comas,Av. Universitaria,Niebla,Ninguno,Moto,47.04,314,31.78,76
+424,2027-04-29,12,Independencia,Av. Universitaria,Niebla,Ninguno,Particular,53.17,57,74.16,18
+425,2026-07-03,13,Los Olivos,Av. Universitaria,Niebla,Accidente,Camion,67.21,547,51.96,28
+426,2027-04-19,0,Comas,Av. Universitaria,Niebla,Accidente,Bus,57.87,505,33.23,32
+427,2026-11-30,10,Puente Piedra,Av. Universitaria,Niebla,Manifestacion,Moto,64.92,393,51.96,97
+428,2026-06-25,14,Comas,Av. Universitaria,Niebla,Accidente,Camion,52.54,339,51.69,117
+429,2027-05-15,13,Puente Piedra,Av. Universitaria,Niebla,Manifestacion,Camion,39.2,260,60.25,116
+430,2026-07-10,0,Comas,Av. Universitaria,Niebla,Obras Civiles,Bus,59.53,99,41.83,34
+431,2026-10-03,17,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Moto,16.27,151,94.51,123
+432,2026-04-13,1,Puente Piedra,Av. Universitaria,Llovizna,Accidente,Moto,21.23,496,45.2,21
+433,2026-04-09,23,Puente Piedra,Av. Universitaria,Despejado,Ninguno,Moto,46.78,226,33.72,44
+434,2027-01-05,19,Los Olivos,Av. Universitaria,Niebla,Manifestacion,Moto,39.64,507,84.6,67
+435,2026-02-24,9,Comas,Av. Universitaria,Niebla,Ninguno,Particular,76.1,405,84.25,62
+436,2026-03-07,2,Los Olivos,Av. Universitaria,Despejado,Obras Civiles,Particular,76.13,289,30.76,95
+437,2026-06-24,17,Comas,Av. Universitaria,Niebla,Manifestacion,Moto,76.11,425,79.96,36
+438,2026-01-21,14,Independencia,Av. Universitaria,Niebla,Ninguno,Moto,63.81,324,70.21,68
+439,2026-02-07,21,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Bus,30.63,119,30.08,53
+440,2026-03-06,5,Carabayllo,Av. Universitaria,Llovizna,Accidente,Moto,64.72,439,28.16,113
+441,2026-04-11,19,Los Olivos,Av. Universitaria,Despejado,Accidente,Particular,53.12,292,87.73,74
+442,2026-01-07,22,Independencia,Av. Universitaria,Niebla,Ninguno,Bus,79.83,389,42.45,44
+443,2026-02-20,10,Carabayllo,Av. Universitaria,Niebla,Accidente,Particular,72.07,418,71.27,113
+444,2026-09-27,16,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Moto,53.1,53,63.02,77
+445,2026-12-27,22,Independencia,Av. Universitaria,Despejado,Accidente,Camion,68.3,494,35.7,68
+446,2026-01-27,5,Los Olivos,Av. Universitaria,Niebla,Manifestacion,Particular,76.88,280,21.41,56
+447,2026-08-29,16,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Moto,58.22,536,52.39,28
+448,2026-11-03,5,San Martin de Porres,Av. Universitaria,Niebla,Accidente,Moto,31.79,497,26.05,89
+449,2027-01-17,18,Carabayllo,Av. Universitaria,Despejado,Ninguno,Camion,45.72,431,85.86,45
+450,2026-02-09,5,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Particular,34.09,424,49.01,54
+451,2027-01-30,0,San Martin de Porres,Av. Universitaria,Llovizna,Accidente,Moto,30.78,474,34.99,58
+452,2026-04-02,2,Comas,Av. Universitaria,Despejado,Obras Civiles,Moto,68.22,57,42.92,50
+453,2027-01-20,4,Los Olivos,Av. Universitaria,Despejado,Ninguno,Particular,48.73,430,47.42,120
+454,2026-02-22,0,Puente Piedra,Av. Universitaria,Despejado,Manifestacion,Particular,35.76,343,35.62,103
+455,2026-01-07,10,Comas,Av. Universitaria,Llovizna,Obras Civiles,Particular,65.28,303,71.7,19
+456,2026-02-20,11,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Camion,60.48,409,61.01,69
+457,2027-05-13,5,San Martin de Porres,Av. Universitaria,Llovizna,Accidente,Camion,67.79,511,46.21,57
+458,2027-04-04,20,Los Olivos,Av. Universitaria,Despejado,Accidente,Moto,31.23,350,32.86,98
+459,2026-06-21,21,San Martin de Porres,Av. Universitaria,Despejado,Accidente,Camion,34.26,159,41.99,69
+460,2026-04-20,15,Los Olivos,Av. Universitaria,Niebla,Ninguno,Particular,61.02,490,65.14,39
+461,2027-05-16,15,Los Olivos,Av. Universitaria,Niebla,Obras Civiles,Particular,79.72,308,52.41,96
+462,2026-02-27,7,Carabayllo,Av. Universitaria,Despejado,Ninguno,Bus,49.9,239,87.77,93
+463,2026-03-21,18,Comas,Av. Universitaria,Despejado,Ninguno,Camion,63.0,325,84.9,93
+464,2026-05-26,18,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Moto,78.4,332,75.49,93
+465,2026-04-12,10,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Moto,34.67,542,50.64,62
+466,2027-01-04,2,Puente Piedra,Av. Universitaria,Niebla,Accidente,Bus,12.83,244,49.09,84
+467,2026-03-22,16,Independencia,Av. Universitaria,Llovizna,Manifestacion,Bus,44.53,272,68.42,73
+468,2026-09-15,18,Comas,Av. Universitaria,Niebla,Accidente,Moto,34.48,482,89.12,88
+469,2027-04-29,1,Independencia,Av. Universitaria,Niebla,Ninguno,Camion,59.5,472,24.62,6
+470,2027-01-19,18,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Camion,11.63,70,99.51,57
+471,2026-04-29,16,Puente Piedra,Av. Universitaria,Llovizna,Obras Civiles,Particular,68.1,76,52.4,80
+472,2026-08-23,9,Independencia,Av. Universitaria,Niebla,Ninguno,Camion,48.15,202,94.57,119
+473,2026-04-06,17,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Particular,20.66,468,75.25,113
+474,2026-05-11,8,Independencia,Av. Universitaria,Niebla,Ninguno,Bus,66.66,154,79.12,60
+475,2026-12-30,22,Carabayllo,Av. Universitaria,Despejado,Ninguno,Camion,20.99,96,31.91,56
+476,2026-02-07,18,San Martin de Porres,Av. Universitaria,Llovizna,Manifestacion,Particular,43.88,411,97.86,45
+477,2026-07-26,15,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Particular,10.54,224,62.78,52
+478,2026-05-01,4,Comas,Av. Universitaria,Despejado,Ninguno,Camion,12.46,391,44.59,90
+479,2026-10-01,14,San Martin de Porres,Av. Universitaria,Niebla,Ninguno,Moto,68.63,287,68.35,14
+480,2026-06-23,19,San Martin de Porres,Av. Universitaria,Niebla,Manifestacion,Moto,12.98,456,80.8,8
+481,2026-08-07,13,San Martin de Porres,Av. Universitaria,Despejado,Ninguno,Moto,46.37,535,54.13,76
+482,2026-09-09,18,Comas,Av. Universitaria,Despejado,Accidente,Moto,28.41,117,85.74,121
+483,2026-09-20,20,Comas,Av. Universitaria,Niebla,Accidente,Particular,41.83,259,46.99,105
+484,2026-05-29,15,Independencia,Av. Universitaria,Llovizna,Accidente,Moto,78.67,174,50.18,105
+485,2027-04-13,23,Comas,Av. Universitaria,Niebla,Accidente,Moto,52.3,316,26.02,19
+486,2027-01-14,18,Los Olivos,Av. Universitaria,Despejado,Accidente,Bus,14.32,335,83.61,114
+487,2026-12-30,13,San Martin de Porres,Av. Universitaria,Niebla,Obras Civiles,Moto,24.61,427,69.94,92
+488,2026-01-27,8,Los Olivos,Av. Universitaria,Niebla,Manifestacion,Bus,56.56,382,87.71,30
+489,2026-05-19,5,San Martin de Porres,Av. Universitaria,Despejado,Obras Civiles,Moto,67.22,492,48.72,53
+490,2027-02-07,14,Los Olivos,Av. Universitaria,Llovizna,Manifestacion,Moto,20.0,69,72.14,89
+491,2026-04-26,2,San Martin de Porres,Av. Universitaria,Llovizna,Ninguno,Particular,50.65,288,42.81,105
+492,2026-03-07,23,Independencia,Av. Universitaria,Despejado,Obras Civiles,Bus,30.95,494,49.15,12
+493,2026-11-10,20,Comas,Av. Universitaria,Niebla,Ninguno,Bus,75.47,347,49.22,31
+494,2026-06-30,0,Los Olivos,Av. Universitaria,Niebla,Accidente,Moto,57.94,81,34.59,111
+495,2027-01-22,2,Comas,Av. Naranjal,Despejado,Manifestacion,Camion,35.91,103,21.86,23
+496,2027-05-01,11,San Martin de Porres,Panamericana Norte,Despejado,Ninguno,Particular,19.38,540,71.56,24
+497,2027-01-04,5,San Martin de Porres,Av. Túpac Amaru,Despejado,Ninguno,Moto,20.71,411,40.73,50
+498,2026-05-28,19,San Martin de Porres,Panamericana Norte,Llovizna,Ninguno,Bus,32.01,105,98.36,31
+499,2026-05-31,0,San Martin de Porres,Av. Túpac Amaru,Despejado,Accidente,Moto,37.21,488,29.09,6
+500,2027-03-15,17,Puente Piedra,Av. Túpac Amaru,Niebla,Ninguno,Moto,57.08,494,98.41,93
+501,2026-12-31,8,Los Olivos,Av. Alfredo Mendiola,Despejado,Accidente,Particular,35.5,180,78.2,25

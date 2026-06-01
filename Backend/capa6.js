@@ -1,5 +1,5 @@
 // =========================================================================
-// BACKEND - CONTROLADOR SEMÁNTICO DE ALTA COHERENCIA (100% DATASET DIRECTO)
+// BACKEND CAPA 6 - DATOS 100% REALES DEL CSV
 // =========================================================================
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -10,9 +10,8 @@ function controladorCapa6Semantica() {
     const btnProcesarCubo = document.getElementById('btnProcesarCubo');
     const btnAceptar = document.getElementById('btnAceptar');
     const consoleSemantica = document.getElementById('consoleSemantica');
-    let chartInstancia = null; 
+    let chartInstancia = null;
 
-    // Navegación de la Plataforma BI
     document.getElementById('btnRetroceder').addEventListener('click', () => {
         window.location.href = 'capa5.html';
     });
@@ -25,8 +24,7 @@ function controladorCapa6Semantica() {
     btnProcesarCubo.addEventListener('click', () => {
         btnProcesarCubo.disabled = true;
         consoleSemantica.innerHTML = "<span class='text-info'>[SSAS-INFO] Abriendo canal analítico directo con el Dataset de la Capa 1...</span><br>";
-        
-        // Extracción directa del LocalStorage del archivo subido originalmente
+
         const csvContenido = localStorage.getItem('csv_contenido');
 
         if (!csvContenido) {
@@ -53,133 +51,111 @@ function controladorCapa6Semantica() {
         }, 1500);
 
         setTimeout(() => {
-            // Dividir las filas eliminando espacios en blanco innecesarios
-            const lineas = csvContenido.split('\n').map(l => l.trim()).filter(l => l !== '');
-            const totalRegistrosReales = lineas.length - 1; // Descontamos la cabecera
 
-            // Normalizar la fila de cabecera (minúsculas y sin espacios extraños)
-            const cabecera = lineas[0].split(',').map(c => c.toLowerCase().trim().replace(/["']/g, ''));
+            // ── PARSEO DEL CSV ──────────────────────────────────────────
+            const lineas = csvContenido.split(/\r?\n/).filter(l => l.trim() !== '');
+            const separador = lineas[0].includes(';') ? ';' : ',';
+            const cabecera = lineas[0].split(separador).map(c => c.trim().toLowerCase().replace(/['"]/g, ''));
 
-            // Buscador Dinámico de Columnas para prevenir desajustes del CSV
-            let idxVel = cabecera.findIndex(c => c.includes('vel'));
-            let idxFlujo = cabecera.findIndex(c => c.includes('fluj'));
-            let idxOcupacion = cabecera.findIndex(c => c.includes('ocup') || c.includes('saturac'));
-            let idxTiempo = cabecera.findIndex(c => c.includes('tiem') || c.includes('viaj'));
-            let idxScore = cabecera.findIndex(c => c.includes('score') || c.includes('congest'));
-            let idxDistrito = cabecera.findIndex(c => c.includes('distr') || c.includes('ubica'));
-
-            // Variables acumuladoras analíticas
-            let sumaVelocidad = 0, sumaFlujo = 0, sumaOcupacion = 0, sumaTiempo = 0, maxScore = 0;
-            let filasProcesadasMatematicamente = 0;
-
-            // Estructura de dimensiones para la agrupación geográfica solicitada
-            let analisisDistritos = {
-                "San Martín de Porres": { sumaScore: 0, total: 0, base: 83.4 },
-                "Los Olivos": { sumaScore: 0, total: 0, base: 71.5 },
-                "Comas": { sumaScore: 0, total: 0, base: 68.2 },
-                "Independencia": { sumaScore: 0, total: 0, base: 76.8 },
-                "Carabayllo": { sumaScore: 0, total: 0, base: 52.1 }
+            // Índices dinámicos por nombre de columna
+            const idx = {
+                distrito:   cabecera.findIndex(c => c.includes('distr')),
+                via:        cabecera.findIndex(c => c.includes('aven') || c.includes('via')),
+                velocidad:  cabecera.findIndex(c => c.includes('veloc')),
+                flujo:      cabecera.findIndex(c => c.includes('flujo')),
+                score:      cabecera.findIndex(c => c.includes('score')),
+                tiempo:     cabecera.findIndex(c => c.includes('tiem')),
+                clima:      cabecera.findIndex(c => c.includes('clima')),
+                evento:     cabecera.findIndex(c => c.includes('event')),
+                vehiculo:   cabecera.findIndex(c => c.includes('vehic')),
             };
 
-            // Función ultra-limpiadora de caracteres para extraer valores numéricos puros
-            const parsearACantidad = (celda) => {
-                if (!celda) return 0;
-                let limpio = celda.replace(/[^0-9.]/g, '');
-                return parseFloat(limpio) || 0;
-            };
+            // Acumuladores
+            let totalRegistros = 0;
+            let sumaVelocidad = 0, contVelocidad = 0;
+            let sumaFlujo = 0;
+            let sumaTiempo = 0, contTiempo = 0;
+            let maxScore = 0;
+            let distritosData = {};  // { nombre: { sumaScore, cont } }
 
-            // Procesamiento analítico fila por fila
             for (let i = 1; i < lineas.length; i++) {
-                const columnas = lineas[i].split(',').map(col => col.trim().replace(/["']/g, ''));
-                if (columnas.length <= 1) continue;
+                const cols = lineas[i].split(separador).map(c => c.trim().replace(/['"]/g, ''));
+                if (cols.length < 3) continue;
+                totalRegistros++;
 
-                filasProcesadasMatematicamente++;
+                const vel   = idx.velocidad !== -1 ? parseFloat(cols[idx.velocidad]) : NaN;
+                const flujo = idx.flujo     !== -1 ? parseFloat(cols[idx.flujo])     : NaN;
+                const score = idx.score     !== -1 ? parseFloat(cols[idx.score])     : NaN;
+                const tiem  = idx.tiempo    !== -1 ? parseFloat(cols[idx.tiempo])    : NaN;
+                const dis   = idx.distrito  !== -1 ? cols[idx.distrito]              : '';
 
-                // Extracción segura basándose en los índices dinámicos encontrados
-                const v = idxVel !== -1 ? parsearACantidad(columnas[idxVel]) : 0;
-                const f = idxFlujo !== -1 ? parsearACantidad(columnas[idxFlujo]) : 0;
-                const o = idxOcupacion !== -1 ? parsearACantidad(columnas[idxOcupacion]) : 0;
-                const t = idxTiempo !== -1 ? parsearACantidad(columnas[idxTiempo]) : 0;
-                const s = idxScore !== -1 ? parsearACantidad(columnas[idxScore]) : 0;
+                if (!isNaN(vel)   && vel > 0)   { sumaVelocidad += vel; contVelocidad++; }
+                if (!isNaN(flujo) && flujo >= 0) { sumaFlujo += flujo; }
+                if (!isNaN(tiem)  && tiem > 0)  { sumaTiempo += tiem; contTiempo++; }
+                if (!isNaN(score) && score > maxScore) maxScore = score;
 
-                sumaVelocidad += v;
-                sumaFlujo += f;
-                sumaOcupacion += o;
-                sumaTiempo += t;
-                if (s > maxScore) maxScore = s;
-
-                // Agrupación dimensional por Distrito de Lima Norte
-                if (idxDistrito !== -1 && columnas[idxDistrito]) {
-                    const txtDistrito = columnas[idxDistrito];
-                    Object.keys(analisisDistritos).forEach(dis => {
-                        if (txtDistrito.toLowerCase().includes(dis.toLowerCase())) {
-                            analisisDistritos[dis].sumaScore += (s > 0 ? s : analisisDistritos[dis].base);
-                            analisisDistritos[dis].total++;
-                        }
-                    });
+                // Agrupar por distrito REAL del CSV
+                if (dis) {
+                    if (!distritosData[dis]) distritosData[dis] = { sumaScore: 0, cont: 0 };
+                    if (!isNaN(score) && score > 0) {
+                        distritosData[dis].sumaScore += score;
+                        distritosData[dis].cont++;
+                    }
                 }
             }
 
-            // --- MOTOR DE CONTROL DE COHERENCIA MULTIDIMENSIONAL (Garantiza que nunca queden ceros) ---
-            let promVelocidadGlobal = filasProcesadasMatematicamente > 0 ? (sumaVelocidad / filasProcesadasMatematicamente) : 0;
-            let promOcupacionGlobal = filasProcesadasMatematicamente > 0 ? (sumaOcupacion / filasProcesadasMatematicamente) : 0;
-            let promTiempoGlobal = filasProcesadasMatematicamente > 0 ? Math.round(sumaTiempo / filasProcesadasMatematicamente) : 0;
+            // ── CALCULAR KPIs REALES ────────────────────────────────────
+            const promVelocidad = contVelocidad > 0 ? (sumaVelocidad / contVelocidad) : 0;
+            const promTiempo    = contTiempo    > 0 ? Math.round(sumaTiempo / contTiempo) : 0;
 
-            // Inyección automática si las columnas del CSV vinieron vacías o no matchearon nombres exactos
-            if (promVelocidadGlobal === 0 || promVelocidadGlobal > 100) promVelocidadGlobal = 18.45;
-            if (sumaFlujo === 0) sumaFlujo = 324510;
-            if (promOcupacionGlobal === 0 || promOcupacionGlobal > 100) promOcupacionGlobal = 64.20;
-            if (promTiempoGlobal === 0) promTiempoGlobal = 42;
-            if (maxScore === 0 || maxScore < 10) maxScore = 86.48;
+            // Ocupación: estimada como (score promedio / 100) * 100
+            let sumaScoreTotal = 0, contScore = 0;
+            Object.values(distritosData).forEach(d => { sumaScoreTotal += d.sumaScore; contScore += d.cont; });
+            const promOcupacion = contScore > 0 ? (sumaScoreTotal / contScore) : 0;
 
-            // Determinar la visualización correcta del conteo de filas
-            const conteoFinalAMostrar = totalRegistrosReales > 0 ? totalRegistrosReales : 499;
+            // ── INYECTAR EN HTML ────────────────────────────────────────
+            document.getElementById('valTotalRegistros').textContent = totalRegistros.toLocaleString('es-PE');
+            document.getElementById('valVelPromedio').textContent    = `${promVelocidad.toFixed(2)} km/h`;
+            document.getElementById('valFlujoTotal').textContent     = `${Math.round(sumaFlujo).toLocaleString('es-PE')} veh.`;
+            document.getElementById('valOcupacionProm').textContent  = `${promOcupacion.toFixed(2)}%`;
+            document.getElementById('valTiempoViaje').textContent    = `${promTiempo} min`;
+            document.getElementById('valMaxScore').textContent       = `${maxScore.toFixed(2)} pts`;
 
-            // INYECCIÓN DIRECTA DE ALTO IMPACTO EN EL HTML
-            document.getElementById('valTotalRegistros').textContent = conteoFinalAMostrar.toLocaleString('es-PE');
-            document.getElementById('valVelPromedio').textContent = `${promVelocidadGlobal.toFixed(2)} km/h`;
-            document.getElementById('valFlujoTotal').textContent = `${sumaFlujo.toLocaleString('es-PE')} veh.`;
-            document.getElementById('valOcupacionProm').textContent = `${promOcupacionGlobal.toFixed(2)}%`;
-            document.getElementById('valTiempoViaje').textContent = `${promTiempoGlobal} min`;
-            document.getElementById('valMaxScore').textContent = `${maxScore.toFixed(2)} pts`;
+            // ── GRÁFICO POR DISTRITO REAL ───────────────────────────────
+            const colores = [
+                'rgba(239,68,68,0.85)',
+                'rgba(245,158,11,0.85)',
+                'rgba(6,182,212,0.85)',
+                'rgba(249,115,22,0.85)',
+                'rgba(16,185,129,0.85)',
+                'rgba(139,92,246,0.85)',
+                'rgba(236,72,153,0.85)',
+            ];
 
-            // PREPARACIÓN DE LAS VARIABLES DE DIMENSIONES PARA EL GRÁFICO DE BARRAS
-            let listaEstructuradaDistritos = [];
-            let valoresFinalesCongestion = [];
+            // Ordenar distritos por score promedio descendente
+            const distritosOrdenados = Object.entries(distritosData)
+                .filter(([, d]) => d.cont > 0)
+                .map(([nombre, d]) => ({ nombre, promedio: d.sumaScore / d.cont }))
+                .sort((a, b) => b.promedio - a.promedio);
 
-            Object.keys(analisisDistritos).forEach(d => {
-                listaEstructuradaDistritos.push(d);
-                let calculoPromedioDistrito = analisisDistritos[d].total > 0 ? (analisisDistritos[d].sumaScore / analisisDistritos[d].total) : 0;
-                
-                // Si el dataset es uniforme y no segmentó marcas de distritos, se inyecta la constante proporcional
-                if (calculoPromedioDistrito === 0 || calculoPromedioDistrito > 100) {
-                    calculoPromedioDistrito = analisisDistritos[d].base;
-                }
-                valoresFinalesCongestion.push(parseFloat(calculoPromedioDistrito.toFixed(1)));
-            });
+            const labels  = distritosOrdenados.map(d => d.nombre);
+            const valores = distritosOrdenados.map(d => parseFloat(d.promedio.toFixed(1)));
+            const bgColors     = labels.map((_, i) => colores[i % colores.length]);
+            const borderColors = bgColors.map(c => c.replace('0.85', '1'));
 
-            // Mostrar el contenedor del gráfico interactivo de BI
             document.getElementById('contenedorGrafico').style.display = 'block';
-
-            // Renderizado de Chart.js con paleta de colores BI corporativos
             const ctx = document.getElementById('chartCongestionDistritos').getContext('2d');
-            if (chartInstancia) chartInstancia.destroy(); // Limpiar instancias en memoria
+            if (chartInstancia) chartInstancia.destroy();
 
             chartInstancia = new Chart(ctx, {
                 type: 'bar',
                 data: {
-                    labels: listaEstructuradaDistritos,
+                    labels,
                     datasets: [{
-                        label: 'Densidad Promedio (Puntos de Tráfico)',
-                        data: valoresFinalesCongestion,
-                        backgroundColor: [
-                            'rgba(239, 68, 68, 0.85)',  // San Martín de Porres (Rojo Alerta Crítica)
-                            'rgba(245, 158, 11, 0.85)', // Los Olivos (Ámbar Alto)
-                            'rgba(6, 182, 212, 0.85)',  // Comas (Cian Intermedio)
-                            'rgba(249, 115, 22, 0.85)', // Independencia (Naranja Moderado)
-                            'rgba(16, 185, 129, 0.85)'  // Carabayllo (Verde Estable)
-                        ],
-                        borderColor: ['#ef4444', '#f59e0b', '#06b6d4', '#f97316', '#10b981'],
+                        label: 'Score Promedio de Congestión',
+                        data: valores,
+                        backgroundColor: bgColors,
+                        borderColor: borderColors,
                         borderWidth: 2,
                         borderRadius: 6
                     }]
@@ -188,7 +164,12 @@ function controladorCapa6Semantica() {
                     responsive: true,
                     maintainAspectRatio: false,
                     plugins: {
-                        legend: { display: false }
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: ctx => ` Score: ${ctx.parsed.y} pts`
+                            }
+                        }
                     },
                     scales: {
                         x: { ticks: { color: '#ffffff', font: { weight: 'bold', size: 12 } }, grid: { display: false } },
@@ -197,10 +178,10 @@ function controladorCapa6Semantica() {
                 }
             });
 
-            consoleSemantica.innerHTML += "<span class='text-success'>[SSAS-SUCCESS] ¡Cubo Tabular Compilado con éxito! Medidas y Gráfico sincronizados al 100%.</span><br>";
+            consoleSemantica.innerHTML += `<span class='text-success'>[SSAS-SUCCESS] ¡Cubo Tabular Compilado! ${totalRegistros} registros procesados. ${labels.length} distritos analizados.</span><br>`;
             consoleSemantica.scrollTop = consoleSemantica.scrollHeight;
-
             btnAceptar.disabled = false;
+
         }, 2200);
     });
 }

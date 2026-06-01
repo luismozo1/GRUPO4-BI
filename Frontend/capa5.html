@@ -12,12 +12,14 @@
 
     <header class="hero-header text-white text-center py-4">
         <div class="container">
-            <h1 class="display-6 fw-bold mb-1">Plataforma BI para la predicción de la congestión vehicular en Lima Norte</h1>
+            <h1 class="display-6 fw-bold mb-1">Plataforma Inteligente de Análisis y Predicción de de la congestión vehicular en Lima en Lima Norte mediante BI, Big Data e IA</h1>
             <p class="lead small text-light-50">Capa 5: Algoritmia Predictiva y Entrenamiento de Modelos de Aprendizaje Automático.</p>
         </div>
     </header>
 
     <main class="container py-4">
+
+        <!-- PROGRESS BAR -->
         <div class="row mb-4 text-center justify-content-center">
             <div class="col-md-12">
                 <div class="steps-container d-flex justify-content-between position-relative">
@@ -34,12 +36,13 @@
 
         <div class="card shadow-lg border-0 rounded-4 bg-dark-card text-white">
             <div class="card-header bg-purple-header p-3 d-flex justify-content-between align-items-center">
-                <h5 class="mb-0 fw-bold"><i class="fas fa-brain me-2"></i> Módulo de Machine Learning (Random Forest Regressor)</h5>
-                <button class="btn btn-warning btn-sm fw-bold" id="btnEntrenar"><i class="fas fa-play me-1"></i> Entrenar Modelo IA</button>
+                <h5 class="mb-0 fw-bold"><i class="fas fa-brain me-2"></i> Módulo de Machine Learning — Python (scikit-learn)</h5>
+                <button class="btn btn-warning btn-sm fw-bold" id="btnEntrenar"><i class="fas fa-play me-1"></i> Ejecutar Modelos IA</button>
             </div>
-            
+
             <div class="card-body p-4">
-                
+
+                <!-- MÉTRICAS -->
                 <div class="row mb-4 text-center">
                     <div class="col-md-4">
                         <div class="metric-box border-info">
@@ -61,53 +64,225 @@
                     </div>
                 </div>
 
+                <!-- CONSOLA -->
                 <div class="console-box p-3 font-monospace mb-4" id="consoleIA">
-                    <span class="text-warning">&gt;_ Sistema listo. Presione "Entrenar Modelo IA" para iniciar el mapeo sobre el Data Warehouse...</span>
+                    <span class="text-warning">&gt;_ Sistema listo. Presione "Ejecutar Modelos IA" para cargar predicciones Python...</span>
                 </div>
 
-                <h5 class="text-warning border-bottom border-secondary pb-2 mb-3"><i class="fas fa-chart-line me-2"></i> Respuestas a Preguntas de Negocio / Predicciones</h5>
-                
+                <!-- TABLA DE PREDICCIONES IA -->
+                <h5 class="text-warning border-bottom border-secondary pb-2 mb-3">
+                    <i class="fas fa-table me-2"></i> Tabla de Predicciones – IA
+                </h5>
+
+                <!-- SECCIÓN 1: REGRESIÓN LINEAL -->
+                <div class="section-header-blue text-white fw-bold px-3 py-2 rounded-top mb-0">
+                    1. REGRESIÓN LINEAL (SUPERVISADO – REGRESIÓN)
+                </div>
+                <div class="table-responsive mb-4">
+                    <table class="table table-dark table-bordered table-sm align-middle mb-0 prediction-table">
+                        <thead>
+                            <tr class="text-center table-header-row">
+                                <th>Caso de uso</th>
+                                <th>Objetivo</th>
+                                <th>Algoritmo</th>
+                                <th>Entrada (Variables principales)</th>
+                                <th>Resultado esperado</th>
+                                <th>Tipo de resultado</th>
+                                <th>Ejemplo de salida</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- MODELO 1: Tiempo de viaje -->
+                            <tr>
+                                <td>
+                                    <span class="badge-caso bg-blue-caso">
+                                        <i class="fas fa-clock me-1"></i> Predicción del<br>tiempo de viaje
+                                    </span>
+                                </td>
+                                <td class="text-slate-custom small">Estimar el tiempo promedio de viaje en una vía</td>
+                                <td class="text-center">
+                                    <span class="badge-algo text-info"><i class="fas fa-chart-line me-1"></i> Regresión<br>Lineal</span>
+                                </td>
+                                <td class="small text-slate-custom">
+                                    <ul class="mb-0 ps-3">
+                                        <li>Hora del día</li>
+                                        <li>Flujo vehicular</li>
+                                        <li>Condición climática</li>
+                                        <li>Tipo de vía</li>
+                                        <li>Día de la semana</li>
+                                    </ul>
+                                </td>
+                                <td class="text-slate-custom small text-center">Tiempo promedio estimado de viaje (en minutos)</td>
+                                <td class="text-center"><span class="badge-tipo text-success"><i class="fas fa-tachometer-alt me-1"></i><br>Numérico<br>(Continuo)</span></td>
+                                <td class="text-center">
+                                    <span class="result-valor text-info fw-bold fs-5" id="ejTiempoViaje">--</span>
+                                    <small class="d-block text-slate-custom">minutos</small>
+                                </td>
+                            </tr>
+                            <!-- MODELO 2: Flujo vehicular -->
+                            <tr>
+                                <td>
+                                    <span class="badge-caso bg-blue-caso">
+                                        <i class="fas fa-car me-1"></i> Predicción del<br>flujo vehicular
+                                    </span>
+                                </td>
+                                <td class="text-slate-custom small">Estimar la cantidad de vehículos en una vía por hora</td>
+                                <td class="text-center">
+                                    <span class="badge-algo text-info"><i class="fas fa-chart-line me-1"></i> Regresión<br>Lineal</span>
+                                </td>
+                                <td class="small text-slate-custom">
+                                    <ul class="mb-0 ps-3">
+                                        <li>Hora del día</li>
+                                        <li>Día de la semana</li>
+                                        <li>Condición climática</li>
+                                        <li>Eventos en la vía</li>
+                                    </ul>
+                                </td>
+                                <td class="text-slate-custom small text-center">Cantidad estimada de vehículos (vehículos/hora)</td>
+                                <td class="text-center"><span class="badge-tipo text-success"><i class="fas fa-tachometer-alt me-1"></i><br>Numérico<br>(Continuo)</span></td>
+                                <td class="text-center">
+                                    <span class="result-valor text-info fw-bold fs-5" id="ejFlujoVehicular">--</span>
+                                    <small class="d-block text-slate-custom">vehículos</small>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- SECCIÓN 2: ÁRBOL DE DECISIONES -->
+                <div class="section-header-green text-white fw-bold px-3 py-2 rounded-top mb-0">
+                    2. ÁRBOL DE DECISIONES (SUPERVISADO – CLASIFICACIÓN)
+                </div>
+                <div class="table-responsive mb-4">
+                    <table class="table table-dark table-bordered table-sm align-middle mb-0 prediction-table">
+                        <thead>
+                            <tr class="text-center table-header-row">
+                                <th>Caso de uso</th>
+                                <th>Objetivo</th>
+                                <th>Algoritmo</th>
+                                <th>Entrada (Variables principales)</th>
+                                <th>Resultado esperado</th>
+                                <th>Tipo de resultado</th>
+                                <th>Ejemplo de salida</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- MODELO 3: Nivel de congestión -->
+                            <tr>
+                                <td>
+                                    <span class="badge-caso bg-green-caso">
+                                        <i class="fas fa-chart-bar me-1"></i> Predicción del nivel<br>de congestión
+                                    </span>
+                                </td>
+                                <td class="text-slate-custom small">Clasificar el nivel de congestión en una vía</td>
+                                <td class="text-center">
+                                    <span class="badge-algo text-success"><i class="fas fa-sitemap me-1"></i> Árbol de<br>Decisiones</span>
+                                </td>
+                                <td class="small text-slate-custom">
+                                    <ul class="mb-0 ps-3">
+                                        <li>Hora del día</li>
+                                        <li>Flujo vehicular</li>
+                                        <li>Velocidad promedio</li>
+                                        <li>Condición climática</li>
+                                        <li>Día de la semana</li>
+                                    </ul>
+                                </td>
+                                <td class="text-slate-custom small text-center">Nivel de congestión<br>(Bajo / Medio / Alto)</td>
+                                <td class="text-center"><span class="badge-tipo text-warning"><i class="fas fa-tag me-1"></i><br>Categórico<br>(Clasificación)</span></td>
+                                <td class="text-center">
+                                    <span class="result-valor fw-bold fs-5" id="ejNivelCongestion">--</span>
+                                </td>
+                            </tr>
+                            <!-- MODELO 4: Zona crítica -->
+                            <tr>
+                                <td>
+                                    <span class="badge-caso bg-green-caso">
+                                        <i class="fas fa-map-marker-alt me-1"></i> Identificación de<br>zonas críticas
+                                    </span>
+                                </td>
+                                <td class="text-slate-custom small">Determinar si una zona es crítica por congestión</td>
+                                <td class="text-center">
+                                    <span class="badge-algo text-success"><i class="fas fa-sitemap me-1"></i> Árbol de<br>Decisiones</span>
+                                </td>
+                                <td class="small text-slate-custom">
+                                    <ul class="mb-0 ps-3">
+                                        <li>Flujo vehicular promedio</li>
+                                        <li>Tiempo de viaje</li>
+                                        <li>Historial de congestión</li>
+                                        <li>Tipo de vía</li>
+                                        <li>Eventos en la zona</li>
+                                    </ul>
+                                </td>
+                                <td class="text-slate-custom small text-center">Zona crítica o<br>no crítica</td>
+                                <td class="text-center"><span class="badge-tipo text-warning"><i class="fas fa-tag me-1"></i><br>Categórico<br>(Clasificación)</span></td>
+                                <td class="text-center">
+                                    <span class="result-valor fw-bold fs-5" id="ejZonaCritica">--</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- NOTA -->
+                <div class="nota-box p-3 rounded mb-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <p class="mb-1 small"><i class="fas fa-lightbulb text-warning me-2"></i><strong>NOTA:</strong></p>
+                            <p class="mb-1 small text-slate-custom">• <strong class="text-white">Regresión Lineal</strong> predice valores numéricos continuos (promedios, cantidades, tiempos).</p>
+                            <p class="mb-0 small text-slate-custom">• <strong class="text-white">Árbol de Decisiones</strong> clasifica en categorías o niveles (bajo, medio, alto / sí, no).</p>
+                        </div>
+                        <div class="col-md-4 text-end">
+                            <span class="badge-tipo-leyenda text-success me-3"><i class="fas fa-tachometer-alt me-1"></i> Numérico (Continuo)</span>
+                            <span class="badge-tipo-leyenda text-warning"><i class="fas fa-tag me-1"></i> Categórico (Clasificación)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PREDICCIONES ANALÍTICAS -->
+                <h5 class="text-warning border-bottom border-secondary pb-2 mb-3">
+                    <i class="fas fa-chart-line me-2"></i> Respuestas a Preguntas de Negocio / Predicciones
+                </h5>
                 <div class="row g-3">
                     <div class="col-md-6">
                         <div class="prediction-card p-3 rounded">
                             <h6 class="text-info fw-bold"><i class="fas fa-map-marker-alt me-2"></i> ¿Qué zonas presentarán mayor congestión vehicular?</h6>
-                            <p class="mb-0 text-slate-custom" id="ansZonas">Esperando entrenamiento...</p>
+                            <p class="mb-0 text-slate-custom" id="ansZonas">Esperando ejecución del modelo Python...</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="prediction-card p-3 rounded">
                             <h6 class="text-info fw-bold"><i class="fas fa-clock me-2"></i> ¿En qué horarios se generarán los picos de tráfico?</h6>
-                            <p class="mb-0 text-slate-custom" id="ansHorarios">Esperando entrenamiento...</p>
+                            <p class="mb-0 text-slate-custom" id="ansHorarios">Esperando ejecución del modelo Python...</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="prediction-card p-3 rounded">
                             <h6 class="text-info fw-bold"><i class="fas fa-tachometer-alt me-2"></i> ¿Qué tramos tendrán menor velocidad promedio?</h6>
-                            <p class="mb-0 text-slate-custom" id="ansTramos">Esperando entrenamiento...</p>
+                            <p class="mb-0 text-slate-custom" id="ansTramos">Esperando ejecución del modelo Python...</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="prediction-card p-3 rounded">
                             <h6 class="text-info fw-bold"><i class="fas fa-car-burst me-2"></i> ¿Cómo impactarán los accidentes en el tráfico?</h6>
-                            <p class="mb-0 text-slate-custom" id="ansAccidentes">Esperando entrenamiento...</p>
+                            <p class="mb-0 text-slate-custom" id="ansAccidentes">Esperando ejecución del modelo Python...</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="prediction-card p-3 rounded">
                             <h6 class="text-info fw-bold"><i class="fas fa-calendar-day me-2"></i> ¿Qué días de la semana habrá más aglomeración?</h6>
-                            <p class="mb-0 text-slate-custom" id="ansDias">Esperando entrenamiento...</p>
+                            <p class="mb-0 text-slate-custom" id="ansDias">Esperando ejecución del modelo Python...</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="prediction-card p-3 rounded">
                             <h6 class="text-info fw-bold"><i class="fas fa-truck-monster me-2"></i> ¿Qué tipo de vehículo contribuirá más al tráfico?</h6>
-                            <p class="mb-0 text-slate-custom" id="ansVehiculo">Esperando entrenamiento...</p>
+                            <p class="mb-0 text-slate-custom" id="ansVehiculo">Esperando ejecución del modelo Python...</p>
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="prediction-card p-3 rounded border-orange-custom">
                             <h6 class="text-info fw-bold"><i class="fas fa-skull-crossbones me-2"></i> ¿Dónde se generarán los cuellos de botella críticos?</h6>
-                            <p class="mb-0 text-slate-custom" id="ansCuellos">Esperando entrenamiento...</p>
+                            <p class="mb-0 text-slate-custom" id="ansCuellos">Esperando ejecución del modelo Python...</p>
                         </div>
                     </div>
                 </div>
@@ -121,7 +296,6 @@
         </div>
     </main>
 
-    <script src="../Clase_Machine_Learning/ModeloPredictivo.js?v=2"></script>
     <script src="../Backend/capa5.js"></script>
 </body>
 </html>

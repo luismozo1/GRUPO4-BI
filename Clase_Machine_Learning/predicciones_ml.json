@@ -1,0 +1,106 @@
+{
+  "modelos": {
+    "regresion_tiempo_viaje": {
+      "algoritmo": "Regresión Lineal",
+      "tipo": "Supervisado - Regresión",
+      "r2": -3.94,
+      "accuracy": 19.8,
+      "mse": 1557.3,
+      "ejemplo_salida": "60.3 minutos",
+      "variables_entrada": [
+        "hora",
+        "flujo_vehicular",
+        "velocidad_promedio",
+        "condicion_clima",
+        "avenida_via",
+        "tipo_evento",
+        "dia_semana"
+      ]
+    },
+    "regresion_flujo_vehicular": {
+      "algoritmo": "Regresión Lineal",
+      "tipo": "Supervisado - Regresión",
+      "r2": -4.97,
+      "accuracy": 41.58,
+      "mse": 19632.06,
+      "ejemplo_salida": "294 vehículos",
+      "variables_entrada": [
+        "hora",
+        "dia_semana",
+        "condicion_clima",
+        "tipo_evento",
+        "avenida_via"
+      ]
+    },
+    "arbol_nivel_congestion": {
+      "algoritmo": "Árbol de Decisiones",
+      "tipo": "Supervisado - Clasificación",
+      "accuracy": 99.01,
+      "ejemplo_salida": "Alto",
+      "variables_entrada": [
+        "hora",
+        "flujo_vehicular",
+        "velocidad_promedio",
+        "condicion_clima",
+        "dia_semana"
+      ]
+    },
+    "arbol_zona_critica": {
+      "algoritmo": "Árbol de Decisiones",
+      "tipo": "Supervisado - Clasificación",
+      "accuracy": 99.01,
+      "ejemplo_salida": "Comas — Crítica",
+      "variables_entrada": [
+        "flujo_vehicular",
+        "tiempo_viaje",
+        "congestion_score",
+        "avenida_via",
+        "tipo_evento"
+      ]
+    }
+  },
+  "metricas_principales": {
+    "r2": -3.94,
+    "accuracy": 99.01,
+    "mse": 1557.3
+  },
+  "zonas_criticas": [
+    {
+      "zona": "Independencia",
+      "probabilidad": 48
+    },
+    {
+      "zona": "Carabayllo",
+      "probabilidad": 47
+    }
+  ],
+  "horarios_pico": [
+    "08:00 - 10:00",
+    "18:00 - 20:00"
+  ],
+  "dia_critico": "Lunes",
+  "tramos_lentos": [
+    {
+      "via": "Panamericana Norte",
+      "velocidad": 25.7
+    },
+    {
+      "via": "Av. Alfredo Mendiola",
+      "velocidad": 35.5
+    }
+  ],
+  "impacto_incidentes": {
+    "eventoTop": "Ninguno",
+    "climaTop": "Niebla",
+    "incrementoScore": "0.3",
+    "reducVelocidadPct": 0
+  },
+  "vehiculo_critico": {
+    "tipo": "Moto",
+    "impacto": "129 registros críticos"
+  },
+  "cuellos_botella": [
+    "Av. Universitaria (Independencia)",
+    "Av. Universitaria (San Martin de Porres)"
+  ]
+}

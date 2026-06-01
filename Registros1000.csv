@@ -1,0 +1,1001 @@
+id_congestion,fecha,hora,distrito,avenida_via,condicion_clima,tipo_evento,vehiculo_predominante,velocidad_promedio,flujo_vehicular,congestion_score,tiempo_viaje
+1,2025-06-01,23,San Martin de Porres,Av. Naranjal,Lluvia Ligera,Accidente,Auto,24.96,795,90.46,43
+2,2025-06-01,15,Independencia,Av. Los Alisos,Lluvia Ligera,Accidente,Camion,48.92,669,51.66,8
+3,2025-06-01,6,Carabayllo,Av. Antunez de Mayolo,Lluvia Intensa,Ninguno,Moto,15.1,688,77.03,62
+4,2025-06-02,23,Los Olivos,Av. Naranjal,Nublado,Evento Deportivo,Camion,8.8,868,94.92,78
+5,2025-06-02,17,Comas,Av. Naranjal,Despejado,Obras Viales,Auto,38.95,428,50.36,25
+6,2025-06-02,23,Puente Piedra,Av. Dominicos,Despejado,Accidente,Camion,38.18,267,33.25,36
+7,2025-06-03,20,San Martin de Porres,Av. Los Alisos,Nublado,Ninguno,Auto,41.8,233,32.94,19
+8,2025-06-03,23,Puente Piedra,Av. Naranjal,Despejado,Ninguno,Camion,8.37,200,51.89,76
+9,2025-06-03,14,Comas,Av. Dominicos,Nublado,Ninguno,Camion,11.45,870,91.07,69
+10,2025-06-04,7,Comas,Av. Los Alisos,Despejado,Ninguno,Camion,43.85,488,48.37,18
+11,2025-06-04,14,Puente Piedra,Av. Antunez de Mayolo,Nublado,Obras Viales,Camion,44.05,399,43.23,8
+12,2025-06-04,13,Carabayllo,Av. Los Alisos,Lluvia Ligera,Obras Viales,Camion,28.66,593,68.69,41
+13,2025-06-05,14,Carabayllo,Av. Dominicos,Despejado,Ninguno,Bus,29.58,279,46.13,40
+14,2025-06-05,0,Los Olivos,Av. Los Alisos,Lluvia Intensa,Manifestacion,Moto,11.26,411,56.77,56
+15,2025-06-05,1,San Martin de Porres,Av. Los Alisos,Despejado,Ninguno,Camion,41.84,614,58.7,39
+16,2025-06-06,18,Puente Piedra,Av. Canta Callao,Nublado,Ninguno,Bus,39.22,290,34.35,22
+17,2025-06-06,22,Los Olivos,Av. Los Alisos,Nublado,Ninguno,Camion,49.57,374,40.74,8
+18,2025-06-06,5,Puente Piedra,Av. Naranjal,Despejado,Ninguno,Bus,12.5,389,52.89,55
+19,2025-06-07,11,Los Olivos,Av. Antunez de Mayolo,Lluvia Intensa,Evento Deportivo,Camion,50.19,438,44.69,8
+20,2025-06-07,13,Puente Piedra,Av. Dominicos,Lluvia Ligera,Accidente,Bus,20.42,544,70.23,68
+21,2025-06-07,7,Carabayllo,Av. Naranjal,Lluvia Ligera,Manifestacion,Combi,28.11,665,66.33,37
+22,2025-06-08,14,Comas,Av. Los Alisos,Despejado,Accidente,Bus,34.72,249,42.32,39
+23,2025-06-08,21,Carabayllo,Av. Canta Callao,Lluvia Ligera,Ninguno,Camion,54.85,640,53.52,8
+24,2025-06-08,11,Carabayllo,Av. Dominicos,Despejado,Ninguno,Camion,49.24,253,36.38,8
+25,2025-06-09,7,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Obras Viales,Bus,38.32,622,66.54,8
+26,2025-06-09,13,Carabayllo,Av. Antunez de Mayolo,Lluvia Intensa,Ninguno,Camion,48.49,227,32.08,15
+27,2025-06-09,4,Los Olivos,Av. San Felipe,Despejado,Ninguno,Moto,42.69,556,55.65,25
+28,2025-06-10,6,Los Olivos,Av. Dominicos,Despejado,Ninguno,Auto,31.79,784,75.73,36
+29,2025-06-10,2,Los Olivos,Av. Canta Callao,Despejado,Obras Viales,Bus,38.81,588,60.75,19
+30,2025-06-10,10,Los Olivos,Av. Antunez de Mayolo,Lluvia Intensa,Ninguno,Bus,37.8,698,77.33,40
+31,2025-06-11,13,San Martin de Porres,Av. Dominicos,Despejado,Accidente,Auto,31.61,271,40.73,48
+32,2025-06-11,22,Los Olivos,Av. Canta Callao,Nublado,Obras Viales,Combi,9.28,511,73.34,68
+33,2025-06-11,21,Los Olivos,Av. Dominicos,Lluvia Ligera,Manifestacion,Bus,54.72,224,29.44,8
+34,2025-06-12,23,San Martin de Porres,Av. San Felipe,Despejado,Evento Deportivo,Auto,25.38,490,60.02,37
+35,2025-06-12,12,Puente Piedra,Av. Naranjal,Nublado,Obras Viales,Auto,8.72,887,100.0,50
+36,2025-06-12,2,Los Olivos,Av. Canta Callao,Despejado,Obras Viales,Camion,51.8,317,32.06,8
+37,2025-06-13,16,Puente Piedra,Av. Dominicos,Nublado,Manifestacion,Auto,27.79,256,47.08,43
+38,2025-06-13,3,Puente Piedra,Av. Naranjal,Despejado,Ninguno,Camion,43.44,331,47.44,31
+39,2025-06-13,14,Puente Piedra,Av. Naranjal,Despejado,Ninguno,Camion,33.8,662,69.86,30
+40,2025-06-14,19,Los Olivos,Av. Los Alisos,Despejado,Ninguno,Camion,39.53,637,65.74,28
+41,2025-06-14,4,San Martin de Porres,Av. Los Alisos,Nublado,Evento Deportivo,Camion,41.17,218,27.19,31
+42,2025-06-14,11,Puente Piedra,Av. Dominicos,Despejado,Ninguno,Combi,15.93,345,59.28,50
+43,2025-06-15,0,Los Olivos,Av. San Felipe,Lluvia Intensa,Accidente,Bus,22.55,439,64.23,44
+44,2025-06-15,6,Carabayllo,Av. Antunez de Mayolo,Despejado,Ninguno,Auto,37.7,293,37.31,23
+45,2025-06-15,21,Carabayllo,Av. Los Alisos,Despejado,Obras Viales,Camion,14.09,532,64.64,55
+46,2025-06-16,14,Puente Piedra,Av. Antunez de Mayolo,Lluvia Intensa,Accidente,Bus,49.86,734,67.31,13
+47,2025-06-16,23,Comas,Av. Naranjal,Despejado,Accidente,Combi,47.49,880,78.94,8
+48,2025-06-16,21,Carabayllo,Av. Canta Callao,Lluvia Ligera,Ninguno,Camion,11.24,583,77.24,65
+49,2025-06-17,5,Carabayllo,Av. San Felipe,Nublado,Ninguno,Combi,21.59,814,77.39,44
+50,2025-06-17,1,Comas,Av. Los Alisos,Despejado,Ninguno,Moto,23.39,469,53.0,35
+51,2025-06-17,20,Carabayllo,Av. Antunez de Mayolo,Lluvia Ligera,Obras Viales,Moto,38.52,304,39.86,23
+52,2025-06-18,12,Comas,Av. Los Alisos,Nublado,Ninguno,Combi,50.02,664,66.63,13
+53,2025-06-18,14,Los Olivos,Av. Naranjal,Despejado,Ninguno,Combi,33.42,857,86.27,30
+54,2025-06-18,13,Comas,Av. Dominicos,Lluvia Ligera,Obras Viales,Bus,54.66,721,65.68,8
+55,2025-06-19,21,Los Olivos,Av. Naranjal,Nublado,Ninguno,Auto,35.86,727,68.49,21
+56,2025-06-19,23,San Martin de Porres,Av. Canta Callao,Lluvia Intensa,Ninguno,Combi,42.75,688,68.71,8
+57,2025-06-19,22,Los Olivos,Av. Naranjal,Lluvia Ligera,Evento Deportivo,Camion,54.1,350,35.53,11
+58,2025-06-20,22,Los Olivos,Av. Canta Callao,Nublado,Ninguno,Bus,42.06,535,47.77,26
+59,2025-06-20,4,Los Olivos,Av. Canta Callao,Lluvia Intensa,Accidente,Combi,41.77,543,48.76,17
+60,2025-06-20,13,Carabayllo,Av. Canta Callao,Despejado,Obras Viales,Camion,43.66,238,30.15,8
+61,2025-06-21,21,Comas,Av. San Felipe,Lluvia Intensa,Ninguno,Bus,20.91,391,59.32,53
+62,2025-06-21,21,San Martin de Porres,Av. Antunez de Mayolo,Lluvia Intensa,Obras Viales,Moto,43.66,551,60.05,30
+63,2025-06-21,20,Los Olivos,Av. Naranjal,Nublado,Accidente,Camion,36.89,692,68.34,20
+64,2025-06-22,0,Puente Piedra,Av. Antunez de Mayolo,Despejado,Evento Deportivo,Combi,9.99,779,85.75,64
+65,2025-06-22,23,Los Olivos,Av. San Felipe,Despejado,Obras Viales,Camion,38.85,426,55.68,14
+66,2025-06-22,23,Los Olivos,Av. Dominicos,Lluvia Ligera,Obras Viales,Auto,50.92,879,78.38,8
+67,2025-06-23,14,Los Olivos,Av. Canta Callao,Lluvia Intensa,Evento Deportivo,Bus,51.26,204,23.61,8
+68,2025-06-23,13,Carabayllo,Av. Dominicos,Despejado,Obras Viales,Auto,25.75,819,86.93,37
+69,2025-06-23,20,Carabayllo,Av. Antunez de Mayolo,Lluvia Ligera,Manifestacion,Camion,24.66,800,89.97,39
+70,2025-06-24,21,Puente Piedra,Av. Naranjal,Lluvia Intensa,Ninguno,Bus,22.07,350,42.6,53
+71,2025-06-24,17,Puente Piedra,Av. Antunez de Mayolo,Despejado,Ninguno,Bus,13.38,274,45.54,59
+72,2025-06-24,8,Los Olivos,Av. Naranjal,Nublado,Obras Viales,Camion,34.36,637,63.9,23
+73,2025-06-25,11,Los Olivos,Av. Dominicos,Lluvia Intensa,Ninguno,Bus,44.39,397,50.08,14
+74,2025-06-25,21,Carabayllo,Av. Los Alisos,Lluvia Ligera,Ninguno,Bus,27.08,868,86.34,55
+75,2025-06-25,20,San Martin de Porres,Av. Naranjal,Lluvia Ligera,Ninguno,Bus,26.87,239,39.81,43
+76,2025-06-26,21,Puente Piedra,Av. Naranjal,Nublado,Obras Viales,Bus,8.04,779,90.07,75
+77,2025-06-26,22,Los Olivos,Av. San Felipe,Despejado,Obras Viales,Combi,21.9,289,43.75,54
+78,2025-06-26,23,Comas,Av. Dominicos,Lluvia Ligera,Evento Deportivo,Combi,37.64,427,49.87,34
+79,2025-06-27,3,Los Olivos,Av. Antunez de Mayolo,Nublado,Ninguno,Moto,12.87,815,94.56,62
+80,2025-06-27,11,San Martin de Porres,Av. Canta Callao,Despejado,Ninguno,Camion,16.07,200,42.46,59
+81,2025-06-27,13,Los Olivos,Av. Antunez de Mayolo,Lluvia Ligera,Obras Viales,Bus,8.9,364,60.47,75
+82,2025-06-28,14,Carabayllo,Av. Dominicos,Despejado,Ninguno,Bus,14.02,644,79.16,47
+83,2025-06-28,12,Puente Piedra,Av. Naranjal,Lluvia Ligera,Ninguno,Bus,14.46,522,70.85,63
+84,2025-06-28,14,San Martin de Porres,Av. Canta Callao,Lluvia Intensa,Obras Viales,Combi,52.68,331,39.39,13
+85,2025-06-29,14,Comas,Av. Canta Callao,Lluvia Ligera,Ninguno,Camion,33.17,674,67.71,47
+86,2025-06-29,22,Los Olivos,Av. San Felipe,Lluvia Ligera,Obras Viales,Bus,29.64,287,46.23,27
+87,2025-06-29,14,Puente Piedra,Av. Naranjal,Lluvia Ligera,Manifestacion,Bus,8.82,894,97.03,82
+88,2025-06-30,12,Los Olivos,Av. Dominicos,Lluvia Ligera,Evento Deportivo,Bus,38.04,711,64.99,34
+89,2025-06-30,9,San Martin de Porres,Av. Dominicos,Lluvia Ligera,Ninguno,Auto,46.01,747,55.18,13
+90,2025-06-30,3,Carabayllo,Av. Naranjal,Despejado,Manifestacion,Bus,45.08,828,77.7,18
+91,2025-07-01,7,Los Olivos,Av. Naranjal,Lluvia Ligera,Obras Viales,Auto,44.13,618,53.56,10
+92,2025-07-01,7,Carabayllo,Av. Los Alisos,Despejado,Ninguno,Moto,53.96,229,21.5,8
+93,2025-07-01,12,San Martin de Porres,Av. San Felipe,Despejado,Accidente,Camion,27.12,322,54.56,33
+94,2025-07-02,23,Carabayllo,Av. Los Alisos,Lluvia Ligera,Ninguno,Auto,11.23,611,84.23,72
+95,2025-07-02,20,Los Olivos,Av. Antunez de Mayolo,Despejado,Obras Viales,Bus,48.29,507,49.57,21
+96,2025-07-02,20,San Martin de Porres,Av. San Felipe,Nublado,Obras Viales,Bus,8.83,388,60.33,78
+97,2025-07-03,12,Los Olivos,Av. Antunez de Mayolo,Nublado,Accidente,Combi,50.81,700,60.44,11
+98,2025-07-03,14,Los Olivos,Av. Dominicos,Lluvia Ligera,Obras Viales,Bus,31.39,697,74.12,42
+99,2025-07-03,7,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Obras Viales,Bus,49.15,272,27.19,14
+100,2025-07-04,12,Carabayllo,Av. Antunez de Mayolo,Nublado,Obras Viales,Auto,13.5,630,78.9,74
+101,2025-07-04,21,Los Olivos,Av. Antunez de Mayolo,Lluvia Intensa,Ninguno,Bus,37.66,413,50.05,21
+102,2025-07-04,21,Puente Piedra,Av. Canta Callao,Nublado,Ninguno,Bus,46.34,396,48.06,8
+103,2025-07-05,7,Independencia,Av. Naranjal,Despejado,Obras Viales,Bus,36.06,320,43.57,26
+104,2025-07-05,17,San Martin de Porres,Av. San Felipe,Lluvia Ligera,Ninguno,Bus,24.35,603,62.08,40
+105,2025-07-05,14,San Martin de Porres,Av. San Felipe,Nublado,Obras Viales,Camion,13.35,742,85.54,67
+106,2025-07-06,21,Carabayllo,Av. Antunez de Mayolo,Nublado,Obras Viales,Camion,53.08,580,49.34,8
+107,2025-07-06,21,San Martin de Porres,Av. Dominicos,Lluvia Ligera,Obras Viales,Combi,32.19,884,84.87,31
+108,2025-07-06,15,Puente Piedra,Av. San Felipe,Despejado,Ninguno,Auto,54.18,876,70.4,15
+109,2025-07-07,23,Comas,Av. Los Alisos,Despejado,Manifestacion,Camion,29.97,570,63.55,35
+110,2025-07-07,11,Los Olivos,Av. Naranjal,Despejado,Obras Viales,Moto,18.01,715,81.03,52
+111,2025-07-07,5,Comas,Av. Dominicos,Lluvia Ligera,Ninguno,Auto,36.73,861,83.38,23
+112,2025-07-08,21,Carabayllo,Av. Antunez de Mayolo,Nublado,Obras Viales,Bus,36.33,489,54.77,22
+113,2025-07-08,21,Los Olivos,Av. Canta Callao,Lluvia Ligera,Manifestacion,Bus,17.01,282,57.12,58
+114,2025-07-08,11,Puente Piedra,Av. Los Alisos,Despejado,Ninguno,Bus,37.22,238,34.94,15
+115,2025-07-09,3,Puente Piedra,Av. Dominicos,Despejado,Evento Deportivo,Bus,14.02,699,76.32,70
+116,2025-07-09,14,Carabayllo,Av. Dominicos,Nublado,Ninguno,Auto,44.59,359,41.23,8
+117,2025-07-09,3,San Martin de Porres,Av. Canta Callao,Nublado,Accidente,Bus,29.49,336,39.22,49
+118,2025-07-10,6,Puente Piedra,Av. Naranjal,Nublado,Accidente,Moto,21.06,702,78.19,51
+119,2025-07-10,23,Carabayllo,Av. Los Alisos,Nublado,Manifestacion,Moto,50.71,514,50.41,23
+120,2025-07-10,3,Puente Piedra,Av. Canta Callao,Lluvia Ligera,Manifestacion,Bus,16.91,571,68.64,43
+121,2025-07-11,14,Carabayllo,Av. Canta Callao,Nublado,Manifestacion,Combi,29.51,428,53.79,33
+122,2025-07-11,21,Puente Piedra,Av. Antunez de Mayolo,Lluvia Ligera,Accidente,Auto,30.63,282,41.12,40
+123,2025-07-11,23,San Martin de Porres,Av. Naranjal,Nublado,Manifestacion,Camion,26.66,407,52.99,49
+124,2025-07-12,10,Comas,Av. Naranjal,Despejado,Evento Deportivo,Camion,29.97,792,75.75,38
+125,2025-07-12,23,Puente Piedra,Av. Antunez de Mayolo,Lluvia Ligera,Obras Viales,Bus,28.08,600,65.0,33
+126,2025-07-12,8,Puente Piedra,Av. Antunez de Mayolo,Despejado,Manifestacion,Auto,8.33,677,80.28,72
+127,2025-07-13,11,Independencia,Av. Canta Callao,Lluvia Intensa,Ninguno,Bus,49.04,769,70.26,11
+128,2025-07-13,6,Carabayllo,Av. Naranjal,Nublado,Accidente,Bus,28.82,272,45.1,35
+129,2025-07-13,10,Los Olivos,Av. Antunez de Mayolo,Nublado,Obras Viales,Bus,51.96,315,32.99,8
+130,2025-07-14,21,Comas,Av. Dominicos,Lluvia Ligera,Obras Viales,Auto,43.7,763,75.05,8
+131,2025-07-14,2,Los Olivos,Av. San Felipe,Lluvia Ligera,Ninguno,Bus,20.41,863,85.17,66
+132,2025-07-14,13,Carabayllo,Av. Los Alisos,Despejado,Ninguno,Bus,22.31,895,93.39,43
+133,2025-07-15,22,Comas,Av. San Felipe,Lluvia Intensa,Evento Deportivo,Bus,39.78,485,51.82,42
+134,2025-07-15,11,Los Olivos,Av. Antunez de Mayolo,Despejado,Ninguno,Camion,38.18,288,40.5,40
+135,2025-07-15,21,Los Olivos,Av. San Felipe,Despejado,Accidente,Camion,48.97,267,29.02,8
+136,2025-07-16,2,Puente Piedra,Av. Naranjal,Despejado,Ninguno,Camion,36.02,459,48.9,31
+137,2025-07-16,3,Los Olivos,Av. San Felipe,Lluvia Ligera,Obras Viales,Camion,46.76,383,34.07,14
+138,2025-07-16,21,Comas,Av. Canta Callao,Lluvia Ligera,Accidente,Auto,40.2,440,55.38,16
+139,2025-07-17,21,Puente Piedra,Av. Los Alisos,Despejado,Obras Viales,Combi,29.97,511,62.99,50
+140,2025-07-17,19,Carabayllo,Av. San Felipe,Nublado,Obras Viales,Bus,30.42,741,68.03,40
+141,2025-07-17,11,Carabayllo,Av. Naranjal,Lluvia Ligera,Ninguno,Moto,45.22,266,30.5,8
+142,2025-07-18,12,Carabayllo,Av. Canta Callao,Despejado,Ninguno,Auto,51.85,649,55.53,8
+143,2025-07-18,11,Los Olivos,Av. Dominicos,Lluvia Intensa,Ninguno,Combi,40.53,791,72.73,8
+144,2025-07-18,22,Comas,Av. Naranjal,Lluvia Intensa,Obras Viales,Bus,52.89,419,50.88,8
+145,2025-07-19,0,Los Olivos,Av. Antunez de Mayolo,Despejado,Evento Deportivo,Bus,29.49,282,42.75,33
+146,2025-07-19,12,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Ninguno,Combi,31.09,812,82.46,26
+147,2025-07-19,22,Los Olivos,Av. Dominicos,Lluvia Ligera,Obras Viales,Bus,22.37,510,70.32,37
+148,2025-07-20,5,Independencia,Av. Canta Callao,Despejado,Accidente,Auto,54.72,488,36.62,8
+149,2025-07-20,8,San Martin de Porres,Av. Los Alisos,Lluvia Intensa,Ninguno,Camion,31.17,751,77.37,28
+150,2025-07-20,23,Puente Piedra,Av. Naranjal,Despejado,Ninguno,Bus,36.15,837,83.06,29
+151,2025-07-21,21,Los Olivos,Av. Naranjal,Despejado,Ninguno,Camion,8.75,789,84.2,61
+152,2025-07-21,12,Carabayllo,Av. San Felipe,Nublado,Evento Deportivo,Camion,45.21,803,79.4,13
+153,2025-07-21,10,Los Olivos,Av. Dominicos,Despejado,Accidente,Camion,40.92,891,73.29,10
+154,2025-07-22,22,Carabayllo,Av. Naranjal,Lluvia Ligera,Ninguno,Combi,14.59,753,85.06,63
+155,2025-07-22,23,Carabayllo,Av. Antunez de Mayolo,Lluvia Intensa,Obras Viales,Camion,52.17,776,67.83,14
+156,2025-07-22,3,Puente Piedra,Av. Naranjal,Lluvia Ligera,Ninguno,Bus,25.92,870,78.16,47
+157,2025-07-23,22,Carabayllo,Av. Antunez de Mayolo,Lluvia Ligera,Obras Viales,Bus,11.43,560,79.27,67
+158,2025-07-23,21,Puente Piedra,Av. Dominicos,Nublado,Obras Viales,Bus,43.34,746,68.57,8
+159,2025-07-23,9,Comas,Av. San Felipe,Despejado,Ninguno,Bus,16.07,541,67.04,70
+160,2025-07-24,16,Los Olivos,Av. Canta Callao,Lluvia Ligera,Accidente,Camion,50.51,633,56.13,10
+161,2025-07-24,2,Los Olivos,Av. Antunez de Mayolo,Lluvia Intensa,Manifestacion,Moto,27.35,543,62.09,48
+162,2025-07-24,23,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Manifestacion,Camion,8.74,206,54.49,76
+163,2025-07-25,18,Puente Piedra,Av. San Felipe,Despejado,Ninguno,Combi,9.5,353,53.51,78
+164,2025-07-25,15,Carabayllo,Av. Dominicos,Lluvia Intensa,Obras Viales,Combi,36.22,873,81.51,34
+165,2025-07-25,14,Comas,Av. Canta Callao,Lluvia Ligera,Ninguno,Auto,42.23,548,57.41,22
+166,2025-07-26,12,Carabayllo,Av. Los Alisos,Despejado,Obras Viales,Moto,30.1,875,88.25,44
+167,2025-07-26,22,Los Olivos,Av. San Felipe,Nublado,Ninguno,Combi,25.92,730,83.53,46
+168,2025-07-26,22,Puente Piedra,Av. Naranjal,Despejado,Accidente,Camion,15.32,632,73.98,71
+169,2025-07-27,21,Comas,Av. Naranjal,Nublado,Ninguno,Bus,31.01,582,69.15,34
+170,2025-07-27,19,Puente Piedra,Av. Antunez de Mayolo,Nublado,Accidente,Moto,36.96,246,36.68,26
+171,2025-07-27,11,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Accidente,Bus,24.53,591,62.38,50
+172,2025-07-28,11,Puente Piedra,Av. Antunez de Mayolo,Lluvia Intensa,Ninguno,Camion,19.29,388,56.99,56
+173,2025-07-28,22,Puente Piedra,Av. Naranjal,Lluvia Ligera,Ninguno,Combi,9.76,590,75.82,70
+174,2025-07-28,11,Los Olivos,Av. Antunez de Mayolo,Despejado,Evento Deportivo,Camion,13.84,255,54.98,63
+175,2025-07-29,5,Carabayllo,Av. Antunez de Mayolo,Lluvia Ligera,Ninguno,Auto,22.3,652,66.4,38
+176,2025-07-29,12,Los Olivos,Av. Los Alisos,Nublado,Evento Deportivo,Auto,8.34,304,54.62,70
+177,2025-07-29,21,Comas,Av. San Felipe,Nublado,Manifestacion,Auto,52.38,419,38.38,8
+178,2025-07-30,21,Los Olivos,Av. Antunez de Mayolo,Nublado,Accidente,Camion,18.79,661,76.7,39
+179,2025-07-30,13,Los Olivos,Av. Canta Callao,Nublado,Ninguno,Camion,44.75,623,56.21,19
+180,2025-07-30,11,San Martin de Porres,Av. Naranjal,Lluvia Ligera,Ninguno,Moto,50.47,537,57.27,8
+181,2025-07-31,14,San Martin de Porres,Av. Canta Callao,Nublado,Accidente,Camion,48.99,702,68.14,18
+182,2025-07-31,12,Carabayllo,Av. San Felipe,Lluvia Intensa,Obras Viales,Auto,26.78,719,76.54,49
+183,2025-07-31,3,Los Olivos,Av. San Felipe,Despejado,Obras Viales,Bus,44.35,491,46.79,18
+184,2025-08-01,12,Carabayllo,Av. Canta Callao,Lluvia Ligera,Accidente,Bus,49.89,343,41.18,8
+185,2025-08-01,13,Los Olivos,Av. Antunez de Mayolo,Despejado,Ninguno,Combi,52.73,376,49.35,8
+186,2025-08-01,12,Carabayllo,Av. Antunez de Mayolo,Lluvia Intensa,Ninguno,Auto,21.25,426,62.79,51
+187,2025-08-02,13,Los Olivos,Av. Naranjal,Lluvia Ligera,Ninguno,Auto,11.84,459,63.1,56
+188,2025-08-02,11,Puente Piedra,Av. Canta Callao,Despejado,Evento Deportivo,Combi,26.03,218,46.16,56
+189,2025-08-02,22,Puente Piedra,Av. Dominicos,Nublado,Obras Viales,Camion,18.53,300,53.28,73
+190,2025-08-03,20,Carabayllo,Av. Los Alisos,Despejado,Obras Viales,Auto,17.6,865,97.6,50
+191,2025-08-03,13,Los Olivos,Av. Canta Callao,Despejado,Obras Viales,Camion,37.01,264,43.23,13
+192,2025-08-03,11,Carabayllo,Av. San Felipe,Despejado,Obras Viales,Camion,14.1,230,48.36,56
+193,2025-08-04,20,Comas,Av. Canta Callao,Nublado,Ninguno,Combi,33.57,613,64.1,32
+194,2025-08-04,20,Puente Piedra,Av. Dominicos,Lluvia Intensa,Manifestacion,Bus,8.79,328,57.47,74
+195,2025-08-04,13,Los Olivos,Av. Antunez de Mayolo,Lluvia Intensa,Ninguno,Bus,14.83,892,98.77,67
+196,2025-08-05,5,Los Olivos,Av. Los Alisos,Lluvia Ligera,Obras Viales,Combi,31.27,828,72.62,33
+197,2025-08-05,21,Los Olivos,Av. San Felipe,Nublado,Manifestacion,Camion,49.77,897,76.77,12
+198,2025-08-05,4,Carabayllo,Av. Antunez de Mayolo,Lluvia Ligera,Ninguno,Bus,27.71,895,91.23,32
+199,2025-08-06,20,Carabayllo,Av. Canta Callao,Despejado,Manifestacion,Auto,31.77,624,62.57,21
+200,2025-08-06,5,Carabayllo,Av. Canta Callao,Lluvia Intensa,Obras Viales,Auto,21.56,759,78.95,54
+201,2025-08-06,22,Los Olivos,Av. Antunez de Mayolo,Despejado,Ninguno,Bus,15.78,304,60.67,68
+202,2025-08-07,21,Independencia,Av. Dominicos,Nublado,Obras Viales,Combi,29.01,867,86.76,45
+203,2025-08-07,14,Independencia,Av. Canta Callao,Lluvia Ligera,Obras Viales,Auto,15.12,719,81.11,72
+204,2025-08-07,11,Puente Piedra,Av. San Felipe,Despejado,Evento Deportivo,Moto,49.81,576,55.28,10
+205,2025-08-08,11,Puente Piedra,Av. Antunez de Mayolo,Lluvia Intensa,Accidente,Bus,11.77,827,96.8,63
+206,2025-08-08,18,Puente Piedra,Av. Canta Callao,Lluvia Ligera,Ninguno,Camion,49.31,542,50.17,14
+207,2025-08-08,19,Carabayllo,Av. San Felipe,Nublado,Evento Deportivo,Auto,44.77,349,37.39,22
+208,2025-08-09,21,Puente Piedra,Av. Dominicos,Lluvia Ligera,Evento Deportivo,Camion,17.5,752,90.34,63
+209,2025-08-09,20,Comas,Av. San Felipe,Despejado,Evento Deportivo,Bus,46.68,369,45.95,22
+210,2025-08-09,9,Puente Piedra,Av. San Felipe,Lluvia Ligera,Accidente,Moto,37.96,394,40.44,24
+211,2025-08-10,14,Puente Piedra,Av. Antunez de Mayolo,Lluvia Ligera,Accidente,Bus,15.37,599,73.1,60
+212,2025-08-10,20,Carabayllo,Av. Antunez de Mayolo,Lluvia Intensa,Ninguno,Bus,36.02,314,43.68,28
+213,2025-08-10,12,Los Olivos,Av. Los Alisos,Despejado,Obras Viales,Bus,19.78,352,48.89,61
+214,2025-08-11,14,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Obras Viales,Camion,54.57,550,51.97,8
+215,2025-08-11,10,San Martin de Porres,Av. Canta Callao,Lluvia Ligera,Accidente,Bus,17.87,875,85.28,32
+216,2025-08-11,16,Carabayllo,Av. Canta Callao,Despejado,Ninguno,Moto,37.2,355,43.64,28
+217,2025-08-12,20,Carabayllo,Av. Dominicos,Nublado,Accidente,Combi,10.42,552,74.29,66
+218,2025-08-12,7,Carabayllo,Av. Naranjal,Nublado,Evento Deportivo,Auto,35.74,770,68.26,39
+219,2025-08-12,18,Carabayllo,Av. Los Alisos,Lluvia Ligera,Obras Viales,Auto,29.11,593,60.75,35
+220,2025-08-13,11,Comas,Av. Dominicos,Nublado,Accidente,Bus,52.98,352,42.06,8
+221,2025-08-13,23,Carabayllo,Av. Canta Callao,Lluvia Ligera,Ninguno,Auto,20.91,436,64.38,44
+222,2025-08-13,9,Los Olivos,Av. San Felipe,Despejado,Accidente,Camion,21.71,839,78.96,38
+223,2025-08-14,15,Carabayllo,Av. San Felipe,Despejado,Obras Viales,Combi,10.1,699,75.87,68
+224,2025-08-14,11,Los Olivos,Av. San Felipe,Despejado,Evento Deportivo,Bus,23.11,856,88.25,52
+225,2025-08-14,14,Puente Piedra,Av. San Felipe,Lluvia Intensa,Ninguno,Bus,43.19,555,50.75,14
+226,2025-08-15,12,San Martin de Porres,Av. San Felipe,Despejado,Accidente,Bus,17.31,229,48.06,54
+227,2025-08-15,15,Puente Piedra,Av. Naranjal,Despejado,Accidente,Moto,25.08,248,38.6,45
+228,2025-08-15,4,Puente Piedra,Av. Dominicos,Lluvia Ligera,Ninguno,Auto,25.99,782,76.12,49
+229,2025-08-16,0,Independencia,Av. Dominicos,Lluvia Intensa,Accidente,Bus,42.97,656,58.2,15
+230,2025-08-16,2,Carabayllo,Av. Dominicos,Lluvia Ligera,Obras Viales,Bus,23.06,235,35.06,41
+231,2025-08-16,14,Comas,Av. San Felipe,Nublado,Ninguno,Camion,36.43,846,85.35,36
+232,2025-08-17,14,Los Olivos,Av. Dominicos,Nublado,Ninguno,Bus,29.69,276,48.23,34
+233,2025-08-17,3,Puente Piedra,Av. Los Alisos,Despejado,Evento Deportivo,Camion,27.82,321,49.18,38
+234,2025-08-17,21,Comas,Av. Canta Callao,Nublado,Accidente,Auto,45.64,539,52.65,8
+235,2025-08-18,0,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Ninguno,Camion,49.62,437,39.46,8
+236,2025-08-18,14,Los Olivos,Av. Naranjal,Nublado,Ninguno,Auto,9.34,570,72.54,62
+237,2025-08-18,21,Puente Piedra,Av. San Felipe,Despejado,Ninguno,Combi,32.19,493,60.12,27
+238,2025-08-19,13,Los Olivos,Av. Antunez de Mayolo,Nublado,Ninguno,Moto,21.46,734,93.46,55
+239,2025-08-19,22,Los Olivos,Av. Antunez de Mayolo,Despejado,Obras Viales,Auto,18.33,582,77.88,54
+240,2025-08-19,3,Puente Piedra,Av. Antunez de Mayolo,Lluvia Intensa,Accidente,Combi,13.92,304,54.46,58
+241,2025-08-20,12,San Martin de Porres,Av. Naranjal,Nublado,Ninguno,Auto,15.98,352,58.33,56
+242,2025-08-20,12,Puente Piedra,Av. Dominicos,Lluvia Ligera,Evento Deportivo,Bus,30.55,622,71.59,46
+243,2025-08-20,1,Comas,Av. Los Alisos,Lluvia Intensa,Ninguno,Combi,22.62,572,67.08,52
+244,2025-08-21,23,Comas,Av. Los Alisos,Nublado,Ninguno,Camion,20.84,326,56.43,48
+245,2025-08-21,13,Carabayllo,Av. Canta Callao,Nublado,Ninguno,Camion,33.83,580,60.73,33
+246,2025-08-21,23,Los Olivos,Av. Canta Callao,Nublado,Ninguno,Auto,53.11,444,44.42,8
+247,2025-08-22,2,Puente Piedra,Av. Los Alisos,Despejado,Obras Viales,Bus,37.1,239,29.52,32
+248,2025-08-22,20,Puente Piedra,Av. Canta Callao,Despejado,Ninguno,Camion,13.75,634,78.49,59
+249,2025-08-22,23,Carabayllo,Av. San Felipe,Despejado,Ninguno,Bus,34.26,343,51.9,20
+250,2025-08-23,14,San Martin de Porres,Av. Antunez de Mayolo,Nublado,Ninguno,Camion,36.15,598,62.82,32
+251,2025-08-23,22,Carabayllo,Av. Los Alisos,Despejado,Ninguno,Auto,30.2,611,68.37,22
+252,2025-08-23,6,Los Olivos,Av. Canta Callao,Nublado,Ninguno,Auto,49.02,613,55.69,18
+253,2025-08-24,21,Los Olivos,Av. Dominicos,Lluvia Intensa,Obras Viales,Bus,19.72,367,52.08,72
+254,2025-08-24,16,Los Olivos,Av. Naranjal,Despejado,Accidente,Moto,41.06,206,28.3,10
+255,2025-08-24,14,Los Olivos,Av. Antunez de Mayolo,Lluvia Ligera,Accidente,Camion,46.23,501,53.41,8
+256,2025-08-25,13,Los Olivos,Av. Naranjal,Lluvia Ligera,Ninguno,Camion,43.79,886,75.32,22
+257,2025-08-25,22,Los Olivos,Av. Dominicos,Lluvia Intensa,Manifestacion,Camion,25.83,413,59.5,37
+258,2025-08-25,4,Los Olivos,Av. Naranjal,Lluvia Ligera,Ninguno,Combi,14.93,233,46.08,65
+259,2025-08-26,19,Puente Piedra,Av. San Felipe,Lluvia Ligera,Obras Viales,Auto,21.58,521,59.43,38
+260,2025-08-26,22,Los Olivos,Av. Naranjal,Despejado,Accidente,Bus,36.51,868,77.53,37
+261,2025-08-26,12,Puente Piedra,Av. Los Alisos,Nublado,Obras Viales,Combi,15.29,537,62.94,66
+262,2025-08-27,21,Puente Piedra,Av. Naranjal,Lluvia Ligera,Accidente,Camion,48.77,760,74.54,11
+263,2025-08-27,20,Comas,Av. San Felipe,Lluvia Ligera,Ninguno,Bus,50.35,665,62.4,10
+264,2025-08-27,13,Carabayllo,Av. San Felipe,Nublado,Evento Deportivo,Bus,45.12,309,39.99,19
+265,2025-08-28,0,Independencia,Av. San Felipe,Despejado,Evento Deportivo,Camion,32.61,307,38.08,34
+266,2025-08-28,11,San Martin de Porres,Av. San Felipe,Nublado,Ninguno,Camion,9.59,429,70.5,68
+267,2025-08-28,16,Los Olivos,Av. Canta Callao,Despejado,Ninguno,Auto,25.81,647,71.56,47
+268,2025-08-29,21,Carabayllo,Av. Dominicos,Lluvia Ligera,Ninguno,Camion,43.73,788,69.28,20
+269,2025-08-29,11,San Martin de Porres,Av. Antunez de Mayolo,Lluvia Intensa,Manifestacion,Auto,13.01,370,66.56,62
+270,2025-08-29,16,Carabayllo,Av. Dominicos,Lluvia Ligera,Accidente,Camion,34.99,418,52.13,36
+271,2025-08-30,1,Puente Piedra,Av. Naranjal,Lluvia Intensa,Ninguno,Bus,26.92,368,53.94,45
+272,2025-08-30,9,Los Olivos,Av. Canta Callao,Despejado,Ninguno,Auto,50.34,503,44.63,8
+273,2025-08-30,3,Puente Piedra,Av. Los Alisos,Nublado,Obras Viales,Bus,48.87,638,65.34,8
+274,2025-08-31,14,Los Olivos,Av. Los Alisos,Despejado,Obras Viales,Bus,51.19,448,43.18,8
+275,2025-08-31,10,San Martin de Porres,Av. Naranjal,Despejado,Ninguno,Camion,32.57,745,69.48,37
+276,2025-08-31,14,Comas,Av. Antunez de Mayolo,Nublado,Ninguno,Bus,53.6,210,23.72,15
+277,2025-09-01,10,Los Olivos,Av. San Felipe,Lluvia Ligera,Obras Viales,Bus,39.38,314,33.73,23
+278,2025-09-01,20,Los Olivos,Av. San Felipe,Lluvia Ligera,Obras Viales,Bus,11.15,745,92.2,62
+279,2025-09-01,13,Carabayllo,Av. Canta Callao,Nublado,Obras Viales,Combi,17.26,566,75.62,47
+280,2025-09-02,13,Comas,Av. Los Alisos,Lluvia Ligera,Accidente,Moto,22.33,509,62.83,51
+281,2025-09-02,13,Los Olivos,Av. Antunez de Mayolo,Nublado,Obras Viales,Moto,19.4,639,73.61,56
+282,2025-09-02,4,Puente Piedra,Av. Naranjal,Lluvia Ligera,Obras Viales,Camion,22.79,805,87.93,33
+283,2025-09-03,18,Los Olivos,Av. Antunez de Mayolo,Lluvia Ligera,Ninguno,Auto,54.49,733,60.34,8
+284,2025-09-03,23,Comas,Av. Antunez de Mayolo,Lluvia Intensa,Ninguno,Bus,38.58,210,31.65,25
+285,2025-09-03,5,Puente Piedra,Av. Canta Callao,Lluvia Ligera,Obras Viales,Camion,51.55,404,34.28,15
+286,2025-09-04,21,Comas,Av. Antunez de Mayolo,Despejado,Evento Deportivo,Camion,46.54,229,37.46,8
+287,2025-09-04,20,Carabayllo,Av. Dominicos,Lluvia Intensa,Ninguno,Bus,22.65,357,52.77,61
+288,2025-09-04,20,Independencia,Av. Los Alisos,Nublado,Evento Deportivo,Auto,44.82,689,64.85,11
+289,2025-09-05,11,San Martin de Porres,Av. Canta Callao,Nublado,Accidente,Camion,22.2,435,55.68,45
+290,2025-09-05,11,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Accidente,Bus,27.05,222,49.0,51
+291,2025-09-05,12,Los Olivos,Av. Dominicos,Despejado,Obras Viales,Combi,48.92,644,61.12,8
+292,2025-09-06,6,Los Olivos,Av. Canta Callao,Lluvia Ligera,Obras Viales,Moto,54.36,726,60.02,8
+293,2025-09-06,11,Puente Piedra,Av. Los Alisos,Despejado,Obras Viales,Camion,27.78,269,39.14,34
+294,2025-09-06,0,Los Olivos,Av. Naranjal,Lluvia Intensa,Accidente,Auto,32.78,798,90.0,26
+295,2025-09-07,14,Puente Piedra,Av. Dominicos,Despejado,Ninguno,Auto,13.86,411,63.12,66
+296,2025-09-07,12,Comas,Av. Los Alisos,Despejado,Ninguno,Auto,35.5,872,82.87,33
+297,2025-09-07,13,San Martin de Porres,Av. San Felipe,Nublado,Ninguno,Camion,14.99,843,96.51,49
+298,2025-09-08,14,Puente Piedra,Av. Los Alisos,Nublado,Obras Viales,Camion,9.12,353,63.64,74
+299,2025-09-08,23,Los Olivos,Av. San Felipe,Lluvia Ligera,Evento Deportivo,Combi,27.79,257,41.96,35
+300,2025-09-08,21,Carabayllo,Av. Naranjal,Nublado,Accidente,Combi,27.51,369,54.31,42
+301,2025-09-09,21,Los Olivos,Av. Naranjal,Despejado,Ninguno,Bus,10.27,805,93.95,54
+302,2025-09-09,9,Comas,Av. San Felipe,Lluvia Intensa,Accidente,Auto,26.04,599,69.63,30
+303,2025-09-09,12,Los Olivos,Av. Canta Callao,Lluvia Intensa,Obras Viales,Bus,47.98,548,58.89,15
+304,2025-09-10,19,Independencia,Av. Antunez de Mayolo,Lluvia Intensa,Accidente,Moto,48.71,633,52.64,8
+305,2025-09-10,13,Carabayllo,Av. Canta Callao,Lluvia Ligera,Evento Deportivo,Camion,20.41,305,50.45,53
+306,2025-09-10,22,Carabayllo,Av. San Felipe,Lluvia Intensa,Ninguno,Camion,23.94,454,57.53,51
+307,2025-09-11,22,Puente Piedra,Av. Antunez de Mayolo,Lluvia Intensa,Obras Viales,Combi,28.56,265,55.33,42
+308,2025-09-11,23,San Martin de Porres,Av. San Felipe,Despejado,Ninguno,Bus,31.21,739,85.08,40
+309,2025-09-11,14,Puente Piedra,Av. Dominicos,Lluvia Ligera,Ninguno,Bus,51.54,255,38.91,8
+310,2025-09-12,23,Puente Piedra,Av. Antunez de Mayolo,Despejado,Ninguno,Bus,25.02,520,60.9,65
+311,2025-09-12,13,Carabayllo,Av. Dominicos,Lluvia Intensa,Ninguno,Moto,48.69,701,66.25,14
+312,2025-09-12,22,Los Olivos,Av. San Felipe,Despejado,Ninguno,Auto,51.37,461,51.64,8
+313,2025-09-13,13,Carabayllo,Av. Naranjal,Despejado,Accidente,Camion,33.45,303,44.44,32
+314,2025-09-13,21,Puente Piedra,Av. San Felipe,Nublado,Obras Viales,Camion,24.51,726,83.8,52
+315,2025-09-13,16,Carabayllo,Av. Los Alisos,Nublado,Ninguno,Camion,50.08,474,46.55,8
+316,2025-09-14,2,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Obras Viales,Camion,18.83,625,70.08,61
+317,2025-09-14,12,San Martin de Porres,Av. Naranjal,Despejado,Ninguno,Camion,29.52,277,45.35,27
+318,2025-09-14,2,Los Olivos,Av. Dominicos,Lluvia Ligera,Manifestacion,Bus,53.78,334,34.94,8
+319,2025-09-15,4,Puente Piedra,Av. Naranjal,Despejado,Manifestacion,Camion,41.17,640,65.78,21
+320,2025-09-15,13,Los Olivos,Av. Antunez de Mayolo,Lluvia Ligera,Obras Viales,Camion,33.27,690,72.17,24
+321,2025-09-15,21,Los Olivos,Av. Dominicos,Despejado,Ninguno,Bus,29.3,206,34.95,36
+322,2025-09-16,22,Puente Piedra,Av. San Felipe,Despejado,Accidente,Camion,23.6,864,91.52,45
+323,2025-09-16,16,Comas,Av. Los Alisos,Nublado,Obras Viales,Combi,49.17,213,23.64,8
+324,2025-09-16,14,Los Olivos,Av. Los Alisos,Despejado,Ninguno,Auto,11.0,453,70.48,55
+325,2025-09-17,21,Puente Piedra,Av. Canta Callao,Nublado,Manifestacion,Combi,28.3,689,74.37,47
+326,2025-09-17,12,Carabayllo,Av. Antunez de Mayolo,Despejado,Obras Viales,Bus,25.0,342,52.57,44
+327,2025-09-17,13,Puente Piedra,Av. Naranjal,Lluvia Ligera,Accidente,Camion,26.81,452,66.6,42
+328,2025-09-18,13,Puente Piedra,Av. Canta Callao,Lluvia Intensa,Accidente,Bus,23.7,282,49.24,47
+329,2025-09-18,13,Carabayllo,Av. San Felipe,Lluvia Ligera,Obras Viales,Camion,22.59,587,66.43,52
+330,2025-09-18,12,San Martin de Porres,Av. San Felipe,Lluvia Intensa,Obras Viales,Camion,41.01,337,41.89,23
+331,2025-09-19,23,San Martin de Porres,Av. Antunez de Mayolo,Lluvia Intensa,Ninguno,Bus,17.89,422,59.45,59
+332,2025-09-19,12,Independencia,Av. Dominicos,Lluvia Intensa,Manifestacion,Bus,45.45,809,80.39,10
+333,2025-09-19,1,Comas,Av. Canta Callao,Nublado,Ninguno,Bus,12.5,518,74.3,49
+334,2025-09-20,13,Los Olivos,Av. Canta Callao,Despejado,Ninguno,Bus,40.63,659,56.76,31
+335,2025-09-20,12,San Martin de Porres,Av. San Felipe,Lluvia Ligera,Ninguno,Bus,54.27,395,37.62,8
+336,2025-09-20,11,San Martin de Porres,Av. Naranjal,Lluvia Intensa,Ninguno,Combi,45.58,856,80.28,8
+337,2025-09-21,9,Carabayllo,Av. Los Alisos,Nublado,Manifestacion,Moto,31.06,877,80.53,32
+338,2025-09-21,21,Los Olivos,Av. Canta Callao,Despejado,Evento Deportivo,Bus,37.78,757,78.82,30
+339,2025-09-21,4,Los Olivos,Av. Canta Callao,Lluvia Intensa,Ninguno,Bus,9.38,630,78.74,60
+340,2025-09-22,2,Los Olivos,Av. Dominicos,Lluvia Intensa,Ninguno,Combi,37.33,418,45.0,20
+341,2025-09-22,0,Puente Piedra,Av. San Felipe,Lluvia Intensa,Ninguno,Combi,51.92,245,27.03,8
+342,2025-09-22,6,Carabayllo,Av. Canta Callao,Lluvia Ligera,Obras Viales,Bus,28.36,412,52.52,36
+343,2025-09-23,11,San Martin de Porres,Av. San Felipe,Lluvia Ligera,Accidente,Auto,41.04,478,47.83,26
+344,2025-09-23,8,Comas,Av. Canta Callao,Lluvia Intensa,Obras Viales,Bus,13.69,794,85.7,53
+345,2025-09-23,21,San Martin de Porres,Av. Canta Callao,Nublado,Obras Viales,Auto,17.18,319,50.62,42
+346,2025-09-24,22,Los Olivos,Av. Canta Callao,Nublado,Ninguno,Bus,29.9,341,53.75,21
+347,2025-09-24,22,San Martin de Porres,Av. Dominicos,Nublado,Obras Viales,Combi,13.43,544,80.48,60
+348,2025-09-24,2,Los Olivos,Av. Naranjal,Lluvia Intensa,Ninguno,Combi,16.71,899,96.04,68
+349,2025-09-25,21,Comas,Av. Naranjal,Despejado,Ninguno,Combi,51.61,705,59.22,8
+350,2025-09-25,21,Puente Piedra,Av. San Felipe,Nublado,Manifestacion,Camion,20.93,211,45.74,45
+351,2025-09-25,13,Carabayllo,Av. Canta Callao,Despejado,Manifestacion,Bus,39.24,758,73.17,38
+352,2025-09-26,23,Puente Piedra,Av. Dominicos,Nublado,Ninguno,Camion,42.96,640,64.37,19
+353,2025-09-26,20,Puente Piedra,Av. Naranjal,Lluvia Intensa,Ninguno,Combi,15.75,689,80.29,54
+354,2025-09-26,11,Puente Piedra,Av. Canta Callao,Despejado,Obras Viales,Combi,14.56,831,90.54,52
+355,2025-09-27,14,Independencia,Av. Naranjal,Nublado,Accidente,Camion,8.98,588,84.48,73
+356,2025-09-27,20,Los Olivos,Av. Canta Callao,Lluvia Ligera,Obras Viales,Bus,44.22,292,38.27,8
+357,2025-09-27,23,Puente Piedra,Av. Antunez de Mayolo,Despejado,Evento Deportivo,Bus,15.59,401,59.4,51
+358,2025-09-28,19,Los Olivos,Av. San Felipe,Lluvia Ligera,Manifestacion,Bus,28.05,850,83.66,35
+359,2025-09-28,11,Comas,Av. San Felipe,Lluvia Ligera,Ninguno,Bus,10.76,887,95.97,60
+360,2025-09-28,12,Puente Piedra,Av. Dominicos,Despejado,Ninguno,Auto,37.61,283,45.37,8
+361,2025-09-29,13,Los Olivos,Av. San Felipe,Lluvia Ligera,Evento Deportivo,Bus,34.98,842,83.9,27
+362,2025-09-29,18,Comas,Av. Naranjal,Nublado,Ninguno,Combi,49.23,567,52.81,23
+363,2025-09-29,11,Comas,Av. Dominicos,Despejado,Manifestacion,Auto,33.57,385,50.13,42
+364,2025-09-30,20,Puente Piedra,Av. Naranjal,Despejado,Manifestacion,Camion,25.87,578,64.36,49
+365,2025-09-30,16,Carabayllo,Av. Naranjal,Despejado,Obras Viales,Camion,10.83,612,77.32,79
+366,2025-09-30,11,Los Olivos,Av. Dominicos,Despejado,Evento Deportivo,Bus,19.88,689,70.11,43
+367,2025-10-01,13,Carabayllo,Av. Antunez de Mayolo,Lluvia Ligera,Evento Deportivo,Bus,27.14,806,83.58,44
+368,2025-10-01,11,Los Olivos,Av. Dominicos,Lluvia Intensa,Obras Viales,Bus,40.65,479,50.29,21
+369,2025-10-01,14,Puente Piedra,Av. Antunez de Mayolo,Nublado,Obras Viales,Camion,38.05,658,66.51,20
+370,2025-10-02,13,Carabayllo,Av. Canta Callao,Despejado,Ninguno,Combi,33.74,310,48.0,24
+371,2025-10-02,13,Los Olivos,Av. Canta Callao,Lluvia Intensa,Ninguno,Combi,46.12,711,70.22,13
+372,2025-10-02,10,Carabayllo,Av. Los Alisos,Nublado,Obras Viales,Bus,48.37,447,40.52,8
+373,2025-10-03,23,Los Olivos,Av. San Felipe,Despejado,Accidente,Combi,40.6,658,63.35,20
+374,2025-10-03,12,Puente Piedra,Av. Los Alisos,Nublado,Ninguno,Combi,53.2,569,60.01,12
+375,2025-10-03,22,Los Olivos,Av. Dominicos,Nublado,Obras Viales,Bus,18.46,843,82.96,61
+376,2025-10-04,12,San Martin de Porres,Av. Dominicos,Despejado,Obras Viales,Bus,28.9,679,72.12,33
+377,2025-10-04,22,Los Olivos,Av. Canta Callao,Despejado,Accidente,Camion,9.0,458,74.74,80
+378,2025-10-04,14,Puente Piedra,Av. Naranjal,Despejado,Ninguno,Auto,41.59,300,39.87,26
+379,2025-10-05,7,Puente Piedra,Av. San Felipe,Despejado,Obras Viales,Moto,42.4,708,70.61,33
+380,2025-10-05,20,Los Olivos,Av. Canta Callao,Lluvia Intensa,Obras Viales,Moto,12.53,759,85.67,63
+381,2025-10-05,22,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Ninguno,Auto,13.92,679,86.32,68
+382,2025-10-06,17,Carabayllo,Av. Antunez de Mayolo,Nublado,Accidente,Auto,46.34,538,49.65,8
+383,2025-10-06,21,Los Olivos,Av. San Felipe,Nublado,Manifestacion,Combi,51.7,650,55.81,12
+384,2025-10-06,22,Puente Piedra,Av. Dominicos,Lluvia Ligera,Ninguno,Camion,13.36,803,89.65,60
+385,2025-10-07,21,San Martin de Porres,Av. San Felipe,Nublado,Ninguno,Combi,52.98,447,44.39,8
+386,2025-10-07,1,Carabayllo,Av. Naranjal,Despejado,Ninguno,Bus,40.68,703,65.27,28
+387,2025-10-07,4,Carabayllo,Av. San Felipe,Lluvia Ligera,Ninguno,Camion,29.84,699,70.83,45
+388,2025-10-08,16,Los Olivos,Av. Canta Callao,Nublado,Accidente,Bus,9.41,806,85.37,77
+389,2025-10-08,12,Los Olivos,Av. Antunez de Mayolo,Despejado,Evento Deportivo,Bus,17.42,595,81.89,56
+390,2025-10-08,17,Puente Piedra,Av. Canta Callao,Despejado,Ninguno,Bus,21.87,669,73.6,64
+391,2025-10-09,23,Carabayllo,Av. San Felipe,Lluvia Ligera,Evento Deportivo,Bus,14.22,638,78.45,55
+392,2025-10-09,13,Los Olivos,Av. Los Alisos,Lluvia Ligera,Ninguno,Combi,24.02,849,91.21,35
+393,2025-10-09,13,Carabayllo,Av. Los Alisos,Despejado,Obras Viales,Auto,16.6,816,92.64,45
+394,2025-10-10,12,Carabayllo,Av. Naranjal,Nublado,Manifestacion,Bus,44.71,633,65.37,16
+395,2025-10-10,14,Carabayllo,Av. San Felipe,Nublado,Evento Deportivo,Bus,39.46,846,81.84,18
+396,2025-10-10,11,Puente Piedra,Av. Canta Callao,Lluvia Ligera,Evento Deportivo,Bus,34.54,270,40.02,34
+397,2025-10-11,12,Puente Piedra,Av. Canta Callao,Nublado,Ninguno,Bus,53.44,687,57.46,14
+398,2025-10-11,20,Los Olivos,Av. Los Alisos,Nublado,Ninguno,Camion,43.53,565,53.5,17
+399,2025-10-11,7,Puente Piedra,Av. San Felipe,Despejado,Accidente,Camion,33.0,644,65.63,22
+400,2025-10-12,0,Los Olivos,Av. Antunez de Mayolo,Lluvia Ligera,Ninguno,Combi,51.6,666,54.14,12
+401,2025-10-12,22,San Martin de Porres,Av. San Felipe,Lluvia Intensa,Accidente,Camion,39.57,883,85.28,25
+402,2025-10-12,4,Independencia,Av. Dominicos,Nublado,Ninguno,Camion,38.9,832,78.75,28
+403,2025-10-13,2,Carabayllo,Av. Dominicos,Despejado,Accidente,Auto,32.24,666,71.95,43
+404,2025-10-13,14,Los Olivos,Av. Antunez de Mayolo,Lluvia Ligera,Obras Viales,Camion,27.19,334,53.58,43
+405,2025-10-13,23,San Martin de Porres,Av. Canta Callao,Despejado,Ninguno,Auto,48.14,811,81.59,12
+406,2025-10-14,1,Comas,Av. San Felipe,Despejado,Obras Viales,Combi,49.08,333,36.73,9
+407,2025-10-14,12,Carabayllo,Av. San Felipe,Lluvia Ligera,Obras Viales,Bus,21.32,515,71.33,39
+408,2025-10-14,6,Puente Piedra,Av. Antunez de Mayolo,Nublado,Obras Viales,Moto,33.17,266,35.32,24
+409,2025-10-15,7,Puente Piedra,Av. Dominicos,Despejado,Ninguno,Bus,10.31,319,57.66,46
+410,2025-10-15,23,Comas,Av. Antunez de Mayolo,Despejado,Accidente,Auto,52.67,772,72.06,8
+411,2025-10-15,23,Independencia,Av. Dominicos,Nublado,Ninguno,Bus,19.79,758,85.33,54
+412,2025-10-16,19,Carabayllo,Av. Naranjal,Despejado,Ninguno,Bus,9.06,823,90.57,88
+413,2025-10-16,0,San Martin de Porres,Av. Naranjal,Lluvia Ligera,Obras Viales,Bus,25.48,729,73.42,56
+414,2025-10-16,4,Carabayllo,Av. Canta Callao,Despejado,Accidente,Camion,17.06,319,50.26,67
+415,2025-10-17,21,Los Olivos,Av. San Felipe,Despejado,Ninguno,Camion,19.68,264,50.58,47
+416,2025-10-17,23,Puente Piedra,Av. Antunez de Mayolo,Nublado,Ninguno,Bus,53.63,822,75.7,8
+417,2025-10-17,23,Carabayllo,Av. San Felipe,Lluvia Ligera,Obras Viales,Camion,37.58,503,57.65,24
+418,2025-10-18,13,Puente Piedra,Av. Dominicos,Nublado,Accidente,Bus,19.23,545,64.94,57
+419,2025-10-18,22,Los Olivos,Av. Canta Callao,Lluvia Intensa,Ninguno,Camion,46.18,493,49.36,16
+420,2025-10-18,12,Comas,Av. Los Alisos,Nublado,Obras Viales,Moto,16.57,768,91.01,52
+421,2025-10-19,20,Puente Piedra,Av. Canta Callao,Nublado,Obras Viales,Auto,40.02,220,32.67,24
+422,2025-10-19,12,Puente Piedra,Av. Antunez de Mayolo,Despejado,Obras Viales,Camion,30.63,852,84.55,38
+423,2025-10-19,14,Los Olivos,Av. Dominicos,Despejado,Ninguno,Auto,28.78,438,49.59,36
+424,2025-10-20,11,San Martin de Porres,Av. Antunez de Mayolo,Despejado,Manifestacion,Bus,40.04,393,47.1,15
+425,2025-10-20,13,Carabayllo,Av. Los Alisos,Lluvia Intensa,Manifestacion,Bus,20.88,489,63.52,54
+426,2025-10-20,8,Comas,Av. Naranjal,Lluvia Ligera,Ninguno,Moto,44.05,535,50.47,14
+427,2025-10-21,21,Independencia,Av. Dominicos,Despejado,Obras Viales,Auto,36.64,392,55.35,29
+428,2025-10-21,20,Los Olivos,Av. Dominicos,Lluvia Ligera,Obras Viales,Bus,26.6,548,67.32,43
+429,2025-10-21,3,Los Olivos,Av. Los Alisos,Despejado,Manifestacion,Camion,38.16,361,45.63,33
+430,2025-10-22,22,Carabayllo,Av. Dominicos,Despejado,Obras Viales,Camion,8.74,239,49.88,78
+431,2025-10-22,13,Carabayllo,Av. Dominicos,Lluvia Intensa,Accidente,Camion,48.97,760,71.29,13
+432,2025-10-22,15,Comas,Av. Los Alisos,Nublado,Ninguno,Auto,10.78,753,83.18,68
+433,2025-10-23,21,Los Olivos,Av. Naranjal,Despejado,Obras Viales,Bus,32.34,877,84.29,29
+434,2025-10-23,12,Puente Piedra,Av. Antunez de Mayolo,Lluvia Ligera,Ninguno,Camion,24.78,309,48.06,40
+435,2025-10-23,16,Puente Piedra,Av. Canta Callao,Lluvia Intensa,Obras Viales,Bus,49.59,472,48.53,8
+436,2025-10-24,10,Los Olivos,Av. Antunez de Mayolo,Despejado,Accidente,Bus,52.08,265,20.26,8
+437,2025-10-24,21,San Martin de Porres,Av. San Felipe,Nublado,Obras Viales,Auto,43.48,829,75.81,15
+438,2025-10-24,17,Los Olivos,Av. Canta Callao,Despejado,Obras Viales,Auto,36.66,671,68.75,34
+439,2025-10-25,13,Carabayllo,Av. Antunez de Mayolo,Nublado,Ninguno,Combi,49.72,438,42.11,8
+440,2025-10-25,18,San Martin de Porres,Av. San Felipe,Nublado,Obras Viales,Auto,54.12,749,55.54,8
+441,2025-10-25,20,Puente Piedra,Av. San Felipe,Lluvia Ligera,Ninguno,Camion,11.47,381,62.38,80
+442,2025-10-26,21,Independencia,Av. Naranjal,Nublado,Accidente,Auto,50.44,567,55.24,8
+443,2025-10-26,10,Puente Piedra,Av. Antunez de Mayolo,Lluvia Ligera,Ninguno,Combi,31.04,428,53.95,34
+444,2025-10-26,20,Puente Piedra,Av. Antunez de Mayolo,Despejado,Obras Viales,Moto,35.73,667,65.66,25
+445,2025-10-27,14,Los Olivos,Av. Antunez de Mayolo,Lluvia Ligera,Accidente,Bus,51.28,345,34.86,8
+446,2025-10-27,11,Los Olivos,Av. Canta Callao,Despejado,Evento Deportivo,Bus,14.55,434,70.2,70
+447,2025-10-27,22,Carabayllo,Av. Dominicos,Lluvia Ligera,Accidente,Auto,51.62,668,57.61,8
+448,2025-10-28,22,Los Olivos,Av. Dominicos,Lluvia Intensa,Ninguno,Combi,48.19,576,57.64,8
+449,2025-10-28,17,Puente Piedra,Av. Los Alisos,Despejado,Evento Deportivo,Camion,20.67,625,71.08,42
+450,2025-10-28,20,Comas,Av. Los Alisos,Despejado,Ninguno,Auto,18.17,713,83.64,64
+451,2025-10-29,21,Carabayllo,Av. Naranjal,Lluvia Ligera,Ninguno,Camion,20.5,743,82.73,64
+452,2025-10-29,13,Puente Piedra,Av. Naranjal,Lluvia Intensa,Ninguno,Bus,13.79,484,73.53,51
+453,2025-10-29,14,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Ninguno,Bus,12.98,391,66.7,66
+454,2025-10-30,5,Los Olivos,Av. Antunez de Mayolo,Despejado,Accidente,Combi,33.18,512,56.15,33
+455,2025-10-30,21,Puente Piedra,Av. Canta Callao,Lluvia Intensa,Ninguno,Camion,27.16,593,66.24,41
+456,2025-10-30,21,Los Olivos,Av. Dominicos,Despejado,Obras Viales,Camion,40.94,438,47.29,20
+457,2025-10-31,22,Los Olivos,Av. Canta Callao,Despejado,Obras Viales,Bus,38.4,284,42.08,19
+458,2025-10-31,21,Los Olivos,Av. Dominicos,Lluvia Ligera,Accidente,Bus,37.96,390,51.11,31
+459,2025-10-31,9,Carabayllo,Av. Dominicos,Lluvia Intensa,Ninguno,Bus,34.75,736,69.47,38
+460,2025-11-01,14,Comas,Av. Canta Callao,Nublado,Accidente,Bus,14.59,423,63.25,59
+461,2025-11-01,19,Carabayllo,Av. Naranjal,Lluvia Intensa,Ninguno,Moto,38.65,272,31.23,31
+462,2025-11-01,23,Carabayllo,Av. San Felipe,Despejado,Ninguno,Moto,32.84,768,72.74,34
+463,2025-11-02,22,Independencia,Av. San Felipe,Lluvia Ligera,Ninguno,Auto,51.88,629,57.62,8
+464,2025-11-02,12,San Martin de Porres,Av. Naranjal,Lluvia Intensa,Obras Viales,Camion,41.31,695,64.01,15
+465,2025-11-02,5,San Martin de Porres,Av. Naranjal,Lluvia Intensa,Manifestacion,Combi,9.26,314,54.22,64
+466,2025-11-03,22,Los Olivos,Av. San Felipe,Nublado,Accidente,Auto,8.7,409,57.99,72
+467,2025-11-03,11,Puente Piedra,Av. Naranjal,Nublado,Ninguno,Bus,45.89,398,43.92,19
+468,2025-11-03,13,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Accidente,Auto,46.82,258,30.09,21
+469,2025-11-04,23,Carabayllo,Av. Los Alisos,Lluvia Ligera,Manifestacion,Bus,17.01,792,91.17,68
+470,2025-11-04,21,San Martin de Porres,Av. Dominicos,Nublado,Accidente,Camion,40.29,490,56.47,31
+471,2025-11-04,14,Carabayllo,Av. Antunez de Mayolo,Nublado,Obras Viales,Combi,17.24,495,68.44,64
+472,2025-11-05,23,Carabayllo,Av. Naranjal,Lluvia Ligera,Obras Viales,Camion,51.3,870,74.35,24
+473,2025-11-05,3,Comas,Av. Naranjal,Lluvia Ligera,Accidente,Bus,11.72,514,63.63,71
+474,2025-11-05,22,Puente Piedra,Av. Canta Callao,Lluvia Intensa,Accidente,Auto,17.55,742,82.27,53
+475,2025-11-06,11,Comas,Av. San Felipe,Lluvia Ligera,Obras Viales,Camion,22.66,467,58.84,46
+476,2025-11-06,11,Puente Piedra,Av. San Felipe,Lluvia Intensa,Ninguno,Combi,36.1,267,45.98,38
+477,2025-11-06,11,Comas,Av. Antunez de Mayolo,Lluvia Intensa,Accidente,Bus,31.04,260,42.44,24
+478,2025-11-07,12,Puente Piedra,Av. Antunez de Mayolo,Lluvia Intensa,Obras Viales,Bus,14.67,297,60.35,64
+479,2025-11-07,9,Puente Piedra,Av. San Felipe,Nublado,Accidente,Combi,50.35,257,27.88,8
+480,2025-11-07,23,Carabayllo,Av. Naranjal,Nublado,Manifestacion,Camion,52.3,216,26.3,17
+481,2025-11-08,9,Los Olivos,Av. Canta Callao,Lluvia Intensa,Ninguno,Bus,20.9,724,77.09,56
+482,2025-11-08,19,Puente Piedra,Av. Antunez de Mayolo,Despejado,Ninguno,Bus,47.45,388,37.51,18
+483,2025-11-08,16,Los Olivos,Av. San Felipe,Lluvia Ligera,Accidente,Auto,13.08,377,53.56,65
+484,2025-11-09,14,Puente Piedra,Av. Los Alisos,Despejado,Obras Viales,Camion,30.54,661,77.94,37
+485,2025-11-09,12,Puente Piedra,Av. Dominicos,Nublado,Ninguno,Camion,43.59,819,82.22,20
+486,2025-11-09,21,Los Olivos,Av. Los Alisos,Nublado,Ninguno,Bus,44.71,746,77.5,29
+487,2025-11-10,3,Los Olivos,Av. San Felipe,Despejado,Evento Deportivo,Camion,9.77,221,52.66,71
+488,2025-11-10,11,Puente Piedra,Av. Canta Callao,Lluvia Ligera,Ninguno,Combi,23.4,656,76.02,48
+489,2025-11-10,10,Puente Piedra,Av. San Felipe,Despejado,Ninguno,Camion,25.46,471,58.29,40
+490,2025-11-11,17,Puente Piedra,Av. Canta Callao,Despejado,Accidente,Camion,49.94,444,50.42,11
+491,2025-11-11,13,San Martin de Porres,Av. San Felipe,Despejado,Ninguno,Camion,18.7,646,76.14,62
+492,2025-11-11,23,Puente Piedra,Av. Antunez de Mayolo,Despejado,Evento Deportivo,Camion,28.29,490,58.77,40
+493,2025-11-12,12,Carabayllo,Av. Canta Callao,Despejado,Ninguno,Bus,46.21,354,36.67,21
+494,2025-11-12,12,Puente Piedra,Av. Naranjal,Nublado,Ninguno,Bus,29.98,307,49.13,46
+495,2025-11-12,11,Los Olivos,Av. San Felipe,Lluvia Intensa,Manifestacion,Bus,28.41,315,47.02,29
+496,2025-11-13,12,Carabayllo,Av. San Felipe,Despejado,Ninguno,Camion,22.89,886,95.83,35
+497,2025-11-13,14,Los Olivos,Av. Canta Callao,Lluvia Intensa,Accidente,Moto,48.0,380,45.82,11
+498,2025-11-13,13,Los Olivos,Av. Canta Callao,Despejado,Ninguno,Combi,29.78,626,73.91,42
+499,2025-11-14,22,Puente Piedra,Av. Canta Callao,Nublado,Accidente,Camion,23.97,394,51.83,49
+500,2025-11-14,23,San Martin de Porres,Av. San Felipe,Lluvia Ligera,Evento Deportivo,Camion,36.28,261,34.85,30
+501,2025-11-14,13,Los Olivos,Av. Los Alisos,Nublado,Ninguno,Bus,14.1,376,61.01,55
+502,2025-11-15,17,Comas,Av. Naranjal,Lluvia Ligera,Ninguno,Bus,22.66,300,37.23,31
+503,2025-11-15,5,Los Olivos,Av. Naranjal,Lluvia Ligera,Ninguno,Moto,29.78,732,68.78,51
+504,2025-11-15,5,Los Olivos,Av. Antunez de Mayolo,Lluvia Intensa,Ninguno,Bus,38.14,469,45.67,16
+505,2025-11-16,1,Puente Piedra,Av. Canta Callao,Lluvia Ligera,Evento Deportivo,Combi,11.22,460,64.22,66
+506,2025-11-16,14,Puente Piedra,Av. Los Alisos,Nublado,Obras Viales,Auto,41.31,762,75.25,19
+507,2025-11-16,21,Carabayllo,Av. Los Alisos,Nublado,Ninguno,Bus,33.12,869,84.85,33
+508,2025-11-17,23,Carabayllo,Av. Los Alisos,Despejado,Ninguno,Bus,14.4,262,53.09,59
+509,2025-11-17,22,Carabayllo,Av. Naranjal,Lluvia Ligera,Obras Viales,Auto,15.93,279,50.51,55
+510,2025-11-17,14,Puente Piedra,Av. Los Alisos,Nublado,Accidente,Camion,21.39,815,91.71,47
+511,2025-11-18,7,Los Olivos,Av. Canta Callao,Lluvia Intensa,Ninguno,Bus,8.57,341,57.78,75
+512,2025-11-18,12,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Ninguno,Combi,36.71,581,63.65,14
+513,2025-11-18,14,San Martin de Porres,Av. Los Alisos,Lluvia Ligera,Ninguno,Auto,25.42,650,76.68,39
+514,2025-11-19,12,San Martin de Porres,Av. Canta Callao,Nublado,Ninguno,Bus,14.76,811,86.13,50
+515,2025-11-19,13,Puente Piedra,Av. Dominicos,Nublado,Evento Deportivo,Camion,36.96,877,82.42,11
+516,2025-11-19,11,Carabayllo,Av. Naranjal,Nublado,Accidente,Bus,31.75,458,57.12,21
+517,2025-11-20,14,Carabayllo,Av. Canta Callao,Despejado,Obras Viales,Camion,37.76,595,70.79,8
+518,2025-11-20,12,Comas,Av. Los Alisos,Lluvia Intensa,Evento Deportivo,Auto,51.61,352,41.44,19
+519,2025-11-20,20,Los Olivos,Av. Los Alisos,Despejado,Ninguno,Camion,48.26,549,47.68,10
+520,2025-11-21,12,Los Olivos,Av. San Felipe,Despejado,Manifestacion,Combi,27.25,339,49.72,43
+521,2025-11-21,20,Comas,Av. San Felipe,Lluvia Intensa,Ninguno,Bus,51.92,246,35.16,8
+522,2025-11-21,12,Puente Piedra,Av. Naranjal,Nublado,Obras Viales,Bus,53.31,779,69.28,12
+523,2025-11-22,11,Comas,Av. Dominicos,Nublado,Ninguno,Bus,46.93,817,75.19,23
+524,2025-11-22,20,Carabayllo,Av. Canta Callao,Nublado,Ninguno,Combi,51.97,537,47.38,8
+525,2025-11-22,11,Independencia,Av. Canta Callao,Despejado,Accidente,Bus,46.26,279,34.72,8
+526,2025-11-23,20,Los Olivos,Av. San Felipe,Nublado,Accidente,Bus,10.6,848,94.63,76
+527,2025-11-23,10,Puente Piedra,Av. Dominicos,Nublado,Obras Viales,Auto,32.38,548,58.88,40
+528,2025-11-23,12,Los Olivos,Av. Antunez de Mayolo,Lluvia Ligera,Obras Viales,Bus,20.62,607,76.2,62
+529,2025-11-24,14,Comas,Av. Canta Callao,Lluvia Ligera,Obras Viales,Bus,41.31,680,68.54,8
+530,2025-11-24,22,San Martin de Porres,Av. Dominicos,Nublado,Ninguno,Bus,49.82,675,64.38,8
+531,2025-11-24,10,Los Olivos,Av. San Felipe,Lluvia Ligera,Ninguno,Bus,46.16,317,32.72,21
+532,2025-11-25,22,Los Olivos,Av. Naranjal,Despejado,Accidente,Bus,27.74,271,48.82,30
+533,2025-11-25,16,San Martin de Porres,Av. Dominicos,Nublado,Accidente,Bus,51.73,606,50.43,8
+534,2025-11-25,12,Puente Piedra,Av. Los Alisos,Lluvia Intensa,Evento Deportivo,Camion,39.04,358,46.28,19
+535,2025-11-26,20,Carabayllo,Av. Dominicos,Nublado,Ninguno,Camion,28.43,872,87.81,36
+536,2025-11-26,16,Los Olivos,Av. Canta Callao,Nublado,Evento Deportivo,Camion,53.03,381,29.37,8
+537,2025-11-26,11,Los Olivos,Av. Dominicos,Lluvia Ligera,Obras Viales,Camion,26.54,632,68.18,56
+538,2025-11-27,11,Puente Piedra,Av. Canta Callao,Despejado,Ninguno,Auto,26.27,243,40.76,42
+539,2025-11-27,15,Puente Piedra,Av. Dominicos,Nublado,Ninguno,Camion,13.3,731,79.08,58
+540,2025-11-27,20,Carabayllo,Av. Antunez de Mayolo,Nublado,Obras Viales,Bus,34.27,558,57.91,30
+541,2025-11-28,20,Carabayllo,Av. San Felipe,Lluvia Intensa,Obras Viales,Camion,53.38,499,40.75,8
+542,2025-11-28,14,Puente Piedra,Av. Antunez de Mayolo,Despejado,Accidente,Combi,38.34,849,80.75,26
+543,2025-11-28,23,Independencia,Av. Antunez de Mayolo,Despejado,Ninguno,Auto,33.64,410,50.88,26
+544,2025-11-29,12,Independencia,Av. San Felipe,Nublado,Ninguno,Auto,33.68,247,41.41,31
+545,2025-11-29,23,Los Olivos,Av. Antunez de Mayolo,Nublado,Manifestacion,Camion,43.71,552,52.75,13
+546,2025-11-29,11,Los Olivos,Av. Naranjal,Lluvia Ligera,Ninguno,Combi,32.14,826,86.8,39
+547,2025-11-30,12,Comas,Av. Los Alisos,Lluvia Intensa,Obras Viales,Auto,52.07,726,72.14,8
+548,2025-11-30,4,Los Olivos,Av. Dominicos,Nublado,Ninguno,Camion,29.52,854,76.39,44
+549,2025-11-30,23,Independencia,Av. Antunez de Mayolo,Despejado,Accidente,Bus,42.43,362,48.83,16
+550,2025-12-01,22,Los Olivos,Av. San Felipe,Lluvia Ligera,Obras Viales,Auto,42.79,496,52.53,15
+551,2025-12-01,11,Comas,Av. Los Alisos,Despejado,Ninguno,Bus,50.77,278,34.92,14
+552,2025-12-01,9,Puente Piedra,Av. Canta Callao,Lluvia Intensa,Ninguno,Combi,29.61,855,82.66,41
+553,2025-12-02,12,Comas,Av. Dominicos,Nublado,Accidente,Bus,26.78,411,54.89,35
+554,2025-12-02,23,San Martin de Porres,Av. San Felipe,Lluvia Ligera,Obras Viales,Combi,24.89,677,71.19,48
+555,2025-12-02,13,San Martin de Porres,Av. Los Alisos,Lluvia Ligera,Ninguno,Bus,40.8,635,62.1,10
+556,2025-12-03,23,Carabayllo,Av. Canta Callao,Lluvia Ligera,Ninguno,Camion,26.22,504,55.62,27
+557,2025-12-03,18,San Martin de Porres,Av. Los Alisos,Despejado,Obras Viales,Auto,43.16,708,66.37,13
+558,2025-12-03,2,Independencia,Av. San Felipe,Despejado,Ninguno,Bus,23.8,743,77.36,39
+559,2025-12-04,20,Puente Piedra,Av. Dominicos,Lluvia Intensa,Ninguno,Camion,45.58,282,32.59,16
+560,2025-12-04,14,Los Olivos,Av. Dominicos,Lluvia Ligera,Ninguno,Moto,28.37,520,60.1,49
+561,2025-12-04,15,Comas,Av. Los Alisos,Nublado,Ninguno,Camion,43.12,673,62.0,13
+562,2025-12-05,22,Carabayllo,Av. San Felipe,Lluvia Ligera,Obras Viales,Camion,45.14,419,47.17,8
+563,2025-12-05,11,San Martin de Porres,Av. San Felipe,Despejado,Ninguno,Bus,8.48,233,52.71,70
+564,2025-12-05,3,San Martin de Porres,Av. Canta Callao,Despejado,Obras Viales,Combi,34.24,675,68.31,42
+565,2025-12-06,21,Los Olivos,Av. Naranjal,Despejado,Manifestacion,Bus,46.37,488,59.55,8
+566,2025-12-06,21,Comas,Av. Antunez de Mayolo,Despejado,Evento Deportivo,Auto,10.77,707,86.56,68
+567,2025-12-06,19,Carabayllo,Av. Los Alisos,Despejado,Ninguno,Camion,29.59,226,36.65,43
+568,2025-12-07,10,Los Olivos,Av. Naranjal,Lluvia Ligera,Ninguno,Auto,42.31,605,46.82,43
+569,2025-12-07,13,Los Olivos,Av. Naranjal,Lluvia Ligera,Obras Viales,Bus,28.12,822,86.58,35
+570,2025-12-07,16,Puente Piedra,Av. Canta Callao,Nublado,Manifestacion,Auto,21.38,348,57.27,51
+571,2025-12-08,10,Los Olivos,Av. Los Alisos,Nublado,Ninguno,Moto,20.71,761,75.92,60
+572,2025-12-08,14,Carabayllo,Av. Naranjal,Lluvia Intensa,Ninguno,Bus,54.9,485,45.66,8
+573,2025-12-08,11,Los Olivos,Av. Canta Callao,Despejado,Evento Deportivo,Camion,47.37,860,70.07,10
+574,2025-12-09,23,Carabayllo,Av. Los Alisos,Lluvia Intensa,Evento Deportivo,Bus,17.64,452,63.27,50
+575,2025-12-09,22,Puente Piedra,Av. Canta Callao,Despejado,Manifestacion,Bus,54.7,717,63.14,8
+576,2025-12-09,14,Independencia,Av. Canta Callao,Lluvia Ligera,Evento Deportivo,Combi,41.33,723,73.38,10
+577,2025-12-10,2,Los Olivos,Av. Antunez de Mayolo,Nublado,Ninguno,Bus,12.08,433,58.03,75
+578,2025-12-10,14,Los Olivos,Av. Canta Callao,Lluvia Ligera,Ninguno,Auto,19.9,645,78.24,51
+579,2025-12-10,8,Los Olivos,Av. Canta Callao,Despejado,Accidente,Camion,20.33,501,67.4,62
+580,2025-12-11,23,Independencia,Av. Canta Callao,Lluvia Ligera,Accidente,Camion,12.42,270,56.24,79
+581,2025-12-11,17,San Martin de Porres,Av. Canta Callao,Despejado,Evento Deportivo,Camion,33.32,597,60.33,25
+582,2025-12-11,16,Carabayllo,Av. Canta Callao,Despejado,Evento Deportivo,Bus,13.2,762,82.08,65
+583,2025-12-12,14,Carabayllo,Av. Naranjal,Despejado,Obras Viales,Moto,33.06,562,67.11,24
+584,2025-12-12,4,Los Olivos,Av. Los Alisos,Despejado,Ninguno,Camion,54.5,211,21.26,8
+585,2025-12-12,14,Comas,Av. Naranjal,Lluvia Ligera,Obras Viales,Camion,53.04,361,36.44,8
+586,2025-12-13,13,Puente Piedra,Av. Canta Callao,Lluvia Intensa,Accidente,Camion,16.88,375,61.07,69
+587,2025-12-13,22,Los Olivos,Av. Naranjal,Nublado,Manifestacion,Camion,34.1,434,58.02,36
+588,2025-12-13,12,San Martin de Porres,Av. Los Alisos,Lluvia Ligera,Obras Viales,Bus,45.19,470,50.84,8
+589,2025-12-14,9,Puente Piedra,Av. Naranjal,Lluvia Intensa,Obras Viales,Bus,28.71,695,72.98,52
+590,2025-12-14,11,San Martin de Porres,Av. Naranjal,Despejado,Accidente,Camion,11.68,625,75.04,57
+591,2025-12-14,11,San Martin de Porres,Av. Naranjal,Despejado,Obras Viales,Bus,36.31,784,80.24,21
+592,2025-12-15,15,Carabayllo,Av. Los Alisos,Lluvia Ligera,Obras Viales,Bus,46.03,590,48.74,22
+593,2025-12-15,21,Los Olivos,Av. Los Alisos,Lluvia Ligera,Ninguno,Bus,45.42,577,54.17,20
+594,2025-12-15,19,Carabayllo,Av. Antunez de Mayolo,Nublado,Manifestacion,Combi,50.98,593,52.54,8
+595,2025-12-16,18,Puente Piedra,Av. Antunez de Mayolo,Nublado,Manifestacion,Bus,18.01,862,87.44,74
+596,2025-12-16,14,Los Olivos,Av. Dominicos,Lluvia Intensa,Evento Deportivo,Combi,48.04,344,39.02,8
+597,2025-12-16,23,Independencia,Av. Naranjal,Lluvia Ligera,Obras Viales,Bus,20.14,331,47.79,54
+598,2025-12-17,12,Independencia,Av. Dominicos,Lluvia Ligera,Obras Viales,Combi,30.13,294,47.31,41
+599,2025-12-17,12,Los Olivos,Av. Canta Callao,Despejado,Obras Viales,Auto,25.86,452,59.88,44
+600,2025-12-17,8,Los Olivos,Av. Canta Callao,Despejado,Accidente,Camion,43.53,489,50.74,21
+601,2025-12-18,11,Los Olivos,Av. Naranjal,Nublado,Ninguno,Camion,8.19,325,54.93,58
+602,2025-12-18,11,Los Olivos,Av. Los Alisos,Nublado,Obras Viales,Camion,39.1,338,43.98,18
+603,2025-12-18,22,San Martin de Porres,Av. San Felipe,Despejado,Ninguno,Auto,32.56,409,55.13,36
+604,2025-12-19,22,San Martin de Porres,Av. Dominicos,Lluvia Ligera,Evento Deportivo,Bus,28.06,617,74.41,48
+605,2025-12-19,11,Puente Piedra,Av. Canta Callao,Nublado,Accidente,Camion,48.98,313,39.66,24
+606,2025-12-19,14,Puente Piedra,Av. Naranjal,Despejado,Ninguno,Bus,17.41,291,44.17,64
+607,2025-12-20,5,Carabayllo,Av. Canta Callao,Nublado,Evento Deportivo,Bus,27.3,855,77.44,40
+608,2025-12-20,1,Puente Piedra,Av. Antunez de Mayolo,Nublado,Accidente,Bus,28.07,743,78.48,37
+609,2025-12-20,12,Comas,Av. Antunez de Mayolo,Despejado,Obras Viales,Camion,13.1,204,49.0,65
+610,2025-12-21,20,Carabayllo,Av. Naranjal,Nublado,Obras Viales,Camion,40.8,424,50.87,14
+611,2025-12-21,21,Los Olivos,Av. Naranjal,Nublado,Evento Deportivo,Bus,53.39,319,27.86,9
+612,2025-12-21,10,Independencia,Av. San Felipe,Despejado,Manifestacion,Combi,17.61,395,53.43,56
+613,2025-12-22,1,Puente Piedra,Av. Antunez de Mayolo,Nublado,Ninguno,Camion,21.29,382,56.34,47
+614,2025-12-22,20,Puente Piedra,Av. Los Alisos,Nublado,Obras Viales,Auto,17.31,808,94.84,53
+615,2025-12-22,10,Comas,Av. Los Alisos,Nublado,Ninguno,Bus,40.14,310,36.97,18
+616,2025-12-23,23,Los Olivos,Av. Canta Callao,Despejado,Ninguno,Auto,48.24,322,37.76,10
+617,2025-12-23,7,Carabayllo,Av. Naranjal,Lluvia Intensa,Evento Deportivo,Bus,30.51,665,64.37,42
+618,2025-12-23,12,Carabayllo,Av. Antunez de Mayolo,Nublado,Ninguno,Bus,33.82,542,59.2,22
+619,2025-12-24,23,Los Olivos,Av. Los Alisos,Despejado,Evento Deportivo,Combi,36.34,550,53.73,30
+620,2025-12-24,1,San Martin de Porres,Av. Dominicos,Lluvia Ligera,Accidente,Moto,39.08,340,42.05,35
+621,2025-12-24,3,Carabayllo,Av. Dominicos,Despejado,Ninguno,Moto,44.76,229,18.77,22
+622,2025-12-25,4,Comas,Av. Los Alisos,Nublado,Obras Viales,Camion,54.34,803,65.68,10
+623,2025-12-25,4,San Martin de Porres,Av. San Felipe,Nublado,Manifestacion,Bus,28.83,239,38.93,30
+624,2025-12-25,9,Los Olivos,Av. Canta Callao,Nublado,Ninguno,Bus,10.67,673,78.87,73
+625,2025-12-26,22,Los Olivos,Av. Naranjal,Nublado,Obras Viales,Combi,40.48,733,66.03,32
+626,2025-12-26,13,Puente Piedra,Av. San Felipe,Despejado,Obras Viales,Camion,15.87,351,59.89,56
+627,2025-12-26,1,Los Olivos,Av. Canta Callao,Lluvia Intensa,Accidente,Combi,51.39,680,61.32,10
+628,2025-12-27,18,Puente Piedra,Av. Canta Callao,Nublado,Ninguno,Bus,42.29,582,61.77,19
+629,2025-12-27,21,Los Olivos,Av. Antunez de Mayolo,Nublado,Ninguno,Auto,23.45,265,46.8,45
+630,2025-12-27,12,San Martin de Porres,Av. Canta Callao,Lluvia Intensa,Obras Viales,Bus,12.33,833,90.6,61
+631,2025-12-28,11,San Martin de Porres,Av. Dominicos,Despejado,Ninguno,Bus,41.48,484,62.11,27
+632,2025-12-28,22,Carabayllo,Av. Antunez de Mayolo,Despejado,Manifestacion,Camion,40.56,762,69.8,15
+633,2025-12-28,22,Los Olivos,Av. San Felipe,Despejado,Obras Viales,Auto,53.13,760,73.7,8
+634,2025-12-29,14,Independencia,Av. San Felipe,Despejado,Ninguno,Bus,14.91,632,86.93,47
+635,2025-12-29,8,Comas,Av. Los Alisos,Lluvia Ligera,Ninguno,Auto,21.25,529,58.61,52
+636,2025-12-29,11,Puente Piedra,Av. Los Alisos,Despejado,Obras Viales,Camion,30.79,532,60.82,22
+637,2025-12-30,23,Carabayllo,Av. Naranjal,Despejado,Accidente,Auto,28.42,216,42.92,42
+638,2025-12-30,21,Los Olivos,Av. Los Alisos,Lluvia Intensa,Ninguno,Camion,10.86,677,85.07,60
+639,2025-12-30,14,Puente Piedra,Av. Dominicos,Lluvia Ligera,Evento Deportivo,Auto,35.42,416,52.35,25
+640,2025-12-31,14,Puente Piedra,Av. Canta Callao,Despejado,Ninguno,Bus,19.34,589,76.59,67
+641,2025-12-31,23,Puente Piedra,Av. Canta Callao,Despejado,Ninguno,Moto,11.9,878,90.38,67
+642,2025-12-31,13,Los Olivos,Av. Canta Callao,Nublado,Manifestacion,Auto,28.97,867,92.0,52
+643,2026-01-01,8,Puente Piedra,Av. Los Alisos,Lluvia Intensa,Evento Deportivo,Bus,35.39,220,33.71,38
+644,2026-01-01,21,Los Olivos,Av. Dominicos,Nublado,Ninguno,Bus,37.24,270,36.76,12
+645,2026-01-01,13,Los Olivos,Av. Canta Callao,Despejado,Manifestacion,Camion,37.24,705,68.23,14
+646,2026-01-02,12,Los Olivos,Av. San Felipe,Nublado,Ninguno,Auto,42.4,810,77.57,14
+647,2026-01-02,21,Los Olivos,Av. Dominicos,Lluvia Ligera,Ninguno,Bus,9.69,589,73.49,83
+648,2026-01-02,13,Los Olivos,Av. San Felipe,Despejado,Obras Viales,Camion,12.83,664,81.8,56
+649,2026-01-03,23,Los Olivos,Av. Naranjal,Lluvia Ligera,Obras Viales,Bus,29.54,733,74.61,24
+650,2026-01-03,14,Los Olivos,Av. Naranjal,Despejado,Ninguno,Bus,27.25,310,51.98,41
+651,2026-01-03,15,Independencia,Av. Naranjal,Lluvia Ligera,Ninguno,Camion,10.46,471,67.24,68
+652,2026-01-04,13,Los Olivos,Av. Dominicos,Despejado,Obras Viales,Auto,31.18,652,69.06,37
+653,2026-01-04,9,Puente Piedra,Av. San Felipe,Lluvia Intensa,Ninguno,Camion,36.43,539,56.91,29
+654,2026-01-04,22,Puente Piedra,Av. Canta Callao,Nublado,Obras Viales,Camion,35.42,454,59.81,34
+655,2026-01-05,11,Carabayllo,Av. Los Alisos,Nublado,Ninguno,Moto,15.18,343,57.06,53
+656,2026-01-05,22,Carabayllo,Av. Los Alisos,Despejado,Obras Viales,Camion,44.07,392,44.26,17
+657,2026-01-05,10,Puente Piedra,Av. Los Alisos,Nublado,Ninguno,Bus,14.43,407,64.33,57
+658,2026-01-06,21,Puente Piedra,Av. Antunez de Mayolo,Despejado,Accidente,Moto,26.12,348,57.82,32
+659,2026-01-06,20,San Martin de Porres,Av. Los Alisos,Despejado,Ninguno,Camion,34.83,578,67.36,22
+660,2026-01-06,11,Puente Piedra,Av. Canta Callao,Lluvia Intensa,Obras Viales,Combi,17.62,413,56.29,66
+661,2026-01-07,23,Independencia,Av. Antunez de Mayolo,Nublado,Ninguno,Moto,15.95,846,92.45,43
+662,2026-01-07,9,Los Olivos,Av. Dominicos,Despejado,Ninguno,Bus,24.09,760,74.04,56
+663,2026-01-07,23,Carabayllo,Av. Naranjal,Despejado,Ninguno,Combi,8.67,630,90.33,63
+664,2026-01-08,10,Carabayllo,Av. Canta Callao,Nublado,Accidente,Bus,8.04,465,63.14,74
+665,2026-01-08,16,San Martin de Porres,Av. Canta Callao,Despejado,Ninguno,Bus,22.97,321,47.29,43
+666,2026-01-08,13,San Martin de Porres,Av. San Felipe,Lluvia Ligera,Accidente,Bus,31.79,474,54.72,51
+667,2026-01-09,13,Los Olivos,Av. Los Alisos,Despejado,Accidente,Combi,50.41,349,38.86,9
+668,2026-01-09,11,Los Olivos,Av. Dominicos,Despejado,Ninguno,Auto,27.07,862,89.27,48
+669,2026-01-09,14,Los Olivos,Av. Dominicos,Lluvia Intensa,Obras Viales,Combi,12.44,763,87.52,58
+670,2026-01-10,5,Carabayllo,Av. Los Alisos,Nublado,Ninguno,Camion,42.12,722,65.11,8
+671,2026-01-10,21,Los Olivos,Av. San Felipe,Despejado,Obras Viales,Bus,12.83,380,62.45,65
+672,2026-01-10,15,Los Olivos,Av. Los Alisos,Despejado,Accidente,Auto,13.6,402,61.11,66
+673,2026-01-11,22,Los Olivos,Av. San Felipe,Nublado,Ninguno,Auto,43.8,275,33.16,30
+674,2026-01-11,2,Comas,Av. Dominicos,Lluvia Ligera,Ninguno,Moto,20.41,594,66.09,52
+675,2026-01-11,3,Puente Piedra,Av. Antunez de Mayolo,Lluvia Intensa,Accidente,Moto,51.26,617,50.86,8
+676,2026-01-12,11,Comas,Av. Los Alisos,Lluvia Intensa,Manifestacion,Camion,20.71,332,59.1,49
+677,2026-01-12,22,Los Olivos,Av. San Felipe,Lluvia Ligera,Evento Deportivo,Bus,44.84,743,71.22,13
+678,2026-01-12,14,Carabayllo,Av. San Felipe,Lluvia Ligera,Ninguno,Camion,19.07,851,89.81,54
+679,2026-01-13,14,Puente Piedra,Av. Canta Callao,Lluvia Ligera,Evento Deportivo,Combi,29.28,672,67.25,40
+680,2026-01-13,20,Comas,Av. Antunez de Mayolo,Lluvia Ligera,Obras Viales,Auto,37.67,292,38.42,24
+681,2026-01-13,8,Carabayllo,Av. Los Alisos,Lluvia Ligera,Ninguno,Combi,45.17,358,36.21,14
+682,2026-01-14,23,Comas,Av. Naranjal,Lluvia Intensa,Accidente,Bus,31.0,743,78.73,39
+683,2026-01-14,20,Los Olivos,Av. Antunez de Mayolo,Despejado,Ninguno,Auto,21.67,420,66.09,53
+684,2026-01-14,23,Puente Piedra,Av. Los Alisos,Nublado,Evento Deportivo,Bus,8.11,514,65.7,82
+685,2026-01-15,11,Puente Piedra,Av. Antunez de Mayolo,Despejado,Ninguno,Auto,20.81,850,92.44,59
+686,2026-01-15,17,Carabayllo,Av. Naranjal,Lluvia Ligera,Manifestacion,Bus,47.86,858,72.74,8
+687,2026-01-15,11,Comas,Av. Dominicos,Lluvia Ligera,Evento Deportivo,Bus,27.77,815,84.73,32
+688,2026-01-16,18,Los Olivos,Av. Los Alisos,Lluvia Ligera,Manifestacion,Moto,24.6,565,63.71,39
+689,2026-01-16,15,Puente Piedra,Av. Dominicos,Nublado,Accidente,Auto,32.1,515,56.66,42
+690,2026-01-16,7,Puente Piedra,Av. Canta Callao,Lluvia Ligera,Obras Viales,Camion,13.7,337,53.65,77
+691,2026-01-17,4,Los Olivos,Av. Canta Callao,Nublado,Ninguno,Moto,25.65,499,60.28,52
+692,2026-01-17,14,San Martin de Porres,Av. Antunez de Mayolo,Lluvia Ligera,Obras Viales,Moto,17.2,860,95.64,66
+693,2026-01-17,13,Puente Piedra,Av. Naranjal,Lluvia Intensa,Ninguno,Moto,42.34,666,68.14,23
+694,2026-01-18,23,Carabayllo,Av. San Felipe,Lluvia Ligera,Evento Deportivo,Combi,46.98,888,75.36,8
+695,2026-01-18,21,Los Olivos,Av. Canta Callao,Lluvia Ligera,Ninguno,Bus,27.07,599,72.01,42
+696,2026-01-18,13,Los Olivos,Av. Antunez de Mayolo,Lluvia Ligera,Accidente,Combi,43.12,513,53.92,29
+697,2026-01-19,13,Carabayllo,Av. San Felipe,Lluvia Ligera,Accidente,Moto,51.33,775,70.78,11
+698,2026-01-19,20,Puente Piedra,Av. Naranjal,Nublado,Ninguno,Bus,51.41,706,57.38,8
+699,2026-01-19,22,San Martin de Porres,Av. Antunez de Mayolo,Lluvia Intensa,Ninguno,Auto,23.82,333,53.78,49
+700,2026-01-20,12,Puente Piedra,Av. Naranjal,Lluvia Ligera,Accidente,Camion,29.55,758,81.56,41
+701,2026-01-20,13,Los Olivos,Av. Los Alisos,Nublado,Ninguno,Moto,11.12,203,54.83,64
+702,2026-01-20,22,San Martin de Porres,Av. Naranjal,Lluvia Intensa,Accidente,Camion,13.44,576,63.96,65
+703,2026-01-21,21,Independencia,Av. Naranjal,Despejado,Accidente,Camion,28.17,877,87.42,28
+704,2026-01-21,16,San Martin de Porres,Av. Los Alisos,Lluvia Intensa,Ninguno,Moto,30.41,406,43.7,41
+705,2026-01-21,5,Carabayllo,Av. Canta Callao,Lluvia Ligera,Manifestacion,Bus,42.93,383,43.51,9
+706,2026-01-22,22,Los Olivos,Av. Antunez de Mayolo,Lluvia Intensa,Ninguno,Camion,32.94,645,64.72,33
+707,2026-01-22,23,Carabayllo,Av. San Felipe,Lluvia Ligera,Ninguno,Bus,18.65,801,90.52,52
+708,2026-01-22,17,San Martin de Porres,Av. Canta Callao,Lluvia Ligera,Obras Viales,Camion,18.89,443,57.64,55
+709,2026-01-23,10,Los Olivos,Av. Los Alisos,Lluvia Ligera,Ninguno,Auto,41.22,802,69.72,24
+710,2026-01-23,13,Carabayllo,Av. San Felipe,Despejado,Manifestacion,Camion,17.5,760,90.43,49
+711,2026-01-23,12,Puente Piedra,Av. San Felipe,Nublado,Ninguno,Auto,24.47,556,69.31,52
+712,2026-01-24,0,Carabayllo,Av. Antunez de Mayolo,Lluvia Ligera,Ninguno,Bus,51.61,725,61.18,14
+713,2026-01-24,16,Los Olivos,Av. San Felipe,Despejado,Obras Viales,Camion,49.49,790,59.37,11
+714,2026-01-24,16,Los Olivos,Av. Naranjal,Lluvia Ligera,Accidente,Combi,51.11,897,79.5,8
+715,2026-01-25,15,Puente Piedra,Av. Canta Callao,Nublado,Obras Viales,Camion,31.32,411,46.35,32
+716,2026-01-25,10,Los Olivos,Av. Canta Callao,Despejado,Ninguno,Bus,9.63,434,62.55,58
+717,2026-01-25,21,Carabayllo,Av. Los Alisos,Lluvia Intensa,Ninguno,Auto,22.42,847,97.53,54
+718,2026-01-26,22,Los Olivos,Av. Dominicos,Lluvia Intensa,Obras Viales,Camion,47.47,591,59.28,19
+719,2026-01-26,11,Puente Piedra,Av. Dominicos,Despejado,Manifestacion,Auto,52.02,552,48.42,14
+720,2026-01-26,6,San Martin de Porres,Av. Canta Callao,Nublado,Obras Viales,Bus,50.12,590,52.5,12
+721,2026-01-27,11,Los Olivos,Av. Antunez de Mayolo,Lluvia Intensa,Accidente,Bus,49.91,721,65.1,8
+722,2026-01-27,22,Puente Piedra,Av. Canta Callao,Lluvia Ligera,Obras Viales,Bus,47.52,864,69.91,27
+723,2026-01-27,11,San Martin de Porres,Av. Antunez de Mayolo,Lluvia Ligera,Manifestacion,Auto,21.48,682,87.47,39
+724,2026-01-28,2,Independencia,Av. Los Alisos,Lluvia Intensa,Manifestacion,Bus,51.28,219,22.88,9
+725,2026-01-28,14,Comas,Av. Antunez de Mayolo,Despejado,Ninguno,Bus,32.86,203,42.0,43
+726,2026-01-28,11,Los Olivos,Av. Naranjal,Nublado,Evento Deportivo,Camion,8.19,475,73.7,64
+727,2026-01-29,13,San Martin de Porres,Av. Antunez de Mayolo,Despejado,Ninguno,Combi,49.8,411,41.92,20
+728,2026-01-29,14,Carabayllo,Av. Antunez de Mayolo,Nublado,Ninguno,Camion,11.81,355,57.53,46
+729,2026-01-29,20,Comas,Av. Los Alisos,Nublado,Accidente,Camion,30.85,782,72.34,50
+730,2026-01-30,12,Carabayllo,Av. Antunez de Mayolo,Despejado,Manifestacion,Bus,8.03,525,75.58,68
+731,2026-01-30,11,Carabayllo,Av. Antunez de Mayolo,Lluvia Ligera,Accidente,Camion,33.23,201,40.04,37
+732,2026-01-30,0,Los Olivos,Av. San Felipe,Lluvia Intensa,Manifestacion,Bus,28.34,812,78.4,38
+733,2026-01-31,12,Los Olivos,Av. San Felipe,Nublado,Evento Deportivo,Bus,32.9,438,51.66,26
+734,2026-01-31,14,Puente Piedra,Av. San Felipe,Nublado,Accidente,Combi,18.04,641,82.07,49
+735,2026-01-31,22,Carabayllo,Av. Antunez de Mayolo,Despejado,Accidente,Auto,45.5,455,53.87,10
+736,2026-02-01,16,Carabayllo,Av. Dominicos,Lluvia Ligera,Ninguno,Auto,29.99,821,78.76,42
+737,2026-02-01,15,San Martin de Porres,Av. Naranjal,Lluvia Ligera,Ninguno,Bus,49.04,882,73.54,8
+738,2026-02-01,12,Carabayllo,Av. Dominicos,Nublado,Ninguno,Camion,52.11,275,21.81,8
+739,2026-02-02,22,Los Olivos,Av. Antunez de Mayolo,Despejado,Evento Deportivo,Bus,37.86,214,36.17,9
+740,2026-02-02,11,Los Olivos,Av. Naranjal,Nublado,Accidente,Bus,31.58,366,51.63,26
+741,2026-02-02,13,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Ninguno,Camion,25.99,697,81.15,48
+742,2026-02-03,18,Comas,Av. Naranjal,Lluvia Ligera,Ninguno,Auto,47.09,297,35.94,22
+743,2026-02-03,3,Carabayllo,Av. Canta Callao,Lluvia Ligera,Ninguno,Moto,39.73,219,21.68,12
+744,2026-02-03,11,Los Olivos,Av. Canta Callao,Lluvia Intensa,Evento Deportivo,Camion,36.56,760,77.05,24
+745,2026-02-04,11,Los Olivos,Av. Naranjal,Nublado,Ninguno,Bus,39.11,803,89.47,23
+746,2026-02-04,17,San Martin de Porres,Av. Naranjal,Nublado,Manifestacion,Moto,10.74,406,49.58,77
+747,2026-02-04,6,Puente Piedra,Av. Antunez de Mayolo,Lluvia Intensa,Accidente,Auto,39.74,616,61.1,24
+748,2026-02-05,11,Los Olivos,Av. Dominicos,Despejado,Accidente,Bus,42.78,537,61.41,9
+749,2026-02-05,23,Carabayllo,Av. Dominicos,Despejado,Manifestacion,Moto,48.58,211,34.36,13
+750,2026-02-05,22,Carabayllo,Av. Antunez de Mayolo,Lluvia Intensa,Ninguno,Bus,37.87,463,53.73,14
+751,2026-02-06,12,Los Olivos,Av. Naranjal,Despejado,Accidente,Auto,12.14,594,75.33,57
+752,2026-02-06,23,Carabayllo,Av. Antunez de Mayolo,Lluvia Intensa,Obras Viales,Camion,50.85,315,32.39,8
+753,2026-02-06,14,Comas,Av. Antunez de Mayolo,Nublado,Obras Viales,Bus,15.4,630,78.16,53
+754,2026-02-07,9,Comas,Av. Canta Callao,Lluvia Ligera,Ninguno,Camion,15.82,569,66.17,53
+755,2026-02-07,14,Puente Piedra,Av. Los Alisos,Nublado,Obras Viales,Auto,46.13,677,72.63,8
+756,2026-02-07,12,Carabayllo,Av. Antunez de Mayolo,Nublado,Obras Viales,Camion,39.62,583,65.08,24
+757,2026-02-08,22,Puente Piedra,Av. San Felipe,Lluvia Ligera,Obras Viales,Camion,38.87,593,66.67,31
+758,2026-02-08,4,Los Olivos,Av. Naranjal,Despejado,Ninguno,Auto,29.95,780,75.33,43
+759,2026-02-08,15,Puente Piedra,Av. Canta Callao,Lluvia Ligera,Evento Deportivo,Bus,16.38,501,61.42,66
+760,2026-02-09,20,Puente Piedra,Av. San Felipe,Lluvia Ligera,Ninguno,Auto,16.76,540,67.87,46
+761,2026-02-09,18,Carabayllo,Av. Los Alisos,Despejado,Ninguno,Camion,49.91,370,31.76,16
+762,2026-02-09,18,Carabayllo,Av. Naranjal,Lluvia Intensa,Ninguno,Auto,44.66,834,71.77,8
+763,2026-02-10,13,Los Olivos,Av. Antunez de Mayolo,Nublado,Ninguno,Bus,29.22,432,63.39,26
+764,2026-02-10,20,Los Olivos,Av. Canta Callao,Despejado,Manifestacion,Bus,27.29,875,91.69,49
+765,2026-02-10,17,Puente Piedra,Av. San Felipe,Nublado,Ninguno,Auto,24.91,643,61.75,47
+766,2026-02-11,8,Puente Piedra,Av. San Felipe,Nublado,Manifestacion,Bus,36.41,316,38.26,27
+767,2026-02-11,7,Los Olivos,Av. Dominicos,Nublado,Ninguno,Camion,41.27,800,76.14,24
+768,2026-02-11,10,Carabayllo,Av. Canta Callao,Nublado,Manifestacion,Camion,42.31,782,74.38,11
+769,2026-02-12,7,Puente Piedra,Av. Dominicos,Lluvia Ligera,Ninguno,Camion,19.32,312,44.66,52
+770,2026-02-12,10,Los Olivos,Av. Naranjal,Lluvia Intensa,Accidente,Combi,41.34,500,51.35,11
+771,2026-02-12,19,San Martin de Porres,Av. Antunez de Mayolo,Lluvia Ligera,Ninguno,Bus,49.78,387,41.13,8
+772,2026-02-13,20,Los Olivos,Av. Dominicos,Lluvia Ligera,Ninguno,Combi,23.88,661,79.83,52
+773,2026-02-13,11,Los Olivos,Av. Antunez de Mayolo,Lluvia Ligera,Obras Viales,Camion,37.48,601,64.13,21
+774,2026-02-13,20,Carabayllo,Av. San Felipe,Nublado,Obras Viales,Combi,38.71,546,54.12,15
+775,2026-02-14,9,San Martin de Porres,Av. Canta Callao,Nublado,Obras Viales,Moto,50.29,623,58.77,8
+776,2026-02-14,6,Puente Piedra,Av. Antunez de Mayolo,Lluvia Ligera,Ninguno,Bus,52.85,768,62.26,8
+777,2026-02-14,10,Puente Piedra,Av. Dominicos,Nublado,Ninguno,Bus,30.22,865,85.41,38
+778,2026-02-15,16,Carabayllo,Av. San Felipe,Despejado,Ninguno,Auto,50.13,329,30.48,8
+779,2026-02-15,21,Comas,Av. Los Alisos,Nublado,Accidente,Auto,28.1,333,55.6,50
+780,2026-02-15,22,Los Olivos,Av. Antunez de Mayolo,Lluvia Intensa,Manifestacion,Camion,43.37,774,71.71,19
+781,2026-02-16,11,Puente Piedra,Av. Antunez de Mayolo,Lluvia Ligera,Ninguno,Bus,25.53,330,54.42,48
+782,2026-02-16,11,Puente Piedra,Av. Canta Callao,Lluvia Intensa,Ninguno,Moto,22.42,467,59.66,57
+783,2026-02-16,20,San Martin de Porres,Av. Dominicos,Nublado,Obras Viales,Camion,29.11,718,79.03,34
+784,2026-02-17,10,Puente Piedra,Av. Dominicos,Nublado,Accidente,Camion,47.22,418,38.11,15
+785,2026-02-17,11,Puente Piedra,Av. Dominicos,Nublado,Ninguno,Camion,46.68,898,86.63,16
+786,2026-02-17,21,San Martin de Porres,Av. San Felipe,Nublado,Ninguno,Camion,25.32,250,45.22,45
+787,2026-02-18,14,Carabayllo,Av. Los Alisos,Despejado,Accidente,Camion,53.33,423,49.01,8
+788,2026-02-18,13,Puente Piedra,Av. Antunez de Mayolo,Nublado,Ninguno,Auto,10.78,647,85.98,72
+789,2026-02-18,14,Puente Piedra,Av. Dominicos,Nublado,Ninguno,Bus,19.8,608,71.37,63
+790,2026-02-19,20,Los Olivos,Av. San Felipe,Despejado,Obras Viales,Moto,21.28,838,92.73,54
+791,2026-02-19,16,San Martin de Porres,Av. Canta Callao,Despejado,Obras Viales,Bus,25.14,746,80.43,46
+792,2026-02-19,11,Los Olivos,Av. Los Alisos,Lluvia Intensa,Ninguno,Combi,29.73,521,66.81,42
+793,2026-02-20,14,Puente Piedra,Av. Canta Callao,Nublado,Accidente,Camion,53.56,386,35.89,8
+794,2026-02-20,12,Puente Piedra,Av. Dominicos,Nublado,Ninguno,Combi,44.77,334,45.72,23
+795,2026-02-20,23,Los Olivos,Av. Naranjal,Despejado,Evento Deportivo,Camion,43.62,614,60.92,16
+796,2026-02-21,20,San Martin de Porres,Av. San Felipe,Nublado,Ninguno,Auto,11.05,494,67.19,70
+797,2026-02-21,4,Los Olivos,Av. San Felipe,Despejado,Ninguno,Camion,22.96,838,80.94,51
+798,2026-02-21,9,Puente Piedra,Av. Antunez de Mayolo,Despejado,Obras Viales,Camion,19.99,203,37.68,53
+799,2026-02-22,6,Carabayllo,Av. Los Alisos,Lluvia Ligera,Obras Viales,Bus,37.7,310,43.75,27
+800,2026-02-22,14,San Martin de Porres,Av. Dominicos,Nublado,Manifestacion,Camion,50.41,797,65.29,10
+801,2026-02-22,21,Carabayllo,Av. San Felipe,Lluvia Intensa,Manifestacion,Camion,23.23,746,81.6,37
+802,2026-02-23,14,Puente Piedra,Av. Los Alisos,Lluvia Intensa,Obras Viales,Bus,43.55,260,34.94,12
+803,2026-02-23,9,Puente Piedra,Av. Dominicos,Lluvia Ligera,Ninguno,Bus,30.48,681,72.46,44
+804,2026-02-23,0,Puente Piedra,Av. San Felipe,Lluvia Intensa,Obras Viales,Bus,27.0,596,59.19,45
+805,2026-02-24,14,Independencia,Av. San Felipe,Despejado,Obras Viales,Auto,11.75,537,71.64,58
+806,2026-02-24,13,Puente Piedra,Av. Antunez de Mayolo,Nublado,Manifestacion,Auto,38.05,490,53.89,16
+807,2026-02-24,12,Carabayllo,Av. San Felipe,Lluvia Intensa,Accidente,Moto,52.13,227,34.73,8
+808,2026-02-25,4,San Martin de Porres,Av. San Felipe,Lluvia Ligera,Evento Deportivo,Combi,53.86,700,60.34,8
+809,2026-02-25,22,Puente Piedra,Av. San Felipe,Nublado,Ninguno,Moto,51.43,441,41.86,14
+810,2026-02-25,22,Comas,Av. Canta Callao,Lluvia Ligera,Manifestacion,Auto,12.11,847,91.8,72
+811,2026-02-26,15,San Martin de Porres,Av. Dominicos,Lluvia Ligera,Ninguno,Bus,46.0,518,44.96,8
+812,2026-02-26,12,Carabayllo,Av. Antunez de Mayolo,Nublado,Ninguno,Camion,14.47,280,58.33,65
+813,2026-02-26,23,Los Olivos,Av. Dominicos,Nublado,Obras Viales,Camion,43.37,490,51.26,13
+814,2026-02-27,7,Comas,Av. Los Alisos,Lluvia Ligera,Ninguno,Bus,20.75,708,73.88,66
+815,2026-02-27,5,San Martin de Porres,Av. Dominicos,Nublado,Ninguno,Bus,13.59,727,82.99,63
+816,2026-02-27,18,Carabayllo,Av. Los Alisos,Nublado,Ninguno,Combi,40.29,868,74.6,27
+817,2026-02-28,3,Carabayllo,Av. San Felipe,Despejado,Manifestacion,Auto,16.56,384,54.1,56
+818,2026-02-28,18,Los Olivos,Av. Naranjal,Lluvia Ligera,Accidente,Bus,36.51,619,59.99,27
+819,2026-02-28,11,Los Olivos,Av. Antunez de Mayolo,Despejado,Ninguno,Combi,11.42,628,81.47,74
+820,2026-03-01,16,Carabayllo,Av. Dominicos,Nublado,Accidente,Bus,52.12,659,55.84,8
+821,2026-03-01,13,Los Olivos,Av. Los Alisos,Despejado,Evento Deportivo,Bus,24.06,422,61.98,54
+822,2026-03-01,20,Los Olivos,Av. Dominicos,Nublado,Manifestacion,Camion,21.78,476,67.14,43
+823,2026-03-02,20,Comas,Av. Canta Callao,Nublado,Accidente,Camion,48.59,733,68.0,12
+824,2026-03-02,23,Independencia,Av. San Felipe,Despejado,Obras Viales,Auto,24.96,283,41.79,44
+825,2026-03-02,12,Comas,Av. Antunez de Mayolo,Despejado,Manifestacion,Camion,35.24,757,78.87,25
+826,2026-03-03,20,Puente Piedra,Av. Canta Callao,Lluvia Intensa,Ninguno,Auto,50.56,217,20.92,19
+827,2026-03-03,11,Puente Piedra,Av. Los Alisos,Nublado,Obras Viales,Bus,31.54,463,60.15,27
+828,2026-03-03,22,Carabayllo,Av. Antunez de Mayolo,Lluvia Ligera,Ninguno,Auto,51.43,691,60.38,8
+829,2026-03-04,12,Puente Piedra,Av. Naranjal,Nublado,Obras Viales,Auto,52.55,594,52.23,12
+830,2026-03-04,14,Carabayllo,Av. Naranjal,Lluvia Intensa,Manifestacion,Bus,34.11,433,51.2,37
+831,2026-03-04,19,Puente Piedra,Av. Canta Callao,Despejado,Ninguno,Auto,28.28,539,61.48,40
+832,2026-03-05,10,Carabayllo,Av. Los Alisos,Lluvia Ligera,Ninguno,Camion,34.13,698,63.76,31
+833,2026-03-05,18,Los Olivos,Av. Los Alisos,Lluvia Intensa,Accidente,Combi,44.64,452,47.13,20
+834,2026-03-05,22,Los Olivos,Av. Canta Callao,Despejado,Obras Viales,Camion,50.9,502,51.48,8
+835,2026-03-06,9,Los Olivos,Av. Antunez de Mayolo,Nublado,Ninguno,Bus,11.01,591,65.42,57
+836,2026-03-06,13,Puente Piedra,Av. Naranjal,Lluvia Intensa,Obras Viales,Combi,28.47,644,78.32,51
+837,2026-03-06,11,San Martin de Porres,Av. Antunez de Mayolo,Lluvia Ligera,Ninguno,Camion,52.38,270,37.4,8
+838,2026-03-07,12,Puente Piedra,Av. Dominicos,Lluvia Ligera,Ninguno,Bus,36.02,695,79.79,25
+839,2026-03-07,7,Los Olivos,Av. Canta Callao,Nublado,Ninguno,Auto,18.2,439,52.6,52
+840,2026-03-07,2,Carabayllo,Av. San Felipe,Lluvia Ligera,Ninguno,Camion,23.35,845,87.57,35
+841,2026-03-08,21,Comas,Av. Dominicos,Lluvia Ligera,Accidente,Bus,37.44,395,47.42,33
+842,2026-03-08,20,Puente Piedra,Av. Naranjal,Nublado,Obras Viales,Bus,18.63,651,78.51,55
+843,2026-03-08,22,Comas,Av. Canta Callao,Nublado,Ninguno,Bus,38.65,895,84.14,33
+844,2026-03-09,14,Puente Piedra,Av. Antunez de Mayolo,Nublado,Manifestacion,Moto,10.75,794,99.12,66
+845,2026-03-09,22,Puente Piedra,Av. Los Alisos,Nublado,Accidente,Camion,29.48,727,75.41,43
+846,2026-03-09,21,San Martin de Porres,Av. Dominicos,Despejado,Obras Viales,Auto,33.24,362,51.57,23
+847,2026-03-10,4,Carabayllo,Av. Los Alisos,Lluvia Ligera,Obras Viales,Bus,19.43,491,64.64,54
+848,2026-03-10,21,Puente Piedra,Av. Dominicos,Despejado,Ninguno,Camion,34.59,590,62.5,36
+849,2026-03-10,9,Carabayllo,Av. San Felipe,Nublado,Ninguno,Bus,38.46,854,75.16,16
+850,2026-03-11,23,Los Olivos,Av. Los Alisos,Nublado,Accidente,Camion,34.89,476,52.8,21
+851,2026-03-11,23,Carabayllo,Av. Canta Callao,Despejado,Manifestacion,Combi,10.79,356,64.09,67
+852,2026-03-11,23,Puente Piedra,Av. Canta Callao,Nublado,Evento Deportivo,Bus,39.36,709,67.92,13
+853,2026-03-12,21,Puente Piedra,Av. Naranjal,Despejado,Ninguno,Bus,43.25,387,45.44,21
+854,2026-03-12,23,Puente Piedra,Av. Canta Callao,Despejado,Obras Viales,Auto,37.21,305,47.96,31
+855,2026-03-12,13,Comas,Av. Dominicos,Nublado,Obras Viales,Bus,19.19,311,46.91,50
+856,2026-03-13,11,Los Olivos,Av. Naranjal,Nublado,Manifestacion,Moto,10.33,637,71.04,74
+857,2026-03-13,21,Puente Piedra,Av. Naranjal,Lluvia Intensa,Ninguno,Auto,11.91,317,56.32,59
+858,2026-03-13,14,Los Olivos,Av. Canta Callao,Lluvia Intensa,Evento Deportivo,Auto,49.32,581,51.2,8
+859,2026-03-14,20,Puente Piedra,Av. Naranjal,Nublado,Ninguno,Auto,48.9,402,43.81,15
+860,2026-03-14,2,Puente Piedra,Av. San Felipe,Despejado,Ninguno,Combi,20.7,625,70.84,68
+861,2026-03-14,20,Puente Piedra,Av. San Felipe,Nublado,Obras Viales,Camion,53.24,580,57.25,8
+862,2026-03-15,22,San Martin de Porres,Av. San Felipe,Nublado,Evento Deportivo,Camion,33.65,321,44.8,18
+863,2026-03-15,0,Los Olivos,Av. Naranjal,Lluvia Intensa,Ninguno,Bus,26.8,815,83.9,31
+864,2026-03-15,22,Carabayllo,Av. San Felipe,Nublado,Accidente,Camion,45.28,202,32.73,8
+865,2026-03-16,12,Carabayllo,Av. Dominicos,Lluvia Intensa,Obras Viales,Combi,23.3,306,50.11,44
+866,2026-03-16,8,San Martin de Porres,Av. Canta Callao,Lluvia Ligera,Obras Viales,Auto,28.32,792,75.64,52
+867,2026-03-16,18,Los Olivos,Av. Antunez de Mayolo,Lluvia Ligera,Ninguno,Bus,10.53,502,67.7,66
+868,2026-03-17,23,Carabayllo,Av. Los Alisos,Nublado,Ninguno,Camion,33.02,352,51.41,12
+869,2026-03-17,10,Los Olivos,Av. Los Alisos,Nublado,Obras Viales,Camion,16.93,305,48.18,60
+870,2026-03-17,15,Carabayllo,Av. San Felipe,Despejado,Obras Viales,Bus,15.25,543,71.3,59
+871,2026-03-18,3,Los Olivos,Av. Canta Callao,Nublado,Ninguno,Auto,41.68,889,78.17,14
+872,2026-03-18,1,Puente Piedra,Av. Naranjal,Nublado,Manifestacion,Camion,22.6,444,55.47,58
+873,2026-03-18,10,San Martin de Porres,Av. Los Alisos,Lluvia Ligera,Ninguno,Camion,10.31,482,60.96,53
+874,2026-03-19,21,Carabayllo,Av. Antunez de Mayolo,Nublado,Ninguno,Camion,47.03,408,45.76,8
+875,2026-03-19,2,Carabayllo,Av. Dominicos,Despejado,Accidente,Combi,13.09,235,42.8,61
+876,2026-03-19,15,Los Olivos,Av. Dominicos,Nublado,Evento Deportivo,Bus,46.38,523,48.24,8
+877,2026-03-20,23,Puente Piedra,Av. Naranjal,Despejado,Accidente,Camion,52.01,392,42.62,8
+878,2026-03-20,13,Carabayllo,Av. Los Alisos,Nublado,Ninguno,Bus,47.75,804,68.03,8
+879,2026-03-20,13,Los Olivos,Av. Naranjal,Lluvia Intensa,Evento Deportivo,Camion,38.68,754,72.21,24
+880,2026-03-21,12,Carabayllo,Av. Canta Callao,Despejado,Ninguno,Camion,22.51,202,49.68,49
+881,2026-03-21,5,Comas,Av. Dominicos,Despejado,Accidente,Bus,41.58,483,45.98,10
+882,2026-03-21,0,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Accidente,Combi,42.67,219,31.54,25
+883,2026-03-22,23,Comas,Av. Los Alisos,Nublado,Obras Viales,Camion,21.5,431,56.7,55
+884,2026-03-22,13,Los Olivos,Av. Naranjal,Despejado,Evento Deportivo,Auto,15.34,347,54.44,50
+885,2026-03-22,13,Puente Piedra,Av. Naranjal,Lluvia Ligera,Ninguno,Camion,18.86,295,46.07,39
+886,2026-03-23,1,Comas,Av. Antunez de Mayolo,Lluvia Ligera,Manifestacion,Auto,13.52,898,99.38,53
+887,2026-03-23,12,Comas,Av. Antunez de Mayolo,Nublado,Evento Deportivo,Bus,17.32,442,66.71,48
+888,2026-03-23,23,Carabayllo,Av. Naranjal,Lluvia Intensa,Ninguno,Auto,50.23,865,68.35,8
+889,2026-03-24,22,Los Olivos,Av. Los Alisos,Nublado,Ninguno,Camion,13.87,744,84.33,61
+890,2026-03-24,11,Puente Piedra,Av. Antunez de Mayolo,Despejado,Manifestacion,Bus,23.73,528,69.84,47
+891,2026-03-24,19,Puente Piedra,Av. Canta Callao,Despejado,Obras Viales,Bus,10.28,880,94.37,76
+892,2026-03-25,22,Carabayllo,Av. San Felipe,Lluvia Ligera,Ninguno,Moto,20.7,229,49.15,53
+893,2026-03-25,13,Carabayllo,Av. Los Alisos,Lluvia Intensa,Ninguno,Bus,21.19,428,66.31,48
+894,2026-03-25,20,Carabayllo,Av. Canta Callao,Lluvia Ligera,Ninguno,Combi,8.78,349,67.04,81
+895,2026-03-26,20,Carabayllo,Av. San Felipe,Despejado,Obras Viales,Camion,31.49,223,40.3,36
+896,2026-03-26,4,Carabayllo,Av. San Felipe,Despejado,Evento Deportivo,Auto,31.63,388,47.84,27
+897,2026-03-26,21,Los Olivos,Av. Los Alisos,Lluvia Ligera,Manifestacion,Auto,34.91,735,70.12,21
+898,2026-03-27,23,Los Olivos,Av. Antunez de Mayolo,Nublado,Accidente,Camion,9.89,613,78.97,69
+899,2026-03-27,21,San Martin de Porres,Av. Antunez de Mayolo,Despejado,Accidente,Bus,29.5,484,57.01,28
+900,2026-03-27,21,San Martin de Porres,Av. Los Alisos,Lluvia Intensa,Obras Viales,Moto,12.58,332,58.39,66
+901,2026-03-28,8,Los Olivos,Av. San Felipe,Nublado,Obras Viales,Bus,16.78,452,56.91,65
+902,2026-03-28,13,Puente Piedra,Av. Naranjal,Lluvia Ligera,Accidente,Camion,50.89,795,69.88,8
+903,2026-03-28,17,Los Olivos,Av. Canta Callao,Nublado,Ninguno,Combi,15.71,428,54.94,63
+904,2026-03-29,22,Carabayllo,Av. Naranjal,Despejado,Ninguno,Bus,27.07,655,71.38,32
+905,2026-03-29,20,San Martin de Porres,Av. Dominicos,Lluvia Ligera,Evento Deportivo,Auto,27.09,339,54.17,48
+906,2026-03-29,20,Independencia,Av. Canta Callao,Nublado,Manifestacion,Bus,36.03,810,84.53,24
+907,2026-03-30,10,Independencia,Av. San Felipe,Despejado,Ninguno,Moto,36.84,882,79.6,26
+908,2026-03-30,8,Los Olivos,Av. Canta Callao,Despejado,Obras Viales,Camion,20.48,325,48.81,51
+909,2026-03-30,20,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Ninguno,Bus,25.22,542,62.64,39
+910,2026-03-31,13,Los Olivos,Av. Naranjal,Lluvia Ligera,Manifestacion,Camion,16.22,862,96.64,50
+911,2026-03-31,21,Comas,Av. Canta Callao,Nublado,Ninguno,Bus,47.26,656,64.84,14
+912,2026-03-31,11,Carabayllo,Av. Los Alisos,Lluvia Intensa,Obras Viales,Auto,51.11,552,49.44,8
+913,2026-04-01,13,Independencia,Av. San Felipe,Despejado,Obras Viales,Camion,8.19,881,96.6,81
+914,2026-04-01,20,Carabayllo,Av. Naranjal,Lluvia Intensa,Accidente,Auto,38.39,611,72.27,10
+915,2026-04-01,17,Carabayllo,Av. Canta Callao,Nublado,Obras Viales,Auto,21.99,868,91.96,44
+916,2026-04-02,20,Carabayllo,Av. Dominicos,Despejado,Accidente,Bus,13.48,559,79.5,66
+917,2026-04-02,13,Los Olivos,Av. Naranjal,Despejado,Accidente,Bus,15.96,553,74.38,58
+918,2026-04-02,11,Comas,Av. Dominicos,Lluvia Ligera,Accidente,Auto,29.38,457,59.78,26
+919,2026-04-03,12,Puente Piedra,Av. Naranjal,Lluvia Ligera,Obras Viales,Combi,39.01,752,75.68,21
+920,2026-04-03,22,Carabayllo,Av. Antunez de Mayolo,Lluvia Ligera,Accidente,Auto,35.84,754,75.7,39
+921,2026-04-03,3,Puente Piedra,Av. Los Alisos,Lluvia Intensa,Ninguno,Bus,47.1,368,37.09,35
+922,2026-04-04,20,Comas,Av. Canta Callao,Lluvia Intensa,Manifestacion,Bus,32.98,502,60.12,30
+923,2026-04-04,11,Puente Piedra,Av. Los Alisos,Lluvia Ligera,Ninguno,Camion,43.56,803,72.06,16
+924,2026-04-04,23,Carabayllo,Av. Antunez de Mayolo,Lluvia Ligera,Evento Deportivo,Bus,33.25,274,39.45,39
+925,2026-04-05,12,Los Olivos,Av. Naranjal,Nublado,Manifestacion,Bus,29.02,829,88.51,33
+926,2026-04-05,6,Carabayllo,Av. Canta Callao,Nublado,Manifestacion,Camion,17.92,561,56.09,57
+927,2026-04-05,21,Carabayllo,Av. Dominicos,Lluvia Ligera,Accidente,Auto,19.14,871,95.62,58
+928,2026-04-06,14,Carabayllo,Av. Canta Callao,Lluvia Intensa,Ninguno,Auto,38.63,588,61.92,29
+929,2026-04-06,14,Comas,Av. Canta Callao,Lluvia Ligera,Accidente,Camion,45.31,726,71.56,15
+930,2026-04-06,12,Carabayllo,Av. Dominicos,Lluvia Ligera,Obras Viales,Bus,36.33,717,77.04,41
+931,2026-04-07,21,Comas,Av. Los Alisos,Nublado,Evento Deportivo,Combi,30.66,711,73.64,22
+932,2026-04-07,20,Los Olivos,Av. San Felipe,Nublado,Obras Viales,Camion,22.32,708,74.16,46
+933,2026-04-07,20,Los Olivos,Av. Los Alisos,Lluvia Ligera,Ninguno,Combi,26.91,728,82.56,43
+934,2026-04-08,22,Puente Piedra,Av. Canta Callao,Despejado,Accidente,Bus,21.2,495,64.67,45
+935,2026-04-08,0,Carabayllo,Av. Naranjal,Nublado,Accidente,Bus,8.32,641,74.22,65
+936,2026-04-08,13,Carabayllo,Av. Naranjal,Nublado,Manifestacion,Auto,42.42,808,70.87,16
+937,2026-04-09,14,Independencia,Av. Naranjal,Lluvia Ligera,Obras Viales,Auto,37.53,279,30.25,18
+938,2026-04-09,5,Carabayllo,Av. San Felipe,Lluvia Ligera,Obras Viales,Camion,13.24,754,73.64,71
+939,2026-04-09,23,Puente Piedra,Av. Antunez de Mayolo,Lluvia Intensa,Obras Viales,Bus,22.62,238,39.84,37
+940,2026-04-10,10,Los Olivos,Av. Naranjal,Lluvia Intensa,Ninguno,Camion,28.23,551,58.12,53
+941,2026-04-10,21,Puente Piedra,Av. San Felipe,Despejado,Manifestacion,Auto,13.58,759,83.19,65
+942,2026-04-10,21,Puente Piedra,Av. Canta Callao,Nublado,Ninguno,Camion,24.18,684,68.43,25
+943,2026-04-11,12,Los Olivos,Av. Los Alisos,Nublado,Ninguno,Camion,52.49,233,28.14,8
+944,2026-04-11,22,Carabayllo,Av. San Felipe,Despejado,Ninguno,Camion,19.01,425,54.86,56
+945,2026-04-11,9,Puente Piedra,Av. Los Alisos,Nublado,Obras Viales,Combi,37.67,512,58.63,18
+946,2026-04-12,20,Comas,Av. Canta Callao,Nublado,Ninguno,Moto,25.62,409,57.19,38
+947,2026-04-12,3,Independencia,Av. Canta Callao,Despejado,Manifestacion,Camion,37.07,708,57.88,25
+948,2026-04-12,9,Los Olivos,Av. Naranjal,Despejado,Accidente,Bus,34.47,639,64.25,39
+949,2026-04-13,12,Comas,Av. Dominicos,Despejado,Accidente,Bus,46.4,461,49.92,13
+950,2026-04-13,21,Independencia,Av. Los Alisos,Lluvia Intensa,Ninguno,Combi,44.2,765,70.84,8
+951,2026-04-13,6,Carabayllo,Av. San Felipe,Lluvia Ligera,Ninguno,Moto,34.0,430,48.16,32
+952,2026-04-14,3,Puente Piedra,Av. Naranjal,Nublado,Ninguno,Camion,26.89,554,63.02,61
+953,2026-04-14,5,Comas,Av. Antunez de Mayolo,Nublado,Evento Deportivo,Camion,22.89,676,75.08,58
+954,2026-04-14,2,Carabayllo,Av. Dominicos,Nublado,Accidente,Bus,17.5,277,46.01,45
+955,2026-04-15,23,Puente Piedra,Av. Antunez de Mayolo,Despejado,Accidente,Bus,14.39,646,77.53,66
+956,2026-04-15,23,Carabayllo,Av. Dominicos,Nublado,Obras Viales,Bus,18.36,345,47.67,52
+957,2026-04-15,7,Puente Piedra,Av. Los Alisos,Despejado,Ninguno,Moto,26.68,777,74.44,29
+958,2026-04-16,11,San Martin de Porres,Av. Dominicos,Despejado,Evento Deportivo,Combi,10.08,503,70.33,70
+959,2026-04-16,11,Carabayllo,Av. San Felipe,Lluvia Ligera,Accidente,Bus,13.01,445,70.16,56
+960,2026-04-16,17,Puente Piedra,Av. San Felipe,Lluvia Intensa,Ninguno,Bus,9.46,555,78.95,73
+961,2026-04-17,14,Carabayllo,Av. Antunez de Mayolo,Lluvia Ligera,Ninguno,Bus,13.1,669,82.46,49
+962,2026-04-17,12,San Martin de Porres,Av. San Felipe,Nublado,Ninguno,Camion,22.51,201,42.19,55
+963,2026-04-17,14,Los Olivos,Av. Los Alisos,Despejado,Manifestacion,Combi,16.89,294,61.57,62
+964,2026-04-18,23,Puente Piedra,Av. Dominicos,Despejado,Ninguno,Auto,10.33,673,79.33,55
+965,2026-04-18,14,Carabayllo,Av. Antunez de Mayolo,Lluvia Ligera,Manifestacion,Camion,37.22,788,78.99,34
+966,2026-04-18,11,Comas,Av. Canta Callao,Nublado,Manifestacion,Auto,13.63,853,94.12,72
+967,2026-04-19,12,Puente Piedra,Av. Los Alisos,Nublado,Accidente,Auto,43.17,356,38.98,26
+968,2026-04-19,21,Independencia,Av. San Felipe,Lluvia Intensa,Ninguno,Bus,31.79,796,78.92,13
+969,2026-04-19,7,Los Olivos,Av. Canta Callao,Despejado,Ninguno,Bus,21.82,290,42.52,44
+970,2026-04-20,4,Los Olivos,Av. Los Alisos,Nublado,Manifestacion,Auto,20.94,416,56.54,50
+971,2026-04-20,20,Independencia,Av. Naranjal,Nublado,Ninguno,Combi,25.49,808,82.86,52
+972,2026-04-20,20,Puente Piedra,Av. Canta Callao,Lluvia Intensa,Obras Viales,Bus,22.23,558,68.3,54
+973,2026-04-21,13,Puente Piedra,Av. San Felipe,Lluvia Intensa,Ninguno,Auto,28.06,887,86.79,43
+974,2026-04-21,8,Los Olivos,Av. Antunez de Mayolo,Nublado,Ninguno,Camion,9.81,416,63.97,66
+975,2026-04-21,22,Carabayllo,Av. San Felipe,Despejado,Ninguno,Bus,13.97,591,70.7,59
+976,2026-04-22,8,Puente Piedra,Av. San Felipe,Despejado,Manifestacion,Camion,16.67,881,87.13,59
+977,2026-04-22,3,Los Olivos,Av. Los Alisos,Lluvia Intensa,Accidente,Bus,38.86,421,45.26,25
+978,2026-04-22,21,Los Olivos,Av. Los Alisos,Nublado,Obras Viales,Combi,8.47,795,95.52,71
+979,2026-04-23,9,San Martin de Porres,Av. San Felipe,Lluvia Ligera,Evento Deportivo,Bus,38.92,435,42.06,25
+980,2026-04-23,6,Puente Piedra,Av. Antunez de Mayolo,Lluvia Ligera,Obras Viales,Camion,35.29,380,46.09,42
+981,2026-04-23,14,San Martin de Porres,Av. Dominicos,Despejado,Accidente,Camion,26.12,351,50.85,62
+982,2026-04-24,6,Los Olivos,Av. Canta Callao,Lluvia Ligera,Ninguno,Bus,27.62,892,79.36,47
+983,2026-04-24,13,Los Olivos,Av. San Felipe,Lluvia Ligera,Obras Viales,Bus,46.61,564,57.74,13
+984,2026-04-24,12,Puente Piedra,Av. Antunez de Mayolo,Lluvia Intensa,Evento Deportivo,Camion,21.43,205,45.66,43
+985,2026-04-25,11,Comas,Av. Antunez de Mayolo,Lluvia Ligera,Obras Viales,Camion,8.3,410,70.63,60
+986,2026-04-25,3,San Martin de Porres,Av. Antunez de Mayolo,Nublado,Ninguno,Auto,10.76,498,74.14,58
+987,2026-04-25,13,Los Olivos,Av. Naranjal,Lluvia Ligera,Accidente,Bus,17.81,465,64.72,41
+988,2026-04-26,1,Los Olivos,Av. Antunez de Mayolo,Nublado,Manifestacion,Camion,40.85,341,40.54,26
+989,2026-04-26,12,Carabayllo,Av. Antunez de Mayolo,Nublado,Accidente,Auto,40.14,588,54.46,11
+990,2026-04-26,14,Carabayllo,Av. Naranjal,Despejado,Ninguno,Bus,48.34,423,44.23,8
+991,2026-04-27,14,San Martin de Porres,Av. Los Alisos,Nublado,Manifestacion,Bus,35.18,517,58.52,31
+992,2026-04-27,20,Carabayllo,Av. Dominicos,Despejado,Ninguno,Combi,9.68,505,75.6,62
+993,2026-04-27,11,Puente Piedra,Av. Naranjal,Despejado,Ninguno,Combi,46.61,514,62.04,8
+994,2026-04-28,13,Puente Piedra,Av. Los Alisos,Lluvia Intensa,Accidente,Bus,53.15,356,42.91,8
+995,2026-04-28,13,Carabayllo,Av. Los Alisos,Lluvia Intensa,Obras Viales,Camion,50.97,844,71.44,12
+996,2026-04-28,12,Puente Piedra,Av. San Felipe,Nublado,Obras Viales,Combi,17.51,515,66.29,66
+997,2026-04-29,20,Los Olivos,Av. Canta Callao,Despejado,Accidente,Auto,35.23,575,65.41,35
+998,2026-04-29,21,Puente Piedra,Av. Los Alisos,Despejado,Ninguno,Combi,11.55,778,93.07,67
+999,2026-04-29,11,Los Olivos,Av. Dominicos,Despejado,Ninguno,Camion,49.79,251,22.96,14
+1000,2026-04-30,13,Los Olivos,Av. Los Alisos,Despejado,Obras Viales,Camion,21.41,400,61.54,62
